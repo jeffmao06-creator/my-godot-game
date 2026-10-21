@@ -1,0 +1,37 @@
+{
+  "version": "v0.1",
+  "purpose": "AI 生成的美術概念參考，非最終遊戲截圖或可直接切圖的精靈表",
+  "date": "2026-10-21",
+  "tool": "image_gen.imagegen",
+  "notes": [
+    "概念圖與簡報分開保留；未改動生成原圖。",
+    "正式遊戲素材以 ART_ASSET_LIST 的尺寸、錨點、影格與驗收條件重製。",
+    "音樂與其他音訊不在本次交付範圍。"
+  ],
+  "assets": [
+    {
+      "file": "assets/01_taipei_office.png",
+      "description": "臺北事務所黃昏場景",
+      "prompt": "Create a polished art-director concept illustration for a Taiwanese indie management game titled internally Law Firm Simulator. It must be true 2D PIXEL ART with sharply aligned pixel clusters, a restrained 32-color palette, no smooth digital painting, no 3D render, no isometric perspective. Landscape 16:9. Show a charming but weary small Taipei lawyer office as a straight-on cutaway room in slight top-down RPG perspective: warm amber desk lamps, muted teal cabinets, dusty paper stacks, beige files, old green desk chairs, compact photocopier, three small desks, one consultation table, two human characters at 32x48 sprite scale, a weary young lawyer with pale shirt and rolled-up sleeves and a navy-suited coworker, crisp readable silhouettes. Tall windows show Taipei dense midrise city blocks at blue dusk with a distant recognizable Taipei 101 silhouette. Subtle story: files and inbox overflow, budget-ledger notebook and coffee. Cozy but stressful, dry workplace humor, financial and energy management mood. Large office environment dominates, uncluttered margins, very deliberate tile-based composition, production concept art quality for an indie game pitch deck. NO text, NO letters, NO numbers, NO fake Chinese glyphs, NO UI overlay, NO logos, no legal-courtroom fighting, no scales of justice giant symbol. The work is an original game environment concept reference, not a screenshot of an existing game.",
+      "status": "概念參考完成；正式遊戲素材待製作"
+    },
+    {
+      "file": "assets/02_character_sheet.png",
+      "description": "人物與服裝設定",
+      "prompt": "Create a professional 2D PIXEL ART CHARACTER DESIGN SHEET for an original Taiwanese law office management game. Landscape16:9, consistent crisp nearest-neighbor pixel clusters, limited warm beige/navy/teal/amber palette, no vector art, no smooth painting, no 3D, no isometric. Light warm ivory flat background and a careful grid with generous empty margins. Eight full-body readable RPG-style pixel-character concepts, arranged in two rows of four, each character about32x48 logical pixels and enlarged sharply. Cast: young male protagonist with rolled-up pale shirt,young female protagonist with similar professional shirt and trousers,older law-firm boss in darknavy suit with graying temples,energetic female senior lawyer in mutedteal blazer,young male junior lawyer with round glasses,fit female lawyer with tied hair,ordinary client with paper envelope,bald friendly male lawyer with briefcase. Gender is cosmetic: male and female protagonists have equally professional proportions and capable demeanor. Each figure on a small muted-beige ground shadow, consistent height scaling, different silhouettes and hairstyles, no weapons. Include small additional side and rear sprite studies beside only the two protagonists, and a compact palette swatch strip. NO text,NOlabels,NOletters,NO fakeChinese,NO logos,NO UI. Focus on coherent production-reference sprite design, use intentional visible square pixels.",
+      "status": "概念參考完成；正式遊戲素材待製作"
+    },
+    {
+      "file": "assets/03_city_branches.png",
+      "description": "臺北、臺中、高雄分所",
+      "prompt": "Create an art direction environment sheet for a 2D PIXEL ART Taiwanese law firm management game, landscape16:9. Three equal-width environment panels side by side with slim cream gutters, consistent straight-on cutaway/slight-top-down RPG perspective (not isometric), sharp square pixel clusters at640x360 game-canvas style, not smooth painting or3D. The panels depict three distinct law offices with the same modular wooden desk/chair/filecabinet tile kit: LEFT Taipei headquarters in blue/amber, denser tall skyline, subtle Taipei101 silhouette, six workstations and a boardroom; MIDDLE Taichung branch in warm brick/olive, broad afternoonwindows, planted terraces and distant modern civic architecture, four workstations; RIGHT Kaohsiung branch in terracotta/sea-teal, harbor cranes and waterfront behind windows, four workstations and bright tropical sky. Shared visual language, readable small human pixel sprites, balance officegrowth aspiration with mundane filework. Architecture/windowview/lighting distinguish cities, no city maps or complicated outdoors. Restrained cohesive colorpalette, no text, no letters, no numbers, no glyphs, no brands, no UI overlay. Beautiful pitch-deck concept reference.",
+      "status": "概念參考完成；正式遊戲素材待製作"
+    },
+    {
+      "file": "assets/04_props_and_moods.png",
+      "description": "物件、圖示與事件氣氛",
+      "prompt": "Create a polished ASSET STYLE GUIDE SHEET for a2Dpixel-art Taiwanese law firm managementgame, landscape16:9 on ivorycreambackground. Allart must have crisp intentional square pixels, visible nearest-neighbor enlargement and consistent smallsprite scale; no smoothpainting,novector,no3D,noisometric. Clean evenlyspaced groups with navythin divider lines, lots ofnegative space. Tophalf office props: straight-on wooden desk,green deskchair,teal filingcabinet,photocopier,computerwithdarkmonitor,stacksof beige casefolders,desk lamp,coffeecup,pottedplant,roundconsultationtable,wallclock,briefcase. Bottomleft a small 3x4grid of pixelicons for wallet,energybattery,casefolder,calendar,lawbook,speechbubble,dumbbell,star,four-tiergold/silver/bronzetraitbadges and savefloppydisk. Bottomright four scene-mood mini vignettes: amberoverworknight atdesk,warmlit apartment bed,quietgymcorner,emptyoffice with movingbox. Same navytealamber palette as a Taipei legaloffice game. Artreferenceforproductionkit, not final slicedgameassets. NOtext, NOlabels, NOfakeChinese, NOletters, NOnumbers, NOlogos, NOmusicicons, NOaudioelements.",
+      "status": "概念參考完成；正式遊戲素材待製作"
+    }
+  ]
+}

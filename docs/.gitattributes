@@ -1,0 +1,8 @@
+# Preserve generated documents and images byte-for-byte.
+*.pdf binary
+*.docx binary
+*.png binary
+*.zip binary
+
+# Keep the UTF-8 BOM and CSV CRLF bytes unchanged for Excel and checksums.
+*.csv -text whitespace=cr-at-eol
