@@ -1,0 +1,59 @@
+{
+  "version": "0.2",
+  "game_name": "訴訟之神之路",
+  "palette": [
+    {
+      "name": "暖紙色",
+      "hex": "#F4EFE4",
+      "use": "文件、頁面與留白"
+    },
+    {
+      "name": "深藍",
+      "hex": "#17323D",
+      "use": "輪廓、文字與夜色"
+    },
+    {
+      "name": "玉綠",
+      "hex": "#287F7C",
+      "use": "日常、選取與成長"
+    },
+    {
+      "name": "琥珀",
+      "hex": "#D9A648",
+      "use": "燈光與資金重點"
+    },
+    {
+      "name": "木棕",
+      "hex": "#936549",
+      "use": "家具與空間溫度"
+    },
+    {
+      "name": "警示紅",
+      "hex": "#BF5A50",
+      "use": "過勞與資金危機"
+    }
+  ],
+  "projection": {
+    "id": "orthographic_axis_aligned",
+    "tile_pixels": [
+      32,
+      32
+    ],
+    "constant_world_scale": true,
+    "parallel_edges": true,
+    "vanishing_points": false,
+    "converging_room_walls": false,
+    "foreshortening": false,
+    "note": "正式遊戲場景採固定比例的正交格網；窗框、桌邊與牆面不隨深度收束。概念圖須逐張檢查，不以提示詞代替驗收。"
+  },
+  "taipei_weather": {
+    "baseline": "雨灰、藍灰窗景、可見雨痕",
+    "variants": [
+      "陰雨早晨",
+      "陰雨午後",
+      "雨夜"
+    ],
+    "note": "光線變體不改變幾何、相機或物件比例。"
+  },
+  "status": "規格；正式遊戲素材仍待製作與導入驗收"
+}

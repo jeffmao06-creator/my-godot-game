@@ -8,6 +8,9 @@ No content or generated artwork is altered by this renderer.
 from __future__ import annotations
 
 import argparse
+import copy
+import csv
+from decimal import Decimal, ROUND_HALF_UP
 import hashlib
 import json
 import math
@@ -33,10 +36,108 @@ from docx.oxml.ns import qn
 from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT, WD_TABLE_ALIGNMENT
 
 W, H = 1280, 720
-C = {"paper":"#F4EFE4", "navy":"#17323D", "teal":"#287F7C", "amber":"#D9A648", "red":"#BF5A50", "muted":"#687C80", "line":"#D7DCD4", "white":"#FFFFFF", "lightteal":"#E2ECE7"}
+C = {"paper":"#F4EFE4", "navy":"#17323D", "teal":"#287F7C", "amber":"#D9A648", "brown":"#936549", "red":"#BF5A50", "muted":"#687C80", "line":"#D7DCD4", "white":"#FFFFFF", "lightteal":"#E2ECE7"}
 FONT = "DeckTC"
 BOLD = "DeckTCBold"
 _WARNINGS: list[str] = []
+
+
+def dotted_value(content: dict, reference: str):
+    value = content
+    for key in reference.split("."):
+        value = value[key]
+    return value
+
+
+def action_table(schedule: list[dict]) -> dict:
+    """Keep the overview and the role-specific HUD on the same action list."""
+    all_roles = {"employee", "associate", "owner"}
+    rows = []
+    for slot in ("09:00", "13:00", "16:00", "19:00"):
+        shared, career, owner = [], [], []
+        for action in schedule:
+            if slot not in action["slots"]:
+                continue
+            roles = set(action["roles"])
+            label = action["label"]
+            if roles == all_roles:
+                shared.append(label)
+            elif roles == {"owner"}:
+                owner.append(label)
+            elif roles == {"employee"}:
+                career.append(label + "（僅受僱）")
+            elif roles == {"employee", "associate"}:
+                career.append(label)
+            else:
+                raise ValueError(f"Unsupported action role group: {action['id']}")
+        shared_text = "、".join(shared) or "—"
+        if slot == "19:00":
+            shared_text = "、".join(shared[:2]) + "\n" + "、".join(shared[2:])
+        rows.append([slot, shared_text, "、".join(career) or "—", "、".join(owner) or "—"])
+    return {"headers":["時段", "全身分", "受僱／合署", "開業"],
+            "rows":rows, "widths":[1.1, 3.6, 3.2, 2.2]}
+
+
+def hud_values(scenario: dict, schedule: list[dict]) -> dict:
+    """Derive this documented screenshot state, without simulating a later career."""
+    if scenario["performed_main_actions"] != 0:
+        raise ValueError("The HUD reference scenario must precede its first main action")
+    case_map = {case["id"]:case for case in scenario["cases"]}
+    today_ids = scenario["morning_chargeable_case_ids"]
+    tomorrow_ids = scenario["tomorrow_chargeable_case_ids"]
+    if any(case_id not in case_map for case_id in today_ids + tomorrow_ids):
+        raise ValueError("The HUD load refers to an unknown case")
+    if any(case_map[case_id]["assigned_today_after_morning"] for case_id in today_ids):
+        raise ValueError("A case assigned after the morning reset cannot be charged retroactively")
+    multiplier = Decimal("1") - Decimal("0.05") * (scenario["stamina"] // 10)
+    for trait in scenario["traits"]:
+        multiplier *= {"頂級牛馬":Decimal("0.70"), "鐵人":Decimal("0.85"), "多面手":Decimal("0.90")}.get(trait, Decimal("1"))
+    def amount(count):
+        return (Decimal(count) * multiplier).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
+    def number(value):
+        return format(Decimal(value), "f").rstrip("0").rstrip(".") if Decimal(value) % 1 else str(int(value))
+    cap = scenario["base_energy_cap"] + scenario["sleep_bonus"]
+    if "健康" in scenario["traits"]:
+        cap += 10
+    if scenario["breakfast_purchased"]:
+        cap += 10
+    cash = scenario["starting_cash"] + sum(item["amount"] for item in scenario["transactions"])
+    today, tomorrow = amount(len(today_ids)), amount(len(tomorrow_ids))
+    major = [action["label"] for action in schedule if scenario["slot"] in action["slots"] and scenario["role"] in action["roles"]]
+    actions = (["吃早餐  NT$100"] if scenario["slot"] == "09:00" and not scenario["breakfast_purchased"] else []) + major
+    return {"date":f"第{scenario['year']}年 {scenario['month']:02d}月{scenario['day']:02d}日｜{scenario['slot']}",
+            "cash":f"NT${cash:,}", "energy":f"{number(Decimal(cap)-today)}/{cap}",
+            "case_count":len(case_map), "today_load":number(today), "tomorrow_load":number(tomorrow),
+            "multiplier":number(multiplier), "role":scenario["role_label"], "slot":scenario["slot"], "actions":actions}
+
+
+def prepare_content(content: dict, source: Path) -> dict:
+    """Resolve the canonical visual registry and materialize shared slide data."""
+    content = copy.deepcopy(content)
+    visual = content.get("visual_spec", {})
+    if visual.get("style_source"):
+        visual["style"] = json.loads((source.parent / visual["style_source"]).read_text(encoding="utf-8"))
+        for item, key in zip(visual["style"]["palette"], ("paper", "navy", "teal", "amber", "brown", "red")):
+            C[key] = item["hex"]
+    for slide in content["slides"]:
+        if slide.get("palette_ref"):
+            slide["palette"] = dotted_value(content, slide["palette_ref"])
+        if slide.get("schedule_ref"):
+            slide["table"] = action_table(dotted_value(content, slide["schedule_ref"]))
+        if slide.get("hud_ref"):
+            slide["hud"] = hud_values(dotted_value(content, slide["hud_ref"]), visual["action_schedule"])
+        if slide.get("inventory_ref"):
+            inventory_path = source.parent / dotted_value(content, slide["inventory_ref"])
+            with inventory_path.open(encoding="utf-8-sig", newline="") as inventory_file:
+                rows = list(csv.DictReader(inventory_file))
+            sprite = [row for row in rows if row["類別"] == "人物精靈層"]
+            portrait = [row for row in rows if row["類別"] == "人物肖像層"]
+            values = {"work_items":len(rows), "drawing_bases":sum(int(row["獨立基底數"]) for row in rows),
+                      "sprite_families":len(sprite), "sprite_shapes":sum(int(row["獨立基底數"]) for row in sprite),
+                      "portrait_families":len(portrait), "portrait_shapes":sum(int(row["獨立基底數"]) for row in portrait)}
+            slide["table"]["rows"] = [[cell.format(**values) for cell in row] for row in slide["table"]["rows"]]
+            slide["footnote"] = slide["footnote"].format(**values)
+    return content
 
 
 def collect_strings(value: Any) -> str:
@@ -202,7 +303,7 @@ def footer(c,index,total,slide,dark=False):
     c.setStrokeColor(color("teal" if dark else "line"))
     c.setLineWidth(.8)
     c.line(56,51,W-56,51)
-    label="LAW FIRM SIMULATOR  /  ART & GAME DESIGN"
+    label="訴訟之神之路  /  美術與遊戲設計"
     textbox(c,label,56,37,900,20,size=11,fill=col,min_size=11)
     textbox(c,f"{index:02d} / {total:02d}",W-140,38,84,22,size=13,fill=col,min_size=13,align="right")
     note=slide.get("footnote")
@@ -304,32 +405,35 @@ def draw_flow(c,cards):
 
 
 def draw_ui(c,slide,base):
+    hud=slide["hud"]
     x,y,w,h=56,105,900,405
     box(c,x,y,w,h,"navy",r=5)
     box(c,x+8,y+h-82,w-16,74,"paper")
-    textbox(c,"生涯第1年 02月03日｜09:00",x+22,y+h-22,510,28,size=17,font=BOLD,min_size=17)
-    textbox(c,"資金 NT$50,000",x+560,y+h-22,300,28,size=17,font=BOLD,min_size=17)
-    textbox(c,"疲勞 85.6/100",x+22,y+h-53,250,25,size=16,font=BOLD,min_size=16)
-    textbox(c,"在手 16 案",x+300,y+h-53,200,25,size=16,font=BOLD,min_size=16)
-    textbox(c,"明早負荷 14.4",x+560,y+h-53,300,25,size=16,font=BOLD,min_size=16)
+    textbox(c,hud["date"],x+22,y+h-22,510,28,size=17,font=BOLD,min_size=17)
+    textbox(c,"資金 "+hud["cash"],x+560,y+h-22,300,28,size=17,font=BOLD,min_size=17)
+    textbox(c,"疲勞 "+hud["energy"],x+22,y+h-53,250,25,size=16,font=BOLD,min_size=16)
+    textbox(c,f"在手 {hud['case_count']} 案",x+300,y+h-53,170,25,size=16,font=BOLD,min_size=16)
+    textbox(c,f"今日扣耗 {hud['today_load']}｜明早 {hud['tomorrow_load']}",x+500,y+h-53,360,25,size=16,font=BOLD,min_size=16)
     box(c,x+8,y+45,665,h-132,"lightteal")
     draw_image(c,resolve_image(slide,base),x+8,y+45,665,h-132,background="lightteal")
     box(c,x+681,y+45,211,h-132,"white")
-    textbox(c,"早上行動",x+697,y+h-101,180,35,size=21,font=BOLD,min_size=20)
-    for i,t in enumerate(["吃早餐  NT$100","寫書狀","摸魚","跳槽"]):
+    textbox(c,hud["slot"]+" 行動",x+697,y+h-101,180,35,size=21,font=BOLD,min_size=20)
+    if len(hud["actions"]) > 4:
+        raise ValueError("The HUD sidebar needs a layout for more than four actions")
+    for i,t in enumerate(hud["actions"]):
         yy=y+h-166-i*47
         box(c,x+696,yy,181,38,"teal" if i==1 else "paper",r=3)
         textbox(c,t,x+708,yy+30,157,30,size=16,fill="white" if i==1 else "navy",min_size=16)
     textbox(c,"案件｜角色｜職涯｜員工｜據點｜財務｜排程｜存讀檔",x+20,y+30,w-40,26,size=17,fill="paper",min_size=15)
     box(c,980,105,244,405,"white",r=6)
     box(c,980,504,244,6,"teal")
-    textbox(c,"介面需求",1000,481,204,40,size=25,font=BOLD,min_size=22)
+    textbox(c,"示意前提",1000,481,204,40,size=25,font=BOLD,min_size=22)
     notes=slide.get("bullets") or ["行動前預覽費用與消耗。","案件、員工、財務快速切換。","二十個存檔槽位共用元件。"]
     bullet_list(c,notes,1000,421,204,285,size=20)
 
 
 def draw_palette(c,slide,base):
-    palette=slide.get("palette") or [{"name":"紙張米白","hex":C["paper"],"use":"底色"},{"name":"墨藍","hex":C["navy"],"use":"文字／制服"},{"name":"玉綠","hex":C["teal"],"use":"互動／櫃體"},{"name":"暖金","hex":C["amber"],"use":"燈光／里程碑"},{"name":"危機紅","hex":C["red"],"use":"警告"}]
+    palette=slide["palette"]
     leftw=430
     step=min(76,390/max(1,len(palette)))
     for i,item in enumerate(palette):
@@ -352,8 +456,8 @@ def draw_palette(c,slide,base):
 
 def render_pdf(content,source,out):
     c=canvas.Canvas(str(out),pagesize=(W,H),pageCompression=1)
-    c.setTitle(content.get("title","律師事務所模擬器｜概念與美術簡報"))
-    c.setAuthor("Law Firm Simulator / Design")
+    c.setTitle(content.get("title","訴訟之神之路｜概念與美術簡報"))
+    c.setAuthor("")
     slides=content["slides"]
     for idx,slide in enumerate(slides,1):
         layout=slide.get("layout","cards")
@@ -361,7 +465,7 @@ def render_pdf(content,source,out):
             box(c,0,0,W,H,"navy")
             image=resolve_image(slide,source.parent)
             draw_image(c,image,475,140,750,422,background="navy")
-            textbox(c,slide.get("kicker","LAW FIRM SIMULATOR"),56,656,1100,30,size=15,fill="amber",font=BOLD,min_size=14)
+            textbox(c,slide.get("kicker","訴訟之神之路"),56,656,1100,30,size=15,fill="amber",font=BOLD,min_size=14)
             textbox(c,slide.get("title",""),56,561,386,226,size=57,fill="paper",font=BOLD,min_size=38,leading=78)
             textbox(c,slide.get("subtitle",""),58,310,375,126,size=22,fill="paper",min_size=18)
             for i,b in enumerate(slide.get("bullets",[])[:3]):
@@ -488,7 +592,7 @@ def render_docx(content,source,out):
     bg=OxmlElement('w:background');bg.set(qn('w:color'),C["paper"].lstrip('#'));doc._element.insert(0,bg)
     footer_p=section.footer.paragraphs[0]
     footer_p.alignment=WD_ALIGN_PARAGRAPH.RIGHT
-    set_run_font(footer_p.add_run("LAW FIRM SIMULATOR  /  "),8,color_hex=C["muted"])
+    set_run_font(footer_p.add_run("訴訟之神之路  /  "),8,color_hex=C["muted"])
     fld=OxmlElement('w:fldSimple');fld.set(qn('w:instr'),'PAGE');footer_p._p.append(fld)
     slides=content['slides']
     for idx,slide in enumerate(slides):
@@ -523,13 +627,18 @@ def render_docx(content,source,out):
         elif layout in ('image_full','palette','ui_mock') and image:
             from PIL import Image
             with Image.open(image) as im:ratio=im.width/im.height
-            max_h=4.0 if layout=='image_full' else 2.9
+            max_h=4.0 if layout=='image_full' else (2.05 if layout=='ui_mock' else 2.9)
             max_w=11.9
             ww=min(max_w,max_h*ratio)
             p=doc.add_paragraph();p.alignment=WD_ALIGN_PARAGRAPH.CENTER
             p.paragraph_format.space_after=Pt(6)
             p.add_run().add_picture(str(image),width=Inches(ww))
             if slide.get('image_caption'):para(doc,slide['image_caption'],9.5,color_hex=C['muted'],after=6)
+        if layout=='ui_mock':
+            hud=slide['hud']
+            docx_table(doc,["日期／時段","身分","資金","疲勞","在手案件","晨間持案扣耗"],
+                       [[hud['date'],hud['role'],hud['cash'],hud['energy'],f"{hud['case_count']} 案",f"今日 {hud['today_load']}／明早 {hud['tomorrow_load']}"]],
+                       widths=[2.5,1.2,1.5,1.1,1,2],fontsize=9.5)
         if slide.get('bullets') and not handled_bullets:
             for text in slide['bullets']:
                 para(doc,'▪ '+str(text),12 if image else 15,after=6)
@@ -541,9 +650,9 @@ def render_docx(content,source,out):
             docx_table(doc,["色彩","色碼","用途"],[[i.get('name',''),i.get('hex',''),i.get('use','')] for i in slide['palette']],fontsize=10.5)
         if slide.get('footnote'):para(doc,slide['footnote'],9,color_hex=C['muted'],before=5,after=0)
     props=doc.core_properties
-    props.title=content.get('title','律師事務所模擬器｜概念與美術簡報')
+    props.title=content.get('title','訴訟之神之路｜概念與美術簡報')
     props.subject='2D pixel art game design and art production presentation'
-    props.author='Law Firm Simulator / Design'
+    props.author=''
     doc.save(out)
 
 
@@ -556,6 +665,7 @@ def main():
     content=json.loads(args.content.read_text(encoding='utf-8'))
     if not isinstance(content.get('slides'),list) or not content['slides']:
         raise ValueError('content.slides must be a nonempty list')
+    content=prepare_content(content,args.content)
     args.out_dir.mkdir(parents=True,exist_ok=True)
     cache=Path(os.environ.get('TMPDIR','/tmp'))/'lawfirm-deck-fonts'
     register_fonts(content,cache)

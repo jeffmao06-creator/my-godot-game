@@ -1,0 +1,2467 @@
+{
+  "visual_style_source": "visual_style.json",
+  "schema_version": 2,
+  "purpose": "外觀規格與資料唯一性驗證；不是已實作的遊戲生成器或正式美術",
+  "seed": 20261023,
+  "registry_id": "appearance-review-20261023",
+  "definitions": {
+    "body_type": [
+      {
+        "id": "body_01",
+        "label": "纖長窄肩"
+      },
+      {
+        "id": "body_02",
+        "label": "高挑寬肩"
+      },
+      {
+        "id": "body_03",
+        "label": "標準直身"
+      },
+      {
+        "id": "body_04",
+        "label": "短身窄肩"
+      },
+      {
+        "id": "body_05",
+        "label": "短身圓肩"
+      },
+      {
+        "id": "body_06",
+        "label": "厚實方肩"
+      },
+      {
+        "id": "body_07",
+        "label": "圓身落肩"
+      },
+      {
+        "id": "body_08",
+        "label": "修長方肩"
+      }
+    ],
+    "face_shape": [
+      {
+        "id": "face_01",
+        "label": "長方臉"
+      },
+      {
+        "id": "face_02",
+        "label": "短方臉"
+      },
+      {
+        "id": "face_03",
+        "label": "寬圓臉"
+      },
+      {
+        "id": "face_04",
+        "label": "窄橢圓臉"
+      },
+      {
+        "id": "face_05",
+        "label": "心型臉"
+      },
+      {
+        "id": "face_06",
+        "label": "菱形臉"
+      },
+      {
+        "id": "face_07",
+        "label": "長橢圓臉"
+      },
+      {
+        "id": "face_08",
+        "label": "短圓臉"
+      },
+      {
+        "id": "face_09",
+        "label": "梯形下顎"
+      },
+      {
+        "id": "face_10",
+        "label": "寬顴骨"
+      },
+      {
+        "id": "face_11",
+        "label": "窄下巴"
+      },
+      {
+        "id": "face_12",
+        "label": "飽滿頰"
+      }
+    ],
+    "hair_family": [
+      {
+        "id": "hair_01",
+        "label": "俐落短髮",
+        "hair_front": "hair_front_01",
+        "hair_back": "hair_back_01",
+        "allowed_fronts": [
+          "hair_front_01"
+        ]
+      },
+      {
+        "id": "hair_02",
+        "label": "側分短髮",
+        "hair_front": "hair_front_02",
+        "hair_back": "hair_back_02",
+        "allowed_fronts": [
+          "hair_front_02"
+        ]
+      },
+      {
+        "id": "hair_03",
+        "label": "尖束短髮",
+        "hair_front": "hair_front_03",
+        "hair_back": "hair_back_03",
+        "allowed_fronts": [
+          "hair_front_03",
+          "hair_front_18"
+        ]
+      },
+      {
+        "id": "hair_04",
+        "label": "側削短髮",
+        "hair_front": "hair_front_04",
+        "hair_back": "hair_back_01",
+        "allowed_fronts": [
+          "hair_front_04"
+        ]
+      },
+      {
+        "id": "hair_05",
+        "label": "直短鮑伯",
+        "hair_front": "hair_front_05",
+        "hair_back": "hair_back_05",
+        "allowed_fronts": [
+          "hair_front_05"
+        ]
+      },
+      {
+        "id": "hair_06",
+        "label": "高盤髮髻",
+        "hair_front": "hair_front_06",
+        "hair_back": "hair_back_09",
+        "allowed_fronts": [
+          "hair_front_06"
+        ]
+      },
+      {
+        "id": "hair_07",
+        "label": "側馬尾",
+        "hair_front": "hair_front_07",
+        "hair_back": "hair_back_07",
+        "allowed_fronts": [
+          "hair_front_07"
+        ]
+      },
+      {
+        "id": "hair_08",
+        "label": "短捲髮",
+        "hair_front": "hair_front_08",
+        "hair_back": "hair_back_04",
+        "allowed_fronts": [
+          "hair_front_08"
+        ]
+      },
+      {
+        "id": "hair_09",
+        "label": "蓬鬆捲髮",
+        "hair_front": "hair_front_09",
+        "hair_back": "hair_back_06",
+        "allowed_fronts": [
+          "hair_front_09"
+        ]
+      },
+      {
+        "id": "hair_10",
+        "label": "波浪鮑伯",
+        "hair_front": "hair_front_10",
+        "hair_back": "hair_back_06",
+        "allowed_fronts": [
+          "hair_front_10"
+        ]
+      },
+      {
+        "id": "hair_11",
+        "label": "長瀏海",
+        "hair_front": "hair_front_11",
+        "hair_back": "hair_back_11",
+        "allowed_fronts": [
+          "hair_front_11"
+        ]
+      },
+      {
+        "id": "hair_12",
+        "label": "中分短髮",
+        "hair_front": "hair_front_12",
+        "hair_back": "hair_back_02",
+        "allowed_fronts": [
+          "hair_front_12"
+        ]
+      },
+      {
+        "id": "hair_13",
+        "label": "寸頭",
+        "hair_front": "hair_front_13",
+        "hair_back": "hair_back_01",
+        "allowed_fronts": [
+          "hair_front_13"
+        ]
+      },
+      {
+        "id": "hair_14",
+        "label": "上梳短髮",
+        "hair_front": "hair_front_14",
+        "hair_back": "hair_back_03",
+        "allowed_fronts": [
+          "hair_front_14"
+        ]
+      },
+      {
+        "id": "hair_15",
+        "label": "精靈短髮",
+        "hair_front": "hair_front_15",
+        "hair_back": "hair_back_01",
+        "allowed_fronts": [
+          "hair_front_15"
+        ]
+      },
+      {
+        "id": "hair_16",
+        "label": "側辮",
+        "hair_front": "hair_front_16",
+        "hair_back": "hair_back_10",
+        "allowed_fronts": [
+          "hair_front_16"
+        ]
+      },
+      {
+        "id": "hair_17",
+        "label": "長雙束髮",
+        "hair_front": "hair_front_17",
+        "hair_back": "hair_back_12",
+        "allowed_fronts": [
+          "hair_front_17"
+        ]
+      },
+      {
+        "id": "hair_18",
+        "label": "光頭",
+        "hair_front": "none",
+        "hair_back": "none",
+        "allowed_fronts": [
+          "none"
+        ]
+      },
+      {
+        "id": "hair_19",
+        "label": "側分長髮",
+        "hair_front": "hair_front_19",
+        "hair_back": "hair_back_12",
+        "allowed_fronts": [
+          "hair_front_19"
+        ]
+      },
+      {
+        "id": "hair_20",
+        "label": "平瀏海",
+        "hair_front": "hair_front_20",
+        "hair_back": "hair_back_05",
+        "allowed_fronts": [
+          "hair_front_20"
+        ]
+      }
+    ],
+    "eye_shape": [
+      {
+        "id": "eye_01",
+        "label": "細長眼"
+      },
+      {
+        "id": "eye_02",
+        "label": "圓眼"
+      },
+      {
+        "id": "eye_03",
+        "label": "上挑眼"
+      },
+      {
+        "id": "eye_04",
+        "label": "平直眼"
+      },
+      {
+        "id": "eye_05",
+        "label": "下垂眼"
+      },
+      {
+        "id": "eye_06",
+        "label": "窄眼褶"
+      },
+      {
+        "id": "eye_07",
+        "label": "深眼褶"
+      },
+      {
+        "id": "eye_08",
+        "label": "寬眼距"
+      },
+      {
+        "id": "eye_09",
+        "label": "近眼距"
+      },
+      {
+        "id": "eye_10",
+        "label": "柔弧眼"
+      }
+    ],
+    "brow_shape": [
+      {
+        "id": "brow_01",
+        "label": "平眉"
+      },
+      {
+        "id": "brow_02",
+        "label": "劍眉"
+      },
+      {
+        "id": "brow_03",
+        "label": "彎眉"
+      },
+      {
+        "id": "brow_04",
+        "label": "濃短眉"
+      },
+      {
+        "id": "brow_05",
+        "label": "細長眉"
+      },
+      {
+        "id": "brow_06",
+        "label": "八字眉"
+      },
+      {
+        "id": "brow_07",
+        "label": "高眉峰"
+      },
+      {
+        "id": "brow_08",
+        "label": "柔圓眉"
+      }
+    ],
+    "nose_shape": [
+      {
+        "id": "nose_01",
+        "label": "短圓鼻"
+      },
+      {
+        "id": "nose_02",
+        "label": "長直鼻"
+      },
+      {
+        "id": "nose_03",
+        "label": "寬鼻翼"
+      },
+      {
+        "id": "nose_04",
+        "label": "小尖鼻"
+      },
+      {
+        "id": "nose_05",
+        "label": "鈍鼻頭"
+      },
+      {
+        "id": "nose_06",
+        "label": "窄鼻樑"
+      }
+    ],
+    "mouth_shape": [
+      {
+        "id": "mouth_01",
+        "label": "平直薄唇"
+      },
+      {
+        "id": "mouth_02",
+        "label": "圓弧唇"
+      },
+      {
+        "id": "mouth_03",
+        "label": "寬嘴"
+      },
+      {
+        "id": "mouth_04",
+        "label": "小嘴"
+      },
+      {
+        "id": "mouth_05",
+        "label": "厚下唇"
+      },
+      {
+        "id": "mouth_06",
+        "label": "明顯唇峰"
+      },
+      {
+        "id": "mouth_07",
+        "label": "短嘴角"
+      },
+      {
+        "id": "mouth_08",
+        "label": "長嘴角"
+      }
+    ],
+    "garment_structure": [
+      {
+        "id": "garment_01",
+        "label": "翻領西裝領帶"
+      },
+      {
+        "id": "garment_02",
+        "label": "開襟外套"
+      },
+      {
+        "id": "garment_03",
+        "label": "背心襯衫"
+      },
+      {
+        "id": "garment_04",
+        "label": "工作襯衫"
+      },
+      {
+        "id": "garment_05",
+        "label": "合身西裝"
+      },
+      {
+        "id": "garment_06",
+        "label": "立領外套"
+      },
+      {
+        "id": "garment_07",
+        "label": "套頭針織"
+      },
+      {
+        "id": "garment_08",
+        "label": "寬翻領西裝"
+      },
+      {
+        "id": "garment_09",
+        "label": "長版外套"
+      },
+      {
+        "id": "garment_10",
+        "label": "拉鍊外套"
+      }
+    ],
+    "glasses": [
+      {
+        "id": "glasses_01",
+        "label": "細圓框"
+      },
+      {
+        "id": "glasses_02",
+        "label": "方框"
+      },
+      {
+        "id": "glasses_03",
+        "label": "半框"
+      },
+      {
+        "id": "glasses_04",
+        "label": "粗圓框"
+      },
+      {
+        "id": "glasses_05",
+        "label": "窄長框"
+      },
+      {
+        "id": "glasses_06",
+        "label": "眉框"
+      }
+    ],
+    "facial_hair": [
+      {
+        "id": "beard_01",
+        "label": "小鬍子"
+      },
+      {
+        "id": "beard_02",
+        "label": "短山羊鬍"
+      },
+      {
+        "id": "beard_03",
+        "label": "下巴鬍"
+      },
+      {
+        "id": "beard_04",
+        "label": "短落腮鬍"
+      },
+      {
+        "id": "beard_05",
+        "label": "濃鬍鬚"
+      },
+      {
+        "id": "beard_06",
+        "label": "鬢角"
+      }
+    ],
+    "accessory": [
+      {
+        "id": "accessory_01",
+        "label": "窄領帶"
+      },
+      {
+        "id": "accessory_02",
+        "label": "寬領帶"
+      },
+      {
+        "id": "accessory_03",
+        "label": "領巾"
+      },
+      {
+        "id": "accessory_04",
+        "label": "圓胸針"
+      },
+      {
+        "id": "accessory_05",
+        "label": "方胸針"
+      },
+      {
+        "id": "accessory_06",
+        "label": "耳釘"
+      },
+      {
+        "id": "accessory_07",
+        "label": "細項鍊"
+      },
+      {
+        "id": "accessory_08",
+        "label": "口袋巾"
+      }
+    ],
+    "shoe_type": [
+      {
+        "id": "shoe_01",
+        "label": "窄頭皮鞋"
+      },
+      {
+        "id": "shoe_02",
+        "label": "圓頭皮鞋"
+      },
+      {
+        "id": "shoe_03",
+        "label": "低筒便鞋"
+      },
+      {
+        "id": "shoe_04",
+        "label": "綁帶鞋"
+      },
+      {
+        "id": "shoe_05",
+        "label": "短靴"
+      }
+    ],
+    "ears": [
+      {
+        "id": "ear_01",
+        "label": "小圓耳"
+      },
+      {
+        "id": "ear_02",
+        "label": "長耳廓"
+      },
+      {
+        "id": "ear_03",
+        "label": "寬耳廓"
+      },
+      {
+        "id": "ear_04",
+        "label": "貼頭耳"
+      },
+      {
+        "id": "ear_05",
+        "label": "外張耳"
+      },
+      {
+        "id": "ear_06",
+        "label": "厚耳垂"
+      },
+      {
+        "id": "ear_07",
+        "label": "薄耳垂"
+      },
+      {
+        "id": "ear_08",
+        "label": "尖耳廓"
+      }
+    ],
+    "skin_palette": [
+      {
+        "id": "skin_01",
+        "label": "skin配色01",
+        "hex": "#F0C8A5"
+      },
+      {
+        "id": "skin_02",
+        "label": "skin配色02",
+        "hex": "#DCAD83"
+      },
+      {
+        "id": "skin_03",
+        "label": "skin配色03",
+        "hex": "#C99064"
+      },
+      {
+        "id": "skin_04",
+        "label": "skin配色04",
+        "hex": "#B17751"
+      },
+      {
+        "id": "skin_05",
+        "label": "skin配色05",
+        "hex": "#945F42"
+      },
+      {
+        "id": "skin_06",
+        "label": "skin配色06",
+        "hex": "#73482F"
+      }
+    ],
+    "hair_palette": [
+      {
+        "id": "hair_color_01",
+        "label": "hair_color配色01",
+        "hex": "#171D22"
+      },
+      {
+        "id": "hair_color_02",
+        "label": "hair_color配色02",
+        "hex": "#2C2524"
+      },
+      {
+        "id": "hair_color_03",
+        "label": "hair_color配色03",
+        "hex": "#49342A"
+      },
+      {
+        "id": "hair_color_04",
+        "label": "hair_color配色04",
+        "hex": "#684938"
+      },
+      {
+        "id": "hair_color_05",
+        "label": "hair_color配色05",
+        "hex": "#7B6C5E"
+      },
+      {
+        "id": "hair_color_06",
+        "label": "hair_color配色06",
+        "hex": "#8D8A80"
+      },
+      {
+        "id": "hair_color_07",
+        "label": "hair_color配色07",
+        "hex": "#B9B6AA"
+      },
+      {
+        "id": "hair_color_08",
+        "label": "hair_color配色08",
+        "hex": "#D8D6C9"
+      }
+    ],
+    "garment_palette": [
+      {
+        "id": "garment_color_01",
+        "label": "garment_color配色01",
+        "hex": "#17323D"
+      },
+      {
+        "id": "garment_color_02",
+        "label": "garment_color配色02",
+        "hex": "#287F7C"
+      },
+      {
+        "id": "garment_color_03",
+        "label": "garment_color配色03",
+        "hex": "#5C6669"
+      },
+      {
+        "id": "garment_color_04",
+        "label": "garment_color配色04",
+        "hex": "#594452"
+      },
+      {
+        "id": "garment_color_05",
+        "label": "garment_color配色05",
+        "hex": "#936549"
+      },
+      {
+        "id": "garment_color_06",
+        "label": "garment_color配色06",
+        "hex": "#59644F"
+      }
+    ],
+    "hair_front": [
+      {
+        "id": "hair_front_01",
+        "label": "俐落短髮前髮"
+      },
+      {
+        "id": "hair_front_02",
+        "label": "側分短髮前髮"
+      },
+      {
+        "id": "hair_front_03",
+        "label": "尖束短髮前髮"
+      },
+      {
+        "id": "hair_front_04",
+        "label": "側削短髮前髮"
+      },
+      {
+        "id": "hair_front_05",
+        "label": "直短鮑伯前髮"
+      },
+      {
+        "id": "hair_front_06",
+        "label": "高盤髮髻前髮"
+      },
+      {
+        "id": "hair_front_07",
+        "label": "側馬尾前髮"
+      },
+      {
+        "id": "hair_front_08",
+        "label": "短捲髮前髮"
+      },
+      {
+        "id": "hair_front_09",
+        "label": "蓬鬆捲髮前髮"
+      },
+      {
+        "id": "hair_front_10",
+        "label": "波浪鮑伯前髮"
+      },
+      {
+        "id": "hair_front_11",
+        "label": "長瀏海前髮"
+      },
+      {
+        "id": "hair_front_12",
+        "label": "中分短髮前髮"
+      },
+      {
+        "id": "hair_front_13",
+        "label": "寸頭前髮"
+      },
+      {
+        "id": "hair_front_14",
+        "label": "上梳短髮前髮"
+      },
+      {
+        "id": "hair_front_15",
+        "label": "精靈短髮前髮"
+      },
+      {
+        "id": "hair_front_16",
+        "label": "側辮前髮"
+      },
+      {
+        "id": "hair_front_17",
+        "label": "長雙束髮前髮"
+      },
+      {
+        "id": "hair_front_18",
+        "label": "尖束短髮・額前碎瀏海變體"
+      },
+      {
+        "id": "hair_front_19",
+        "label": "側分長髮前髮"
+      },
+      {
+        "id": "hair_front_20",
+        "label": "平瀏海前髮"
+      }
+    ],
+    "hair_back": [
+      {
+        "id": "hair_back_01",
+        "label": "貼頸短髮"
+      },
+      {
+        "id": "hair_back_02",
+        "label": "短髮後腦"
+      },
+      {
+        "id": "hair_back_03",
+        "label": "波浪短髮後腦"
+      },
+      {
+        "id": "hair_back_04",
+        "label": "短捲後腦"
+      },
+      {
+        "id": "hair_back_05",
+        "label": "直鮑伯後髮"
+      },
+      {
+        "id": "hair_back_06",
+        "label": "波浪鮑伯後髮"
+      },
+      {
+        "id": "hair_back_07",
+        "label": "低馬尾"
+      },
+      {
+        "id": "hair_back_08",
+        "label": "高馬尾"
+      },
+      {
+        "id": "hair_back_09",
+        "label": "盤髮髻"
+      },
+      {
+        "id": "hair_back_10",
+        "label": "側辮後髮"
+      },
+      {
+        "id": "hair_back_11",
+        "label": "及肩後髮"
+      },
+      {
+        "id": "hair_back_12",
+        "label": "長後髮"
+      }
+    ]
+  },
+  "compatibility": {
+    "body_garments": {
+      "body_01": [
+        "garment_01",
+        "garment_02",
+        "garment_03",
+        "garment_04",
+        "garment_05",
+        "garment_06"
+      ],
+      "body_02": [
+        "garment_02",
+        "garment_03",
+        "garment_04",
+        "garment_05",
+        "garment_06",
+        "garment_07"
+      ],
+      "body_03": [
+        "garment_03",
+        "garment_04",
+        "garment_05",
+        "garment_06",
+        "garment_07",
+        "garment_08"
+      ],
+      "body_04": [
+        "garment_04",
+        "garment_05",
+        "garment_06",
+        "garment_07",
+        "garment_08",
+        "garment_09"
+      ],
+      "body_05": [
+        "garment_05",
+        "garment_06",
+        "garment_07",
+        "garment_08",
+        "garment_09",
+        "garment_10"
+      ],
+      "body_06": [
+        "garment_06",
+        "garment_07",
+        "garment_08",
+        "garment_09",
+        "garment_10",
+        "garment_01"
+      ],
+      "body_07": [
+        "garment_07",
+        "garment_08",
+        "garment_09",
+        "garment_10",
+        "garment_01",
+        "garment_02"
+      ],
+      "body_08": [
+        "garment_08",
+        "garment_09",
+        "garment_10",
+        "garment_01",
+        "garment_02",
+        "garment_03"
+      ]
+    },
+    "hair_front_back": "由hair_family定義配對，禁止任意笛卡兒拼接"
+  },
+  "composition_order": {
+    "sprite": [
+      "hair_back",
+      "shoe_type",
+      "body_type",
+      "garment_structure",
+      "face_shape",
+      "expression",
+      "facial_hair",
+      "glasses",
+      "hair_front",
+      "accessory"
+    ],
+    "portrait": [
+      "hair_back",
+      "body_type",
+      "garment_structure",
+      "ears",
+      "face_shape",
+      "nose_shape",
+      "eye_shape",
+      "brow_shape",
+      "mouth_shape",
+      "facial_hair",
+      "glasses",
+      "hair_front",
+      "accessory"
+    ]
+  },
+  "uniqueness": {
+    "pool": "45在職＋3當批候選，共48名",
+    "structural_fields": [
+      "body_type",
+      "face_shape",
+      "hair_family",
+      "eye_shape",
+      "brow_shape",
+      "nose_shape",
+      "mouth_shape",
+      "garment_structure"
+    ],
+    "excludes": [
+      "姓名",
+      "衣色",
+      "髮色",
+      "膚色",
+      "職級",
+      "性別標籤"
+    ],
+    "unique_face_hair": true,
+    "unique_body_hair": true,
+    "minimum_structural_hamming_distance": 3,
+    "max_counts": {
+      "body_type": 6,
+      "face_shape": 4,
+      "hair_family": 3,
+      "garment_structure": 6
+    },
+    "scope": "資料結構驗證已完成；實際合成畫面仍需灰階／縮圖人工檢查，不能以hash不重複宣稱美術已通過"
+  },
+  "persistence": {
+    "save_fields": [
+      "character_id",
+      "appearance_profile_id",
+      "schema_version",
+      "appearance",
+      "appearance_hash",
+      "registry_id",
+      "generator_rng_state",
+      "recruit_batch_id"
+    ],
+    "generation": "角色首次建立時固定；切頁、並排、存讀檔不重新抽取；更換表情不改身份",
+    "exhaustion": "不滿足配對／多樣性門檻時重抽資料；資產池不足則停止產生並擴充，禁止默默退回撞臉"
+  },
+  "profiles": [
+    {
+      "character_id": "EMP-001",
+      "group": "active_staff",
+      "display_name": "員工01",
+      "appearance_profile_id": "AP-EMP-001",
+      "generation_nonce": 1,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_01",
+        "face_shape": "face_05",
+        "hair_family": "hair_04",
+        "eye_shape": "eye_07",
+        "brow_shape": "brow_08",
+        "nose_shape": "nose_05",
+        "mouth_shape": "mouth_01",
+        "garment_structure": "garment_01",
+        "hair_front": "hair_front_04",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_07",
+        "garment_palette": "garment_color_03",
+        "ears": "ear_04",
+        "glasses": "glasses_01",
+        "facial_hair": "none",
+        "accessory": "accessory_03",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_01|face_05|hair_04|eye_07|brow_08|nose_05|mouth_01|garment_01",
+      "appearance_hash": "be65296a1d3c7927a226d0fb2fa0bf030cba7b5a469cde1352b6fa4546ce89b2"
+    },
+    {
+      "character_id": "EMP-002",
+      "group": "active_staff",
+      "display_name": "員工02",
+      "appearance_profile_id": "AP-EMP-002",
+      "generation_nonce": 2,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_06",
+        "face_shape": "face_02",
+        "hair_family": "hair_02",
+        "eye_shape": "eye_09",
+        "brow_shape": "brow_02",
+        "nose_shape": "nose_02",
+        "mouth_shape": "mouth_02",
+        "garment_structure": "garment_06",
+        "hair_front": "hair_front_02",
+        "hair_back": "hair_back_02",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_03",
+        "garment_palette": "garment_color_02",
+        "ears": "ear_01",
+        "glasses": "none",
+        "facial_hair": "beard_05",
+        "accessory": "accessory_07",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_06|face_02|hair_02|eye_09|brow_02|nose_02|mouth_02|garment_06",
+      "appearance_hash": "c812e1147c2fe04fd901e36f4c8618a8c236e719df7892e38dc1cb57ad3c75b5"
+    },
+    {
+      "character_id": "EMP-003",
+      "group": "active_staff",
+      "display_name": "員工03",
+      "appearance_profile_id": "AP-EMP-003",
+      "generation_nonce": 3,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_04",
+        "face_shape": "face_03",
+        "hair_family": "hair_05",
+        "eye_shape": "eye_06",
+        "brow_shape": "brow_05",
+        "nose_shape": "nose_06",
+        "mouth_shape": "mouth_01",
+        "garment_structure": "garment_04",
+        "hair_front": "hair_front_05",
+        "hair_back": "hair_back_05",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_06",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_03",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_03",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_04|face_03|hair_05|eye_06|brow_05|nose_06|mouth_01|garment_04",
+      "appearance_hash": "952a1aa0e666ef86b8581ef145ef3b0d8b2bdb99974f5136ed896868f523e8c2"
+    },
+    {
+      "character_id": "EMP-004",
+      "group": "active_staff",
+      "display_name": "員工04",
+      "appearance_profile_id": "AP-EMP-004",
+      "generation_nonce": 4,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_07",
+        "face_shape": "face_07",
+        "hair_family": "hair_03",
+        "eye_shape": "eye_08",
+        "brow_shape": "brow_03",
+        "nose_shape": "nose_03",
+        "mouth_shape": "mouth_02",
+        "garment_structure": "garment_02",
+        "hair_front": "hair_front_18",
+        "hair_back": "hair_back_03",
+        "skin_palette": "skin_05",
+        "hair_palette": "hair_color_08",
+        "garment_palette": "garment_color_02",
+        "ears": "ear_01",
+        "glasses": "glasses_06",
+        "facial_hair": "none",
+        "accessory": "accessory_06",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_07|face_07|hair_03|eye_08|brow_03|nose_03|mouth_02|garment_02",
+      "appearance_hash": "4a63cd7865c529c5b36ef1746cec1d4aaa41779b614998c200d4c343cfcb6b45"
+    },
+    {
+      "character_id": "EMP-005",
+      "group": "active_staff",
+      "display_name": "員工05",
+      "appearance_profile_id": "AP-EMP-005",
+      "generation_nonce": 5,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_08",
+        "face_shape": "face_12",
+        "hair_family": "hair_14",
+        "eye_shape": "eye_10",
+        "brow_shape": "brow_07",
+        "nose_shape": "nose_01",
+        "mouth_shape": "mouth_02",
+        "garment_structure": "garment_03",
+        "hair_front": "hair_front_14",
+        "hair_back": "hair_back_03",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_04",
+        "garment_palette": "garment_color_06",
+        "ears": "ear_05",
+        "glasses": "glasses_01",
+        "facial_hair": "none",
+        "accessory": "accessory_06",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_08|face_12|hair_14|eye_10|brow_07|nose_01|mouth_02|garment_03",
+      "appearance_hash": "d7156e82e49dded4402ad6b26f6b600ec8dc54d9d250606e7a36e2d5afe3c8ae"
+    },
+    {
+      "character_id": "EMP-006",
+      "group": "active_staff",
+      "display_name": "員工06",
+      "appearance_profile_id": "AP-EMP-006",
+      "generation_nonce": 6,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_06",
+        "face_shape": "face_05",
+        "hair_family": "hair_20",
+        "eye_shape": "eye_03",
+        "brow_shape": "brow_01",
+        "nose_shape": "nose_06",
+        "mouth_shape": "mouth_04",
+        "garment_structure": "garment_07",
+        "hair_front": "hair_front_20",
+        "hair_back": "hair_back_05",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_03",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_04",
+        "glasses": "glasses_02",
+        "facial_hair": "beard_06",
+        "accessory": "none",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_06|face_05|hair_20|eye_03|brow_01|nose_06|mouth_04|garment_07",
+      "appearance_hash": "e557392be92e73ae8fe2d73efe2e6718e160f9b89ee967626d1b3e119232ab48"
+    },
+    {
+      "character_id": "EMP-007",
+      "group": "active_staff",
+      "display_name": "員工07",
+      "appearance_profile_id": "AP-EMP-007",
+      "generation_nonce": 7,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_02",
+        "face_shape": "face_11",
+        "hair_family": "hair_03",
+        "eye_shape": "eye_01",
+        "brow_shape": "brow_03",
+        "nose_shape": "nose_02",
+        "mouth_shape": "mouth_04",
+        "garment_structure": "garment_05",
+        "hair_front": "hair_front_03",
+        "hair_back": "hair_back_03",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_04",
+        "garment_palette": "garment_color_06",
+        "ears": "ear_04",
+        "glasses": "glasses_02",
+        "facial_hair": "beard_03",
+        "accessory": "none",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_02|face_11|hair_03|eye_01|brow_03|nose_02|mouth_04|garment_05",
+      "appearance_hash": "a4c014744da4e0339ecade96fce2e97015e2f6629b626b8792a0ffd2cb440415"
+    },
+    {
+      "character_id": "EMP-008",
+      "group": "active_staff",
+      "display_name": "員工08",
+      "appearance_profile_id": "AP-EMP-008",
+      "generation_nonce": 8,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_08",
+        "face_shape": "face_07",
+        "hair_family": "hair_07",
+        "eye_shape": "eye_04",
+        "brow_shape": "brow_06",
+        "nose_shape": "nose_03",
+        "mouth_shape": "mouth_08",
+        "garment_structure": "garment_08",
+        "hair_front": "hair_front_07",
+        "hair_back": "hair_back_07",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_03",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_07",
+        "glasses": "glasses_01",
+        "facial_hair": "beard_04",
+        "accessory": "none",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_08|face_07|hair_07|eye_04|brow_06|nose_03|mouth_08|garment_08",
+      "appearance_hash": "59df4eef97c329b3caf1417207f7686821ff8b5fe97bfb3270a36f2c664d570f"
+    },
+    {
+      "character_id": "EMP-009",
+      "group": "active_staff",
+      "display_name": "員工09",
+      "appearance_profile_id": "AP-EMP-009",
+      "generation_nonce": 9,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_06",
+        "face_shape": "face_09",
+        "hair_family": "hair_12",
+        "eye_shape": "eye_09",
+        "brow_shape": "brow_08",
+        "nose_shape": "nose_05",
+        "mouth_shape": "mouth_07",
+        "garment_structure": "garment_09",
+        "hair_front": "hair_front_12",
+        "hair_back": "hair_back_02",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_06",
+        "garment_palette": "garment_color_03",
+        "ears": "ear_03",
+        "glasses": "glasses_04",
+        "facial_hair": "beard_03",
+        "accessory": "none",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_06|face_09|hair_12|eye_09|brow_08|nose_05|mouth_07|garment_09",
+      "appearance_hash": "e8923f8ef1165255583b2792cf6bcbce09425b4ab8b4a2299aabf92c7158f780"
+    },
+    {
+      "character_id": "EMP-010",
+      "group": "active_staff",
+      "display_name": "員工10",
+      "appearance_profile_id": "AP-EMP-010",
+      "generation_nonce": 10,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_03",
+        "face_shape": "face_06",
+        "hair_family": "hair_17",
+        "eye_shape": "eye_02",
+        "brow_shape": "brow_01",
+        "nose_shape": "nose_01",
+        "mouth_shape": "mouth_03",
+        "garment_structure": "garment_03",
+        "hair_front": "hair_front_17",
+        "hair_back": "hair_back_12",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_07",
+        "garment_palette": "garment_color_06",
+        "ears": "ear_03",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_03",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_03|face_06|hair_17|eye_02|brow_01|nose_01|mouth_03|garment_03",
+      "appearance_hash": "8af05ae7d32ae459681c59a7dcce9d8c8df82ed45e865c4bf3a80dc7d45ed44c"
+    },
+    {
+      "character_id": "EMP-011",
+      "group": "active_staff",
+      "display_name": "員工11",
+      "appearance_profile_id": "AP-EMP-011",
+      "generation_nonce": 11,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_06",
+        "face_shape": "face_04",
+        "hair_family": "hair_10",
+        "eye_shape": "eye_06",
+        "brow_shape": "brow_05",
+        "nose_shape": "nose_01",
+        "mouth_shape": "mouth_06",
+        "garment_structure": "garment_10",
+        "hair_front": "hair_front_10",
+        "hair_back": "hair_back_06",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_07",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_03",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "none",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_06|face_04|hair_10|eye_06|brow_05|nose_01|mouth_06|garment_10",
+      "appearance_hash": "b4352b029d4df2d1e2838caa2387f575a2bed892f765844ad60d8a05d086ae48"
+    },
+    {
+      "character_id": "EMP-012",
+      "group": "active_staff",
+      "display_name": "員工12",
+      "appearance_profile_id": "AP-EMP-012",
+      "generation_nonce": 12,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_02",
+        "face_shape": "face_09",
+        "hair_family": "hair_05",
+        "eye_shape": "eye_01",
+        "brow_shape": "brow_06",
+        "nose_shape": "nose_06",
+        "mouth_shape": "mouth_08",
+        "garment_structure": "garment_02",
+        "hair_front": "hair_front_05",
+        "hair_back": "hair_back_05",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_08",
+        "garment_palette": "garment_color_03",
+        "ears": "ear_01",
+        "glasses": "none",
+        "facial_hair": "beard_02",
+        "accessory": "accessory_02",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_02|face_09|hair_05|eye_01|brow_06|nose_06|mouth_08|garment_02",
+      "appearance_hash": "0cca7da12fe55048740f84719f8fe6ed3cbdba1025b99c538110a0aedd6a46a3"
+    },
+    {
+      "character_id": "EMP-013",
+      "group": "active_staff",
+      "display_name": "員工13",
+      "appearance_profile_id": "AP-EMP-013",
+      "generation_nonce": 13,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_07",
+        "face_shape": "face_03",
+        "hair_family": "hair_04",
+        "eye_shape": "eye_05",
+        "brow_shape": "brow_07",
+        "nose_shape": "nose_04",
+        "mouth_shape": "mouth_05",
+        "garment_structure": "garment_01",
+        "hair_front": "hair_front_04",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_08",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_07",
+        "glasses": "glasses_02",
+        "facial_hair": "beard_05",
+        "accessory": "accessory_05",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_07|face_03|hair_04|eye_05|brow_07|nose_04|mouth_05|garment_01",
+      "appearance_hash": "6ff380eb4a907a7429917932e8f18e45594f2ab111bf0547cbcad6c858176842"
+    },
+    {
+      "character_id": "EMP-014",
+      "group": "active_staff",
+      "display_name": "員工14",
+      "appearance_profile_id": "AP-EMP-014",
+      "generation_nonce": 14,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_07",
+        "face_shape": "face_03",
+        "hair_family": "hair_07",
+        "eye_shape": "eye_07",
+        "brow_shape": "brow_02",
+        "nose_shape": "nose_03",
+        "mouth_shape": "mouth_02",
+        "garment_structure": "garment_07",
+        "hair_front": "hair_front_07",
+        "hair_back": "hair_back_07",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_01",
+        "garment_palette": "garment_color_06",
+        "ears": "ear_02",
+        "glasses": "glasses_05",
+        "facial_hair": "none",
+        "accessory": "accessory_01",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_07|face_03|hair_07|eye_07|brow_02|nose_03|mouth_02|garment_07",
+      "appearance_hash": "d6539cd4203fec0e7b9fd9e1877707cfb5be7d8d1ea2baff7d2e238939a25f2f"
+    },
+    {
+      "character_id": "EMP-015",
+      "group": "active_staff",
+      "display_name": "員工15",
+      "appearance_profile_id": "AP-EMP-015",
+      "generation_nonce": 15,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_01",
+        "face_shape": "face_01",
+        "hair_family": "hair_01",
+        "eye_shape": "eye_01",
+        "brow_shape": "brow_08",
+        "nose_shape": "nose_03",
+        "mouth_shape": "mouth_06",
+        "garment_structure": "garment_04",
+        "hair_front": "hair_front_01",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_05",
+        "garment_palette": "garment_color_02",
+        "ears": "ear_03",
+        "glasses": "glasses_03",
+        "facial_hair": "beard_01",
+        "accessory": "accessory_05",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_01|face_01|hair_01|eye_01|brow_08|nose_03|mouth_06|garment_04",
+      "appearance_hash": "e3d8d80a201ff7c120eef2a39b56e6915da67a95cd176809976ba6db00ca7788"
+    },
+    {
+      "character_id": "EMP-016",
+      "group": "active_staff",
+      "display_name": "員工16",
+      "appearance_profile_id": "AP-EMP-016",
+      "generation_nonce": 16,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_03",
+        "face_shape": "face_12",
+        "hair_family": "hair_11",
+        "eye_shape": "eye_05",
+        "brow_shape": "brow_01",
+        "nose_shape": "nose_04",
+        "mouth_shape": "mouth_05",
+        "garment_structure": "garment_05",
+        "hair_front": "hair_front_11",
+        "hair_back": "hair_back_11",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_02",
+        "garment_palette": "garment_color_02",
+        "ears": "ear_03",
+        "glasses": "glasses_05",
+        "facial_hair": "none",
+        "accessory": "accessory_08",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_03|face_12|hair_11|eye_05|brow_01|nose_04|mouth_05|garment_05",
+      "appearance_hash": "377c8f584347fab779daad06d5b524102f6c87dce1e4a41a5a7ce5c59265fd48"
+    },
+    {
+      "character_id": "EMP-017",
+      "group": "active_staff",
+      "display_name": "員工17",
+      "appearance_profile_id": "AP-EMP-017",
+      "generation_nonce": 17,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_02",
+        "face_shape": "face_08",
+        "hair_family": "hair_02",
+        "eye_shape": "eye_08",
+        "brow_shape": "brow_01",
+        "nose_shape": "nose_01",
+        "mouth_shape": "mouth_07",
+        "garment_structure": "garment_06",
+        "hair_front": "hair_front_02",
+        "hair_back": "hair_back_02",
+        "skin_palette": "skin_03",
+        "hair_palette": "hair_color_02",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_05",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "none",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_02|face_08|hair_02|eye_08|brow_01|nose_01|mouth_07|garment_06",
+      "appearance_hash": "61ad91b1dcb0305791b31df950f056b7cba608ecce21eaed1ba4b8b98018faa1"
+    },
+    {
+      "character_id": "EMP-018",
+      "group": "active_staff",
+      "display_name": "員工18",
+      "appearance_profile_id": "AP-EMP-018",
+      "generation_nonce": 18,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_05",
+        "face_shape": "face_07",
+        "hair_family": "hair_16",
+        "eye_shape": "eye_08",
+        "brow_shape": "brow_02",
+        "nose_shape": "nose_06",
+        "mouth_shape": "mouth_06",
+        "garment_structure": "garment_08",
+        "hair_front": "hair_front_16",
+        "hair_back": "hair_back_10",
+        "skin_palette": "skin_05",
+        "hair_palette": "hair_color_03",
+        "garment_palette": "garment_color_03",
+        "ears": "ear_07",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_05",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_05|face_07|hair_16|eye_08|brow_02|nose_06|mouth_06|garment_08",
+      "appearance_hash": "b43332881088df2874a3f97150ee54de0078b9dcfa49506b44c0dc202cf4c5c1"
+    },
+    {
+      "character_id": "EMP-019",
+      "group": "active_staff",
+      "display_name": "員工19",
+      "appearance_profile_id": "AP-EMP-019",
+      "generation_nonce": 19,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_04",
+        "face_shape": "face_10",
+        "hair_family": "hair_04",
+        "eye_shape": "eye_07",
+        "brow_shape": "brow_03",
+        "nose_shape": "nose_04",
+        "mouth_shape": "mouth_01",
+        "garment_structure": "garment_09",
+        "hair_front": "hair_front_04",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_08",
+        "garment_palette": "garment_color_05",
+        "ears": "ear_05",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_05",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_04|face_10|hair_04|eye_07|brow_03|nose_04|mouth_01|garment_09",
+      "appearance_hash": "5f34e73bd458c14b04afd8097019ba3f385b9419216b0dce086600654545c40a"
+    },
+    {
+      "character_id": "EMP-020",
+      "group": "active_staff",
+      "display_name": "員工20",
+      "appearance_profile_id": "AP-EMP-020",
+      "generation_nonce": 20,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_03",
+        "face_shape": "face_01",
+        "hair_family": "hair_12",
+        "eye_shape": "eye_10",
+        "brow_shape": "brow_07",
+        "nose_shape": "nose_05",
+        "mouth_shape": "mouth_08",
+        "garment_structure": "garment_03",
+        "hair_front": "hair_front_12",
+        "hair_back": "hair_back_02",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_06",
+        "garment_palette": "garment_color_02",
+        "ears": "ear_07",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "none",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_03|face_01|hair_12|eye_10|brow_07|nose_05|mouth_08|garment_03",
+      "appearance_hash": "4f970c6104ad0ec983f9241c371a46a471b7abb990ded49fc50c13789a114e23"
+    },
+    {
+      "character_id": "EMP-021",
+      "group": "active_staff",
+      "display_name": "員工21",
+      "appearance_profile_id": "AP-EMP-021",
+      "generation_nonce": 21,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_01",
+        "face_shape": "face_09",
+        "hair_family": "hair_08",
+        "eye_shape": "eye_03",
+        "brow_shape": "brow_07",
+        "nose_shape": "nose_02",
+        "mouth_shape": "mouth_05",
+        "garment_structure": "garment_01",
+        "hair_front": "hair_front_08",
+        "hair_back": "hair_back_04",
+        "skin_palette": "skin_01",
+        "hair_palette": "hair_color_05",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_02",
+        "glasses": "glasses_03",
+        "facial_hair": "none",
+        "accessory": "accessory_02",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_01|face_09|hair_08|eye_03|brow_07|nose_02|mouth_05|garment_01",
+      "appearance_hash": "0e0e29bd8d0fa576b28defcf8c8e264aec970e0e5b41cd6a80ce4637db3d561a"
+    },
+    {
+      "character_id": "EMP-022",
+      "group": "active_staff",
+      "display_name": "員工22",
+      "appearance_profile_id": "AP-EMP-022",
+      "generation_nonce": 22,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_05",
+        "face_shape": "face_08",
+        "hair_family": "hair_01",
+        "eye_shape": "eye_09",
+        "brow_shape": "brow_06",
+        "nose_shape": "nose_02",
+        "mouth_shape": "mouth_05",
+        "garment_structure": "garment_10",
+        "hair_front": "hair_front_01",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_03",
+        "hair_palette": "hair_color_06",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_07",
+        "glasses": "none",
+        "facial_hair": "beard_02",
+        "accessory": "accessory_03",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_05|face_08|hair_01|eye_09|brow_06|nose_02|mouth_05|garment_10",
+      "appearance_hash": "45e96731f61492623f0c1fe0afc8eaf7a05059e1ea33649e695b86b6e6d961b7"
+    },
+    {
+      "character_id": "EMP-023",
+      "group": "active_staff",
+      "display_name": "員工23",
+      "appearance_profile_id": "AP-EMP-023",
+      "generation_nonce": 23,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_05",
+        "face_shape": "face_07",
+        "hair_family": "hair_05",
+        "eye_shape": "eye_01",
+        "brow_shape": "brow_02",
+        "nose_shape": "nose_03",
+        "mouth_shape": "mouth_03",
+        "garment_structure": "garment_05",
+        "hair_front": "hair_front_05",
+        "hair_back": "hair_back_05",
+        "skin_palette": "skin_03",
+        "hair_palette": "hair_color_02",
+        "garment_palette": "garment_color_05",
+        "ears": "ear_03",
+        "glasses": "none",
+        "facial_hair": "beard_02",
+        "accessory": "none",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_05|face_07|hair_05|eye_01|brow_02|nose_03|mouth_03|garment_05",
+      "appearance_hash": "a79d8bf39625d3acfbc0206bcaa38f7e5d59f7b43b0ce3a27fe7ad6c726dad57"
+    },
+    {
+      "character_id": "EMP-024",
+      "group": "active_staff",
+      "display_name": "員工24",
+      "appearance_profile_id": "AP-EMP-024",
+      "generation_nonce": 24,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_03",
+        "face_shape": "face_10",
+        "hair_family": "hair_01",
+        "eye_shape": "eye_07",
+        "brow_shape": "brow_02",
+        "nose_shape": "nose_04",
+        "mouth_shape": "mouth_05",
+        "garment_structure": "garment_04",
+        "hair_front": "hair_front_01",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_02",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_04",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_04",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_03|face_10|hair_01|eye_07|brow_02|nose_04|mouth_05|garment_04",
+      "appearance_hash": "ccd1dcb386b0b3a1ab6121a0eb7ec659c42bf8873e38a8fd4c6ac010e39ef8f2"
+    },
+    {
+      "character_id": "EMP-025",
+      "group": "active_staff",
+      "display_name": "員工25",
+      "appearance_profile_id": "AP-EMP-025",
+      "generation_nonce": 25,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_05",
+        "face_shape": "face_04",
+        "hair_family": "hair_18",
+        "eye_shape": "eye_10",
+        "brow_shape": "brow_06",
+        "nose_shape": "nose_01",
+        "mouth_shape": "mouth_03",
+        "garment_structure": "garment_06",
+        "hair_front": "none",
+        "hair_back": "none",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_05",
+        "garment_palette": "garment_color_05",
+        "ears": "ear_06",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_04",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_05|face_04|hair_18|eye_10|brow_06|nose_01|mouth_03|garment_06",
+      "appearance_hash": "64f355460d792ca28c70ce517390031981b454bb49c9ab605ad4fd320a6834ad"
+    },
+    {
+      "character_id": "EMP-026",
+      "group": "active_staff",
+      "display_name": "員工26",
+      "appearance_profile_id": "AP-EMP-026",
+      "generation_nonce": 26,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_04",
+        "face_shape": "face_05",
+        "hair_family": "hair_19",
+        "eye_shape": "eye_05",
+        "brow_shape": "brow_03",
+        "nose_shape": "nose_04",
+        "mouth_shape": "mouth_04",
+        "garment_structure": "garment_07",
+        "hair_front": "hair_front_19",
+        "hair_back": "hair_back_12",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_07",
+        "garment_palette": "garment_color_02",
+        "ears": "ear_01",
+        "glasses": "none",
+        "facial_hair": "beard_02",
+        "accessory": "none",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_04|face_05|hair_19|eye_05|brow_03|nose_04|mouth_04|garment_07",
+      "appearance_hash": "f715832efb6f7cd04d8ae495546b1c25d2682e1504ee7b8d3f9be188519b5cf8"
+    },
+    {
+      "character_id": "EMP-027",
+      "group": "active_staff",
+      "display_name": "員工27",
+      "appearance_profile_id": "AP-EMP-027",
+      "generation_nonce": 27,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_01",
+        "face_shape": "face_10",
+        "hair_family": "hair_13",
+        "eye_shape": "eye_02",
+        "brow_shape": "brow_05",
+        "nose_shape": "nose_06",
+        "mouth_shape": "mouth_08",
+        "garment_structure": "garment_02",
+        "hair_front": "hair_front_13",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_05",
+        "hair_palette": "hair_color_06",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_03",
+        "glasses": "glasses_01",
+        "facial_hair": "beard_06",
+        "accessory": "accessory_07",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_01|face_10|hair_13|eye_02|brow_05|nose_06|mouth_08|garment_02",
+      "appearance_hash": "0694443680409e54d6a152473efa3be1752f96215764754467d3156de66f52f5"
+    },
+    {
+      "character_id": "EMP-028",
+      "group": "active_staff",
+      "display_name": "員工28",
+      "appearance_profile_id": "AP-EMP-028",
+      "generation_nonce": 28,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_05",
+        "face_shape": "face_08",
+        "hair_family": "hair_15",
+        "eye_shape": "eye_06",
+        "brow_shape": "brow_04",
+        "nose_shape": "nose_05",
+        "mouth_shape": "mouth_07",
+        "garment_structure": "garment_08",
+        "hair_front": "hair_front_15",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_06",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_05",
+        "glasses": "glasses_03",
+        "facial_hair": "none",
+        "accessory": "accessory_05",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_05|face_08|hair_15|eye_06|brow_04|nose_05|mouth_07|garment_08",
+      "appearance_hash": "e1083f326599df0e8544fa1927c4a8ee7daf455e3c8fdafc7a7791d74857607a"
+    },
+    {
+      "character_id": "EMP-029",
+      "group": "active_staff",
+      "display_name": "員工29",
+      "appearance_profile_id": "AP-EMP-029",
+      "generation_nonce": 29,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_02",
+        "face_shape": "face_06",
+        "hair_family": "hair_07",
+        "eye_shape": "eye_02",
+        "brow_shape": "brow_08",
+        "nose_shape": "nose_01",
+        "mouth_shape": "mouth_08",
+        "garment_structure": "garment_02",
+        "hair_front": "hair_front_07",
+        "hair_back": "hair_back_07",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_03",
+        "garment_palette": "garment_color_05",
+        "ears": "ear_08",
+        "glasses": "glasses_06",
+        "facial_hair": "none",
+        "accessory": "none",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_02|face_06|hair_07|eye_02|brow_08|nose_01|mouth_08|garment_02",
+      "appearance_hash": "ce5d0f70032c6f7b1a2f19b0289b910038622ccdeeb5b4dfb656532d5bbdc217"
+    },
+    {
+      "character_id": "EMP-030",
+      "group": "active_staff",
+      "display_name": "員工30",
+      "appearance_profile_id": "AP-EMP-030",
+      "generation_nonce": 30,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_08",
+        "face_shape": "face_10",
+        "hair_family": "hair_17",
+        "eye_shape": "eye_03",
+        "brow_shape": "brow_04",
+        "nose_shape": "nose_02",
+        "mouth_shape": "mouth_07",
+        "garment_structure": "garment_09",
+        "hair_front": "hair_front_17",
+        "hair_back": "hair_back_12",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_08",
+        "garment_palette": "garment_color_06",
+        "ears": "ear_05",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "none",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_08|face_10|hair_17|eye_03|brow_04|nose_02|mouth_07|garment_09",
+      "appearance_hash": "fd1c660fbbf3710bc892634eb4f1ab1c408a32e2ef7a65ab5cd6c092a8d71e55"
+    },
+    {
+      "character_id": "EMP-031",
+      "group": "active_staff",
+      "display_name": "員工31",
+      "appearance_profile_id": "AP-EMP-031",
+      "generation_nonce": 31,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_04",
+        "face_shape": "face_02",
+        "hair_family": "hair_18",
+        "eye_shape": "eye_08",
+        "brow_shape": "brow_01",
+        "nose_shape": "nose_05",
+        "mouth_shape": "mouth_03",
+        "garment_structure": "garment_04",
+        "hair_front": "none",
+        "hair_back": "none",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_05",
+        "garment_palette": "garment_color_05",
+        "ears": "ear_07",
+        "glasses": "none",
+        "facial_hair": "beard_01",
+        "accessory": "none",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_04|face_02|hair_18|eye_08|brow_01|nose_05|mouth_03|garment_04",
+      "appearance_hash": "6041c05120eb8443d06787fa44624321daab7390222a3093a50fddf676105d16"
+    },
+    {
+      "character_id": "EMP-032",
+      "group": "active_staff",
+      "display_name": "員工32",
+      "appearance_profile_id": "AP-EMP-032",
+      "generation_nonce": 32,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_02",
+        "face_shape": "face_06",
+        "hair_family": "hair_16",
+        "eye_shape": "eye_05",
+        "brow_shape": "brow_03",
+        "nose_shape": "nose_05",
+        "mouth_shape": "mouth_05",
+        "garment_structure": "garment_03",
+        "hair_front": "hair_front_16",
+        "hair_back": "hair_back_10",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_05",
+        "garment_palette": "garment_color_05",
+        "ears": "ear_06",
+        "glasses": "glasses_05",
+        "facial_hair": "none",
+        "accessory": "accessory_08",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_02|face_06|hair_16|eye_05|brow_03|nose_05|mouth_05|garment_03",
+      "appearance_hash": "2c598d92a1ebb598e94f02b43d01718661d285dcede24ffffb3c2560264e335d"
+    },
+    {
+      "character_id": "EMP-033",
+      "group": "active_staff",
+      "display_name": "員工33",
+      "appearance_profile_id": "AP-EMP-033",
+      "generation_nonce": 33,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_02",
+        "face_shape": "face_04",
+        "hair_family": "hair_08",
+        "eye_shape": "eye_10",
+        "brow_shape": "brow_07",
+        "nose_shape": "nose_01",
+        "mouth_shape": "mouth_04",
+        "garment_structure": "garment_05",
+        "hair_front": "hair_front_08",
+        "hair_back": "hair_back_04",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_04",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_04",
+        "glasses": "glasses_05",
+        "facial_hair": "none",
+        "accessory": "accessory_06",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_02|face_04|hair_08|eye_10|brow_07|nose_01|mouth_04|garment_05",
+      "appearance_hash": "f497b32e8111c49ea16eed6d557d2003d19815fc407afac291c5dd5ee3e974ee"
+    },
+    {
+      "character_id": "EMP-034",
+      "group": "active_staff",
+      "display_name": "員工34",
+      "appearance_profile_id": "AP-EMP-034",
+      "generation_nonce": 34,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_05",
+        "face_shape": "face_04",
+        "hair_family": "hair_02",
+        "eye_shape": "eye_09",
+        "brow_shape": "brow_04",
+        "nose_shape": "nose_03",
+        "mouth_shape": "mouth_06",
+        "garment_structure": "garment_10",
+        "hair_front": "hair_front_02",
+        "hair_back": "hair_back_02",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_07",
+        "garment_palette": "garment_color_03",
+        "ears": "ear_04",
+        "glasses": "glasses_06",
+        "facial_hair": "none",
+        "accessory": "accessory_01",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_05|face_04|hair_02|eye_09|brow_04|nose_03|mouth_06|garment_10",
+      "appearance_hash": "1bfb925a9261d8c846754932b384e72e93bbb38716e9199e1c5cefa419bb043d"
+    },
+    {
+      "character_id": "EMP-035",
+      "group": "active_staff",
+      "display_name": "員工35",
+      "appearance_profile_id": "AP-EMP-035",
+      "generation_nonce": 35,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_07",
+        "face_shape": "face_12",
+        "hair_family": "hair_10",
+        "eye_shape": "eye_08",
+        "brow_shape": "brow_08",
+        "nose_shape": "nose_06",
+        "mouth_shape": "mouth_04",
+        "garment_structure": "garment_01",
+        "hair_front": "hair_front_10",
+        "hair_back": "hair_back_06",
+        "skin_palette": "skin_03",
+        "hair_palette": "hair_color_07",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_06",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "none",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_07|face_12|hair_10|eye_08|brow_08|nose_06|mouth_04|garment_01",
+      "appearance_hash": "4f3012efa88f462e912ce6e61867d5d1f81489f93949be19e3ca41e9d581de87"
+    },
+    {
+      "character_id": "EMP-036",
+      "group": "active_staff",
+      "display_name": "員工36",
+      "appearance_profile_id": "AP-EMP-036",
+      "generation_nonce": 36,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_01",
+        "face_shape": "face_06",
+        "hair_family": "hair_03",
+        "eye_shape": "eye_03",
+        "brow_shape": "brow_06",
+        "nose_shape": "nose_04",
+        "mouth_shape": "mouth_01",
+        "garment_structure": "garment_06",
+        "hair_front": "hair_front_18",
+        "hair_back": "hair_back_03",
+        "skin_palette": "skin_02",
+        "hair_palette": "hair_color_08",
+        "garment_palette": "garment_color_06",
+        "ears": "ear_01",
+        "glasses": "glasses_06",
+        "facial_hair": "beard_04",
+        "accessory": "accessory_08",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_01|face_06|hair_03|eye_03|brow_06|nose_04|mouth_01|garment_06",
+      "appearance_hash": "908fbf4796e6884fc5ab3fd17c8c88d291b8359b295dd956a377fbacfdb8e6ec"
+    },
+    {
+      "character_id": "EMP-037",
+      "group": "active_staff",
+      "display_name": "員工37",
+      "appearance_profile_id": "AP-EMP-037",
+      "generation_nonce": 37,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_07",
+        "face_shape": "face_03",
+        "hair_family": "hair_06",
+        "eye_shape": "eye_04",
+        "brow_shape": "brow_06",
+        "nose_shape": "nose_04",
+        "mouth_shape": "mouth_01",
+        "garment_structure": "garment_07",
+        "hair_front": "hair_front_06",
+        "hair_back": "hair_back_09",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_02",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_06",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_05",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_07|face_03|hair_06|eye_04|brow_06|nose_04|mouth_01|garment_07",
+      "appearance_hash": "4c71e364152c111844c36bfba9a0c5b6ba7bcf688cccc066cd939ccc82a75ab9"
+    },
+    {
+      "character_id": "EMP-038",
+      "group": "active_staff",
+      "display_name": "員工38",
+      "appearance_profile_id": "AP-EMP-038",
+      "generation_nonce": 38,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_08",
+        "face_shape": "face_08",
+        "hair_family": "hair_13",
+        "eye_shape": "eye_04",
+        "brow_shape": "brow_07",
+        "nose_shape": "nose_03",
+        "mouth_shape": "mouth_02",
+        "garment_structure": "garment_08",
+        "hair_front": "hair_front_13",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_03",
+        "hair_palette": "hair_color_07",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_08",
+        "glasses": "glasses_06",
+        "facial_hair": "beard_01",
+        "accessory": "accessory_02",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_08|face_08|hair_13|eye_04|brow_07|nose_03|mouth_02|garment_08",
+      "appearance_hash": "3425c3772b0bc36ff00a06c16ad9813d5818487f9d15a07713a2decbc8ade57a"
+    },
+    {
+      "character_id": "EMP-039",
+      "group": "active_staff",
+      "display_name": "員工39",
+      "appearance_profile_id": "AP-EMP-039",
+      "generation_nonce": 39,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_08",
+        "face_shape": "face_09",
+        "hair_family": "hair_06",
+        "eye_shape": "eye_04",
+        "brow_shape": "brow_02",
+        "nose_shape": "nose_05",
+        "mouth_shape": "mouth_02",
+        "garment_structure": "garment_09",
+        "hair_front": "hair_front_06",
+        "hair_back": "hair_back_09",
+        "skin_palette": "skin_03",
+        "hair_palette": "hair_color_08",
+        "garment_palette": "garment_color_03",
+        "ears": "ear_06",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_08",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_08|face_09|hair_06|eye_04|brow_02|nose_05|mouth_02|garment_09",
+      "appearance_hash": "2d541a1121631ef1584203c5f66990a3f154cbb4c4ba6038e4bedb19bbb24c16"
+    },
+    {
+      "character_id": "EMP-040",
+      "group": "active_staff",
+      "display_name": "員工40",
+      "appearance_profile_id": "AP-EMP-040",
+      "generation_nonce": 40,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_04",
+        "face_shape": "face_01",
+        "hair_family": "hair_14",
+        "eye_shape": "eye_03",
+        "brow_shape": "brow_08",
+        "nose_shape": "nose_02",
+        "mouth_shape": "mouth_03",
+        "garment_structure": "garment_04",
+        "hair_front": "hair_front_14",
+        "hair_back": "hair_back_03",
+        "skin_palette": "skin_06",
+        "hair_palette": "hair_color_04",
+        "garment_palette": "garment_color_02",
+        "ears": "ear_08",
+        "glasses": "glasses_06",
+        "facial_hair": "none",
+        "accessory": "accessory_08",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_04|face_01|hair_14|eye_03|brow_08|nose_02|mouth_03|garment_04",
+      "appearance_hash": "0aedae293989a34e06b85eb69761b0105623e8b74f4a1699c4c8f24167b046e6"
+    },
+    {
+      "character_id": "EMP-041",
+      "group": "active_staff",
+      "display_name": "員工41",
+      "appearance_profile_id": "AP-EMP-041",
+      "generation_nonce": 41,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_03",
+        "face_shape": "face_11",
+        "hair_family": "hair_20",
+        "eye_shape": "eye_02",
+        "brow_shape": "brow_04",
+        "nose_shape": "nose_01",
+        "mouth_shape": "mouth_06",
+        "garment_structure": "garment_03",
+        "hair_front": "hair_front_20",
+        "hair_back": "hair_back_05",
+        "skin_palette": "skin_01",
+        "hair_palette": "hair_color_07",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_06",
+        "glasses": "glasses_05",
+        "facial_hair": "none",
+        "accessory": "accessory_06",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_03|face_11|hair_20|eye_02|brow_04|nose_01|mouth_06|garment_03",
+      "appearance_hash": "f0468c08a84aa6aaed2f363deab5c65bcf1ac678278da23d5fe95accb0776f60"
+    },
+    {
+      "character_id": "EMP-042",
+      "group": "active_staff",
+      "display_name": "員工42",
+      "appearance_profile_id": "AP-EMP-042",
+      "generation_nonce": 42,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_03",
+        "face_shape": "face_01",
+        "hair_family": "hair_08",
+        "eye_shape": "eye_01",
+        "brow_shape": "brow_04",
+        "nose_shape": "nose_05",
+        "mouth_shape": "mouth_01",
+        "garment_structure": "garment_05",
+        "hair_front": "hair_front_08",
+        "hair_back": "hair_back_04",
+        "skin_palette": "skin_04",
+        "hair_palette": "hair_color_03",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_01",
+        "glasses": "glasses_02",
+        "facial_hair": "beard_02",
+        "accessory": "none",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_03|face_01|hair_08|eye_01|brow_04|nose_05|mouth_01|garment_05",
+      "appearance_hash": "eca3a159a991e0bd52331285e8bb555129017bef3e41aed40d2565f6fdab54da"
+    },
+    {
+      "character_id": "EMP-043",
+      "group": "active_staff",
+      "display_name": "員工43",
+      "appearance_profile_id": "AP-EMP-043",
+      "generation_nonce": 43,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_06",
+        "face_shape": "face_12",
+        "hair_family": "hair_15",
+        "eye_shape": "eye_02",
+        "brow_shape": "brow_04",
+        "nose_shape": "nose_02",
+        "mouth_shape": "mouth_03",
+        "garment_structure": "garment_10",
+        "hair_front": "hair_front_15",
+        "hair_back": "hair_back_01",
+        "skin_palette": "skin_05",
+        "hair_palette": "hair_color_06",
+        "garment_palette": "garment_color_05",
+        "ears": "ear_02",
+        "glasses": "glasses_05",
+        "facial_hair": "none",
+        "accessory": "accessory_05",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_06|face_12|hair_15|eye_02|brow_04|nose_02|mouth_03|garment_10",
+      "appearance_hash": "0aefc74d3e98dffe70142eb1dd9a138e163b52b1fffcd972b1722794ade58b5d"
+    },
+    {
+      "character_id": "EMP-044",
+      "group": "active_staff",
+      "display_name": "員工44",
+      "appearance_profile_id": "AP-EMP-044",
+      "generation_nonce": 44,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_01",
+        "face_shape": "face_02",
+        "hair_family": "hair_19",
+        "eye_shape": "eye_06",
+        "brow_shape": "brow_05",
+        "nose_shape": "nose_06",
+        "mouth_shape": "mouth_04",
+        "garment_structure": "garment_01",
+        "hair_front": "hair_front_19",
+        "hair_back": "hair_back_12",
+        "skin_palette": "skin_01",
+        "hair_palette": "hair_color_05",
+        "garment_palette": "garment_color_06",
+        "ears": "ear_07",
+        "glasses": "glasses_06",
+        "facial_hair": "beard_01",
+        "accessory": "none",
+        "shoe_type": "shoe_04",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_01|face_02|hair_19|eye_06|brow_05|nose_06|mouth_04|garment_01",
+      "appearance_hash": "784c2181322bfe8a3aa865933a122645d4ec122e86a5cc872b8a700d0b1e4b90"
+    },
+    {
+      "character_id": "EMP-045",
+      "group": "active_staff",
+      "display_name": "員工45",
+      "appearance_profile_id": "AP-EMP-045",
+      "generation_nonce": 45,
+      "recruit_batch_id": null,
+      "appearance": {
+        "body_type": "body_07",
+        "face_shape": "face_11",
+        "hair_family": "hair_09",
+        "eye_shape": "eye_05",
+        "brow_shape": "brow_01",
+        "nose_shape": "nose_03",
+        "mouth_shape": "mouth_07",
+        "garment_structure": "garment_02",
+        "hair_front": "hair_front_09",
+        "hair_back": "hair_back_06",
+        "skin_palette": "skin_01",
+        "hair_palette": "hair_color_03",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_05",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_01",
+        "shoe_type": "shoe_05",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_07|face_11|hair_09|eye_05|brow_01|nose_03|mouth_07|garment_02",
+      "appearance_hash": "861df220ae5651406edf9627940ab5f5ddfab9d3752a1a978345c66483e956c8"
+    },
+    {
+      "character_id": "REC-001",
+      "group": "recruit_candidates",
+      "display_name": "候選人01",
+      "appearance_profile_id": "AP-REC-001",
+      "generation_nonce": 46,
+      "recruit_batch_id": "review-batch-20261023-001",
+      "appearance": {
+        "body_type": "body_08",
+        "face_shape": "face_11",
+        "hair_family": "hair_11",
+        "eye_shape": "eye_04",
+        "brow_shape": "brow_03",
+        "nose_shape": "nose_02",
+        "mouth_shape": "mouth_06",
+        "garment_structure": "garment_08",
+        "hair_front": "hair_front_11",
+        "hair_back": "hair_back_11",
+        "skin_palette": "skin_03",
+        "hair_palette": "hair_color_04",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_01",
+        "glasses": "none",
+        "facial_hair": "none",
+        "accessory": "accessory_08",
+        "shoe_type": "shoe_01",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_08|face_11|hair_11|eye_04|brow_03|nose_02|mouth_06|garment_08",
+      "appearance_hash": "0abef9de803d1bcc6a53f9050285d2eefb01c2ef47c68034e747c9788786d2df"
+    },
+    {
+      "character_id": "REC-002",
+      "group": "recruit_candidates",
+      "display_name": "候選人02",
+      "appearance_profile_id": "AP-REC-002",
+      "generation_nonce": 47,
+      "recruit_batch_id": "review-batch-20261023-001",
+      "appearance": {
+        "body_type": "body_06",
+        "face_shape": "face_02",
+        "hair_family": "hair_09",
+        "eye_shape": "eye_07",
+        "brow_shape": "brow_05",
+        "nose_shape": "nose_04",
+        "mouth_shape": "mouth_08",
+        "garment_structure": "garment_06",
+        "hair_front": "hair_front_09",
+        "hair_back": "hair_back_06",
+        "skin_palette": "skin_03",
+        "hair_palette": "hair_color_05",
+        "garment_palette": "garment_color_01",
+        "ears": "ear_05",
+        "glasses": "glasses_04",
+        "facial_hair": "none",
+        "accessory": "accessory_04",
+        "shoe_type": "shoe_02",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_06|face_02|hair_09|eye_07|brow_05|nose_04|mouth_08|garment_06",
+      "appearance_hash": "f2b06dea342574bd064e5c7e1b4c20fab9af6b88cea590552c1f9cfc72230cf0"
+    },
+    {
+      "character_id": "REC-003",
+      "group": "recruit_candidates",
+      "display_name": "候選人03",
+      "appearance_profile_id": "AP-REC-003",
+      "generation_nonce": 48,
+      "recruit_batch_id": "review-batch-20261023-001",
+      "appearance": {
+        "body_type": "body_04",
+        "face_shape": "face_05",
+        "hair_family": "hair_06",
+        "eye_shape": "eye_06",
+        "brow_shape": "brow_05",
+        "nose_shape": "nose_06",
+        "mouth_shape": "mouth_07",
+        "garment_structure": "garment_07",
+        "hair_front": "hair_front_06",
+        "hair_back": "hair_back_09",
+        "skin_palette": "skin_01",
+        "hair_palette": "hair_color_03",
+        "garment_palette": "garment_color_04",
+        "ears": "ear_05",
+        "glasses": "none",
+        "facial_hair": "beard_03",
+        "accessory": "none",
+        "shoe_type": "shoe_03",
+        "expression": "neutral"
+      },
+      "structural_signature": "body_04|face_05|hair_06|eye_06|brow_05|nose_06|mouth_07|garment_07",
+      "appearance_hash": "17c555d87fa8868cbd3b7627549a95b1ea9a96d2867996c13acf58077f1de740"
+    }
+  ]
+}

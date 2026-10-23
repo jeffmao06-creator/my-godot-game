@@ -1,19 +1,19 @@
 {
-  "title": "律師事務所模擬器｜2D 像素美術與遊戲提案",
-  "version": "v0.1",
+  "title": "訴訟之神之路｜2D 像素美術與遊戲提案",
+  "version": "v0.2",
   "language": "zh-TW",
   "slides": [
     {
       "layout": "cover",
       "kicker": "GAME DESIGN × ART DIRECTION",
-      "title": "律師事務所\n模擬器",
+      "title": "訴訟之神之路",
       "subtitle": "把案子接下來，也要把自己保下來。",
       "image": "assets/01_taipei_office.png",
       "bullets": [
         "2D 像素經營遊戲",
         "遊戲概念・場景・人物・美術製作規格"
       ],
-      "footnote": "視覺提案 v0.1｜依既有 GDD／PRD 製作｜概念參考，非遊戲實機畫面"
+      "footnote": "視覺提案 v0.2｜已修正人物組裝、正交投影、HUD 與行動表｜概念參考，非遊戲實機畫面"
     },
     {
       "layout": "cards",
@@ -69,33 +69,12 @@
       "footnote": "設立金額暫採一次性支出；支付後金錢歸零仍會破產，須預留營運資金。"
     },
     {
-      "layout": "cards",
+      "layout": "table",
       "kicker": "03 / DAILY RHYTHM",
       "title": "一天四個決定",
-      "subtitle": "時間本身就是資源。",
-      "cards": [
-        {
-          "tag": "09:00",
-          "title": "早",
-          "body": "寫狀、摸魚、跳槽\n開業後可面試新員工"
-        },
-        {
-          "tag": "13:00",
-          "title": "下午",
-          "body": "寫狀、查資料、跳槽\n受僱可拍老闆馬屁"
-        },
-        {
-          "tag": "16:00",
-          "title": "傍晚",
-          "body": "寫狀、查資料、摸魚\n管理下一步的工作量"
-        },
-        {
-          "tag": "19:00",
-          "title": "下班",
-          "body": "健身、脫口秀、法律影片\n或只想睡覺"
-        }
-      ],
-      "footnote": "早餐 100 元：當日疲勞上限與當前值 +10，每日一次、不推進時段。"
+      "subtitle": "完整行動表：工作時段可跳槽，開業後三個工作時段均可面試。",
+      "footnote": "早餐限 09:00，每日一次：100 元、當前與上限 +10，不推進時段；馬屁僅受僱可選。",
+      "schedule_ref": "visual_spec.action_schedule"
     },
     {
       "layout": "split",
@@ -168,55 +147,24 @@
       "subtitle": "親切、忙碌，帶一點自嘲。",
       "image": "assets/01_taipei_office.png",
       "bullets": [
-        "固定斜俯視、直角格網的 2D 場景。",
-        "紙張、舊木、金屬與玻璃構成辦公日常。",
-        "輪廓清楚，細節集中於桌面與文件。",
-        "幽默來自工作選擇，不靠法庭奇觀。"
+        "正交斜俯視、直角格網；平行線不收束。",
+        "前後桌椅保持等大，窗框與櫃體不向消失點傾斜。",
+        "臺北以雨灰天空、濕窗與藍灰商辦為辨識。",
+        "以工作選擇與職場日常呈現幽默"
       ],
-      "footnote": "本提案圖像均為概念參考；正式素材須依清單重製、切圖與驗收。"
+      "footnote": "此頁與封面、HUD 共用修正版正交場景；不得以宣傳透視圖代替遊戲投影參照。"
     },
     {
       "layout": "palette",
       "kicker": "07 / COLOUR & MATERIAL",
       "title": "暖紙色，搭配冷調城市",
       "subtitle": "舒適的辦公室，也藏得住疲倦。",
-      "palette": [
-        {
-          "name": "暖紙色",
-          "hex": "#F4EFE4",
-          "use": "文件、頁面與留白"
-        },
-        {
-          "name": "深藍",
-          "hex": "#17323D",
-          "use": "輪廓、文字與夜色"
-        },
-        {
-          "name": "玉綠",
-          "hex": "#287F7C",
-          "use": "日常、選取與成長"
-        },
-        {
-          "name": "琥珀",
-          "hex": "#D9A648",
-          "use": "燈光與資金重點"
-        },
-        {
-          "name": "木棕",
-          "hex": "#936549",
-          "use": "家具與空間溫度"
-        },
-        {
-          "name": "警示紅",
-          "hex": "#BF5A50",
-          "use": "過勞與資金危機"
-        }
-      ],
       "bullets": [
         "光源方向與物件比例固定。",
         "09:00／13:00／16:00／19:00 以光線層區分，不重畫四套物件。"
       ],
-      "footnote": "色碼為基準色盤；正式像素素材需控制色階，避免模糊漸層與抗鋸齒邊。"
+      "footnote": "色名與色碼共用 art/visual_style.json；MD／CSV 逐項一致，輔助色另外列示。",
+      "palette_ref": "visual_spec.style.palette"
     },
     {
       "layout": "cards",
@@ -246,31 +194,31 @@
       "layout": "image_full",
       "kicker": "09 / TAIPEI HEADQUARTERS",
       "title": "臺北本所：可以經營的空間",
-      "subtitle": "主角工作區・諮詢區・員工座位・卷宗設備",
+      "subtitle": "主角工作區・諮詢區・員工座位・雨灰窗景",
       "image": "assets/01_taipei_office.png",
-      "footnote": "場景氣氛與比例參考｜概念圖不是十五席最終平面圖；正式佈局需依格網與容量製作。"
+      "footnote": "正交投影參照：平行線保持平行、近遠物件等大；容量與動線另以格網驗收。"
     },
     {
       "layout": "image_full",
       "kicker": "10 / THREE CITIES",
       "title": "同一間事務所，三種城市氣味",
-      "subtitle": "臺北灰藍天際線｜臺中暖日與綠意｜高雄港灣與海風",
+      "subtitle": "臺北雨灰濕窗｜臺中暖日與綠意｜高雄港灣與海風",
       "image": "assets/03_city_branches.png",
-      "footnote": "共用桌椅、文件櫃與設備模組，以窗景、色調與局部物件區分城市。概念參考。"
+      "footnote": "三城市共用正交投影與物件尺度；差異來自窗景、天候與光色，不改成透視鏡頭。"
     },
     {
       "layout": "image_full",
       "kicker": "11 / CAST",
-      "title": "人物先看得出職務，再看細節",
-      "subtitle": "年輕主角・資深律師・老闆・新進律師・客戶",
-      "image": "assets/02_character_sheet.png",
-      "footnote": "男女主角只有外觀差異。大圖為服裝人設、小圖為比例參考；實際依 32×48 三頭身重製，非可直接切圖素材。"
+      "title": "48 個外觀身分，從圖層組裝",
+      "subtitle": "45 名在職員工＋3 名招募候選，精靈與肖像共用 AppearanceProfile。",
+      "image": "../art/appearance_proof/48_roster_wide.png",
+      "footnote": "分層結構驗證原型，非最終遊戲美術；臉型、髮型、衣著與身形共同辨識，存讀不重抽。"
     },
     {
       "layout": "table",
       "kicker": "12 / CHARACTER PRODUCTION",
-      "title": "一個角色，統一所有動作",
-      "subtitle": "清楚的輪廓，搭配可重用的動畫規格。",
+      "title": "肖像與精靈，共用外觀身分",
+      "subtitle": "45 名在職員工與 3 名招募樣本，要能在同一份名單中辨認。",
       "table": {
         "headers": [
           "項目",
@@ -278,32 +226,32 @@
         ],
         "rows": [
           [
-            "邏輯畫布",
-            "角色 32×48 px；腳點固定 (16,44)"
+            "精靈畫布",
+            "32×48 px，腳點 (16,44)，四方向一致"
           ],
           [
-            "方向",
-            "四方向；髮型與配件避免左右混亂"
+            "精靈分層",
+            "身形、頭部、前後髮、服裝、配件"
           ],
           [
-            "基本狀態",
-            "待機、走路、寫狀、交談、疲倦"
+            "肖像分層",
+            "臉型、五官、前後髮、衣領、配件、表情"
           ],
           [
-            "輸出",
-            "透明 PNG／sprite sheet，影格表另附"
+            "身分保存",
+            "共用 AppearanceProfile／部件 ID，存讀不重抽"
           ],
           [
-            "共用原則",
-            "同體型共用動作骨架與比例"
+            "動作相容",
+            "待機、走路、寫狀、交談、疲倦逐層校正"
           ],
           [
-            "驗收",
-            "不跳錨點、不切頭髮、無半透明毛邊"
+            "辨識驗收",
+            "45＋3 結構組合不重複，不只比較髮色與服裝色"
           ]
         ]
       },
-      "footnote": "實際影格、角色與變體數量，以附件美術資源清單為準；概念稿不視為完成動畫。"
+      "footnote": "部件數、基礎姿勢、相容矩陣與樣本清單分開驗收；理論組合數不等於已完成素材數。"
     },
     {
       "layout": "cards",
@@ -362,28 +310,29 @@
       "layout": "ui_mock",
       "kicker": "15 / INTERFACE",
       "title": "先看風險，再做選擇",
-      "subtitle": "日期、金錢、疲勞與明早負荷必須一眼可見。",
+      "subtitle": "首日教學完成、首案剛分派；未發生消費、月結或主要行動。",
       "image": "assets/01_taipei_office.png",
       "bullets": [
-        "行動前預覽費用與消耗。",
-        "案件、員工、財務與排程快速切換。",
-        "20 個存檔位共用同一套槽位元件。"
+        "首案在晨間後分派",
+        "尚無消費或行動",
+        "今日 0／明早 0.9"
       ],
-      "footnote": "介面為排版概念示意，非遊戲截圖；繁體中文由正式字型排版，不依賴生成圖內文字。"
+      "footnote": "體力 25、商人＋人氣王，減耗倍率 0.9；新案不回扣今日晨間，明早才扣 1×0.9。",
+      "hud_ref": "visual_spec.hud_scenario"
     },
     {
       "layout": "image_right",
-      "kicker": "16 / PROPS & EVENT MOODS",
+      "kicker": "16 / PROPS & ICONS",
       "title": "用小物件，讓工作有故事",
-      "subtitle": "同一套素材，支撐日常、事件與結局。",
+      "subtitle": "辦公物件與介面圖示，共用視覺語言。",
       "image": "assets/04_props_and_moods.png",
       "bullets": [
-        "辦公：桌椅、電腦、文件櫃、影印機。",
-        "日常：早餐、飲料、健身與回家休息。",
-        "事件：客戶諮詢、媒體邀訪、摸魚。",
-        "結局：健康紅燈退休、破產回家。"
+        "辦公：桌椅、電腦、文件櫃與影印機",
+        "日常：咖啡、公事包、文件與植栽",
+        "介面：資金、疲勞、日曆與存讀檔",
+        "狀態：能力成長、特性等級與時間提示"
       ],
-      "footnote": "物件與情緒小稿為造型參考；兩種結局的指定完整文案保留於 PRD。"
+      "footnote": "物件與圖示為造型參考；事件場景另製，兩種結局完整文案保留於 PRD。"
     },
     {
       "layout": "split",
@@ -408,7 +357,7 @@
       "layout": "table",
       "kicker": "18 / ART INVENTORY",
       "title": "每個畫面，都有可追蹤的交付",
-      "subtitle": "113 個製作項目｜179 個分類基底；變體與影格另外計算。",
+      "subtitle": "分層部件、外觀樣本與動作相容性分開計數。",
       "table": {
         "headers": [
           "類別",
@@ -423,13 +372,13 @@
           ],
           [
             "人物",
-            "主角、律師、老闆、客戶、事件角色",
-            "比例、方向、錨點、角色辨識"
+            "精靈 {sprite_families} 層／{sprite_shapes} 造型\n肖像 {portrait_families} 層／{portrait_shapes} 造型",
+            "45 在職＋3 候選結構辨識"
           ],
           [
             "動畫",
-            "待機、走路、寫狀、交談、疲倦",
-            "影格、循環、腳底一致"
+            "身形基礎姿勢＋各部件相容圖層",
+            "逐方向、逐動作、錨點一致"
           ],
           [
             "物件",
@@ -448,7 +397,8 @@
           ]
         ]
       },
-      "footnote": "18 人物基底、704 動畫影格槽位、108 肖像表情輸出；詳列於附件。正式素材皆待製作，本次不含音訊。"
+      "footnote": "清單規劃 {work_items} 工作項目、{drawing_bases} 繪製基底，均待製作；配置、調色與控制表不當作新圖。",
+      "inventory_ref": "visual_spec.inventory_source"
     },
     {
       "layout": "split",
@@ -459,7 +409,7 @@
         {
           "tag": "CONCEPT",
           "title": "先確認長相",
-          "body": "四張原創概念圖：\n臺北場景、人物、三城、物件。\n用於確認氣氛與造型，非完成遊戲素材。"
+          "body": "正交臺北場景、城市與服裝參考。\nNPC 以分層身分系統設計。\n概念圖仍須按規格製作。"
         },
         {
           "tag": "PRODUCTION",
@@ -467,7 +417,7 @@
           "body": "場景 640×360；格網 32×32。\n角色 32×48，透明底 PNG。\n統一錨點、命名、逐格表與驗收。"
         }
       ],
-      "footnote": "最近鄰取樣、整數倍縮放；場景參考圖的原始像素尺寸不等於正式遊戲邏輯尺寸。"
+      "footnote": "場景投影先驗收；人物組裝須保留部件清單與相容性，不把整張人設板當作精靈表。"
     },
     {
       "layout": "flow",
@@ -503,14 +453,174 @@
       "kicker": "21 / READY TO HAND OFF",
       "title": "用同一套規格，開始製作",
       "subtitle": "概念確認方向，清單支持逐項發包與驗收。",
-      "image": "assets/02_character_sheet.png",
+      "image": "assets/05_portrait_layer_concept.png",
       "bullets": [
-        "視覺簡報 PDF：檢閱、分享與提案。",
-        "可編輯 Word：調整文字與追加註記。",
-        "四張 PNG 概念圖：場景、人物與物件。",
-        "美術清單 Markdown／CSV：可排序、追蹤與派工。"
+        "PDF 簡報：檢閱、分享與提案",
+        "Word 文件：可編輯文字與註記",
+        "PNG 參考：場景、人物與分層",
+        "MD／CSV 清單：排序與追蹤派工"
       ],
-      "footnote": "本次不含音樂與音訊製作。所有新增數值與待確認解讀，沿用 PRD 的建議標記。"
+      "footnote": "肖像分層圖為組裝方向概念，不是可交付圖集；原八人圖僅供服裝氣質參考。本次不含音樂與音訊製作。"
     }
-  ]
+  ],
+  "visual_spec": {
+    "action_schedule": [
+      {
+        "id": "write",
+        "label": "寫書狀",
+        "slots": [
+          "09:00",
+          "13:00",
+          "16:00"
+        ],
+        "roles": [
+          "employee",
+          "associate",
+          "owner"
+        ]
+      },
+      {
+        "id": "loaf",
+        "label": "摸魚",
+        "slots": [
+          "09:00",
+          "16:00"
+        ],
+        "roles": [
+          "employee",
+          "associate",
+          "owner"
+        ]
+      },
+      {
+        "id": "research",
+        "label": "查找資料",
+        "slots": [
+          "13:00",
+          "16:00"
+        ],
+        "roles": [
+          "employee",
+          "associate",
+          "owner"
+        ]
+      },
+      {
+        "id": "flatter",
+        "label": "拍老闆馬屁",
+        "slots": [
+          "13:00"
+        ],
+        "roles": [
+          "employee"
+        ]
+      },
+      {
+        "id": "hire",
+        "label": "面試新員工",
+        "slots": [
+          "09:00",
+          "13:00",
+          "16:00"
+        ],
+        "roles": [
+          "owner"
+        ]
+      },
+      {
+        "id": "job_hop",
+        "label": "跳槽",
+        "slots": [
+          "09:00",
+          "13:00",
+          "16:00"
+        ],
+        "roles": [
+          "employee",
+          "associate"
+        ]
+      },
+      {
+        "id": "gym",
+        "label": "健身",
+        "slots": [
+          "19:00"
+        ],
+        "roles": [
+          "employee",
+          "associate",
+          "owner"
+        ]
+      },
+      {
+        "id": "comedy",
+        "label": "看脫口秀",
+        "slots": [
+          "19:00"
+        ],
+        "roles": [
+          "employee",
+          "associate",
+          "owner"
+        ]
+      },
+      {
+        "id": "lecture",
+        "label": "看法律講座影片",
+        "slots": [
+          "19:00"
+        ],
+        "roles": [
+          "employee",
+          "associate",
+          "owner"
+        ]
+      },
+      {
+        "id": "sleep",
+        "label": "我只想睡覺",
+        "slots": [
+          "19:00"
+        ],
+        "roles": [
+          "employee",
+          "associate",
+          "owner"
+        ]
+      }
+    ],
+    "hud_scenario": {
+      "id": "tutorial_first_case_assigned_before_first_action",
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "slot": "09:00",
+      "role": "employee",
+      "role_label": "受僱律師",
+      "starting_cash": 50000,
+      "transactions": [],
+      "base_energy_cap": 100,
+      "stamina": 25,
+      "traits": [
+        "被律師耽誤的商人",
+        "人氣王"
+      ],
+      "sleep_bonus": 0,
+      "breakfast_purchased": false,
+      "performed_main_actions": 0,
+      "cases": [
+        {
+          "id": "tutorial_case_01",
+          "assigned_today_after_morning": true
+        }
+      ],
+      "morning_chargeable_case_ids": [],
+      "tomorrow_chargeable_case_ids": [
+        "tutorial_case_01"
+      ],
+      "narrative": "新遊戲首日教學完成、第一件公司案件分派後；尚未吃早餐、進行主要行動、交易或月結。"
+    },
+    "style_source": "../art/visual_style.json",
+    "inventory_source": "../art/ART_ASSET_LIST.csv"
+  }
 }

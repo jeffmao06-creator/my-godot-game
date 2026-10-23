@@ -1,37 +1,177 @@
 {
-  "version": "v0.1",
-  "purpose": "AI 生成的美術概念參考，非最終遊戲截圖或可直接切圖的精靈表",
-  "date": "2026-10-21",
+  "version": "v0.2",
+  "purpose": "概念圖來源、採用界線與退回紀錄；不等同正式遊戲素材",
+  "date": "2026-10-23",
   "tool": "image_gen.imagegen",
+  "style_registry": "../art/visual_style.json",
   "notes": [
-    "概念圖與簡報分開保留；未改動生成原圖。",
-    "正式遊戲素材以 ART_ASSET_LIST 的尺寸、錨點、影格與驗收條件重製。",
+    "以實際圖像目視檢查平行格線、桌面、窗框與雨窗；提示本身不作通過證據。",
+    "概念稿保留完整比例；實際像素尺寸不是正式640×360遊戲地圖，需依清單重製。",
+    "所有正式精靈、透明肖像層、逐格動畫、場景席位與遮擋仍待製作驗收。",
+    "角色近景是服裝氣質參照；45+3人的圖層資料與結構驗證另見appearance_manifest.json及appearance_proof。",
     "音樂與其他音訊不在本次交付範圍。"
   ],
   "assets": [
     {
       "file": "assets/01_taipei_office.png",
-      "description": "臺北事務所黃昏場景",
-      "prompt": "Create a polished art-director concept illustration for a Taiwanese indie management game titled internally Law Firm Simulator. It must be true 2D PIXEL ART with sharply aligned pixel clusters, a restrained 32-color palette, no smooth digital painting, no 3D render, no isometric perspective. Landscape 16:9. Show a charming but weary small Taipei lawyer office as a straight-on cutaway room in slight top-down RPG perspective: warm amber desk lamps, muted teal cabinets, dusty paper stacks, beige files, old green desk chairs, compact photocopier, three small desks, one consultation table, two human characters at 32x48 sprite scale, a weary young lawyer with pale shirt and rolled-up sleeves and a navy-suited coworker, crisp readable silhouettes. Tall windows show Taipei dense midrise city blocks at blue dusk with a distant recognizable Taipei 101 silhouette. Subtle story: files and inbox overflow, budget-ledger notebook and coffee. Cozy but stressful, dry workplace humor, financial and energy management mood. Large office environment dominates, uncluttered margins, very deliberate tile-based composition, production concept art quality for an indie game pitch deck. NO text, NO letters, NO numbers, NO fake Chinese glyphs, NO UI overlay, NO logos, no legal-courtroom fighting, no scales of justice giant symbol. The work is an original game environment concept reference, not a screenshot of an existing game.",
-      "status": "概念參考完成；正式遊戲素材待製作"
+      "description": "臺北雨灰正交辦公室；取代舊收束透視夕陽稿",
+      "generation_date": "2026-10-23",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. Wide landscape full single-room Taipei law office floorplan. Full floor is a constant-size square grid. Four wood rectangular desks in a balanced 2x2 arrangement, green chairs, teal cabinets, flat rectangular consultation table, printer, paper files and plants. Top flat back-wall strip has THREE EXACT RECTANGULAR windows with parallel vertical mullions; outside is a FLAT FRONT-ELEVATION Taipei skyline in gray rain with subtle distant101, visible vertical raindrops and wet-glass streaks. Overcast gray-blue daytime, warm small desk lamps, no sunny orange sunset. Two tiny same-size lawyer sprites at different rows, pale shirts. Make it clearly a usable orthographic scene DESIGN REFERENCE rather than an atmospheric perspective illustration. Page-aligned floor grid must stay undeformed.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "c01770e831c797089cfc4acc2217ef52a40164f59145d8b28713984c6fe1d4e5"
     },
     {
       "file": "assets/02_character_sheet.png",
-      "description": "人物與服裝設定",
+      "description": "八人服裝與氣質參考；並非NPC基底或職級固定身體庫",
       "prompt": "Create a professional 2D PIXEL ART CHARACTER DESIGN SHEET for an original Taiwanese law office management game. Landscape16:9, consistent crisp nearest-neighbor pixel clusters, limited warm beige/navy/teal/amber palette, no vector art, no smooth painting, no 3D, no isometric. Light warm ivory flat background and a careful grid with generous empty margins. Eight full-body readable RPG-style pixel-character concepts, arranged in two rows of four, each character about32x48 logical pixels and enlarged sharply. Cast: young male protagonist with rolled-up pale shirt,young female protagonist with similar professional shirt and trousers,older law-firm boss in darknavy suit with graying temples,energetic female senior lawyer in mutedteal blazer,young male junior lawyer with round glasses,fit female lawyer with tied hair,ordinary client with paper envelope,bald friendly male lawyer with briefcase. Gender is cosmetic: male and female protagonists have equally professional proportions and capable demeanor. Each figure on a small muted-beige ground shadow, consistent height scaling, different silhouettes and hairstyles, no weapons. Include small additional side and rear sprite studies beside only the two protagonists, and a compact palette swatch strip. NO text,NOlabels,NOletters,NO fakeChinese,NO logos,NO UI. Focus on coherent production-reference sprite design, use intentional visible square pixels.",
-      "status": "概念參考完成；正式遊戲素材待製作"
+      "status": "保留服裝概念；NPC改用分層資料與獨立圖層",
+      "generation_date": "2026-10-21",
+      "sha256": "aaf8b1bc644a9bb02632284deea961fb02c38587c36dd9330d06f61181064e02"
     },
     {
       "file": "assets/03_city_branches.png",
-      "description": "臺北、臺中、高雄分所",
-      "prompt": "Create an art direction environment sheet for a 2D PIXEL ART Taiwanese law firm management game, landscape16:9. Three equal-width environment panels side by side with slim cream gutters, consistent straight-on cutaway/slight-top-down RPG perspective (not isometric), sharp square pixel clusters at640x360 game-canvas style, not smooth painting or3D. The panels depict three distinct law offices with the same modular wooden desk/chair/filecabinet tile kit: LEFT Taipei headquarters in blue/amber, denser tall skyline, subtle Taipei101 silhouette, six workstations and a boardroom; MIDDLE Taichung branch in warm brick/olive, broad afternoonwindows, planted terraces and distant modern civic architecture, four workstations; RIGHT Kaohsiung branch in terracotta/sea-teal, harbor cranes and waterfront behind windows, four workstations and bright tropical sky. Shared visual language, readable small human pixel sprites, balance officegrowth aspiration with mundane filework. Architecture/windowview/lighting distinguish cities, no city maps or complicated outdoors. Restrained cohesive colorpalette, no text, no letters, no numbers, no glyphs, no brands, no UI overlay. Beautiful pitch-deck concept reference.",
-      "status": "概念參考完成；正式遊戲素材待製作"
+      "description": "三城市平行格線；臺北雨窗、臺中柔日、高雄港灣",
+      "generation_date": "2026-10-23",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. Three equal-width office tilemap panels side by side with narrow cream gutters, same exact scale, same flat camera and same desk kit. Each has rectangular floor grid and a flat back-wall window strip, no side-wall perspectives. LEFT Taipei office has coolgray RAINY overcast exterior, rain streaks on window, flatdensecity101silhouette. MIDDLE Taichung office has softcloudydaylight, greenerplanting, warmcreamwalls, flatfront-elevationcitysilhouette. RIGHT Kaohsiung office has seawatertealwindowlight, flat harborcranesfrontsilhouettes, brightersoftsky. Four matching desks perpanel, same-sizechairs andsprites everywhere. Avoid large sweeping skyline perspective orgoldenTaipeisunsets; this is a modular GAMEPLAY CAMERA comparison sheet.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "6e67802cc4e486d48d4f739c0d77d352238ce53cf1a6115910daef48f1e189a6"
+    },
+    {
+      "file": "sponsor/assets/01_office_day_afternoon_night.png",
+      "description": "同一臺北辦公格局的早晨／午後／雨夜概念",
+      "generation_date": "2026-10-23",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. THREE TIME-OF-DAY PANELS with the EXACT SAMETaipei office tilemap geometry andsamescale, narrowcreamgutters. Flatbackwall atsameheight, rectangularwindows, samefourdesks positions, samealignedsquarefloorgrid, samecabinets/plants, noceiling orsidewalls. LEFT morning coolgrayovercast rain, coworkersarriving,same-sizefigures. MIDDLE afternoon STILLgrayrain sky, slightlywarmerinteriorlamps, morefiles/consultationbut identicalarchitecture. RIGHT night rainybluecitywindowflatfrontsilhouette,warmdesklamp, onetiredlawyer. All three views have parallelhorizontal/verticalfurniture edges andconstanttilesizes. Color/light/activitychangesonly, not camera/perspective. Make actualorthogonalgamemaps with crispensiblepixelart, not three paintings ofrooms.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "4ca38393c073222d9e6a1074a8b8f7dbe7b7ecbe2502128a6af1507ecb25ce7d"
+    },
+    {
+      "file": "sponsor/assets/02_home_after_work.png",
+      "description": "同一住家回家／閱讀／睡眠三時段",
+      "generation_date": "2026-10-23",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. Three-panel same smallTaipei HOME game-tilemap, exactsamegeometry acrosspanels. Rectangularflatroomfootprint andconstant-sizefloorgrid. Fixedkitchenetteleft,entrytop-left,tealsofa middle,rectangularwooddiningtablelowerleft,bedright,flatbackwallwindowsattop. No receding sidewalls orangledceiling. Identicalfrontfurniturewidthsnear/far. LEFT raingrayeveningarrivinghomewithbriefcaseandhungnavysuit, MIDDLE warmindoorlamplights andreadingon sofa, RIGHT navyquietnight sleepinginbed. Citybeyondwindowisflatsilhouettewithvisiblegentlerain. Cozyhumanscale, plates/books/slippers/plantdetails. Pureparallelorthographic tilemaproom, not residentialperspectivepainting.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "dfbecaa974848f1470019891cf686fb0b0bb25a47a3b6c5f80c165a468ca08d0"
+    },
+    {
+      "file": "sponsor/assets/07_office_growth.png",
+      "description": "受僱、合署與開業正交空間方向",
+      "generation_date": "2026-10-23",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. Career growth comparison THREE EQUALPANELS: leftsmallcrowdedemployerroom3desks, middleindependentassociatecorneronepersonaldeskandrectangularconsultationtable, rightlargerownerfirm8desks. Samecamera, exactsameconstant-squarefloorgrid and desk/sprite scale acrosspanels, largerfirmshowsmorefloorarea notsmallerfigures. Flatbackwallwindowsat topofeach, rain-grayTaipeisky andwetglassinallviews. Desktops horizontal/verticalrectangles, chairswithno size falloff, nosidewallceilingsandnoperspectivevanishingpoint. Softwarmdesklights within coolrainyday. Compositionlooks like three editable2Dtilemaps ratherthanthree perspectiveroomillustrations.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "f34fcca23d539e28521793d030a01608312c6b79b4d32c3842d67b29fec1f2e8"
+    },
+    {
+      "file": "assets/05_portrait_layer_concept.png",
+      "description": "分層肖像視覺方向；不可直接切圖組裝",
+      "generation_date": "2026-10-23",
+      "prompt": "Create a clear PIXEL ART MODULAR PORTRAIT DESIGN BOARD on warm ivory background, landscape16:9, precise geometricgrid and generousspacing, originalTaiwanlawofficegame. LEFT half separatealignedlayer examples arrangedintidyrows: 12genuinelydifferentface/headshapes(allwithneutralfeatures,diverseadultages),a rowof8differentfront-hair silhouettes includingbald/cropped/curly/bob/long/ponytail/sidepart/graywave, arowofseparateglasses andfacialhair/accessoryoptions, arowofdifferentgarmentcollars/blazers/sweatervests/bodywidths. RIGHT half twelveCOMPOSED96x96-stylepixelportraits in3rows4columns, visiblydistinctfaces+hair+wardrobe,neverjustrecolor,professionalmenandwomenequalcapability, nofixedjobsenioritytiedtobody. Showlayerstacksasoverlappingtransparent-lookingframeswithoutwords, technicalstyleguidenotfashionfulllengthsheet. Crispnearest-neighborpixelclusters, navytealcreamburgundycontrolledpalette. NOtext, noletters, nonumbers, no fakeChinese. This is a VISUAL CONCEPT of separate compositablelayers, not an actual validated production spritesheet.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "15770d486aa6f4b51ce9468a4eb943cec16277394f10e0561a243a851c5c2efa"
+    },
+    {
+      "file": "sponsor/assets/05_after_work_city_life.png",
+      "description": "健身、咖啡與便利店平行格線生活參照",
+      "generation_date": "2026-10-23",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. THREE EVENING LEISURE GAME ROOM PANELS sidebyside, same orthographic game camera with constant sized square floor tiles, near/far sprites allsameheight. LEFT tinyneighborhoodgym withsquaretiles,rectangular mats, wall-mounted dumbbellrack andstationarybike,younglawyerspriteexercising. MIDDLE compact late-nightcafe withrectangulartablesandrainy rectangularwindowsaboveflatwallstrip, alawyerreadingwithcoffee. RIGHT convenience storecorner withsquare shelves,straightfridges andcounter, oneprotagonistbuyingsupper. All Taipei rainnight andwarmsoftinteriorlights. No exteriorstreetperspective, nocameraanglechange, nosidewallorceilings, no convergingfloortiles. Cozyafterworkeverydayhumanstory, noHUDtext. Threecompleteflatgameplaymaprooms, notcinematicphotograph.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "0d364b0242209daac60d34094146bea9ea708f7a648f587384fad8379c837cc0"
+    },
+    {
+      "file": "sponsor/assets/08_visibility_and_partnerships.png",
+      "description": "採訪、節目與講座正交事件參照；移除等角假遊戲螢幕",
+      "generation_date": "2026-10-23",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. THREE STORY EVENT ROOM PANELS sidebyside, all the same orthographic flatRPGgameplaycamera andsamescale squaregrid. LEFT small interviewcorner,twosamesizelawyerspritesinaudiencechairsandreporterwithmicrophone,flatwindowbackdropinTaipeigrayrain. MIDDLE simple television talk-showset,threeidentical-scaleprofessionalspritesrectangularchairs,straightbluewallpanelsandfloorgrid,flatlampsprite. RIGHT community seminarroom,lawyerspritebystraightrectangularlectern,tworowssamesizeaudiencechairs,simpleflatwallandblankprojectorscreen. NOdiagonalscreenpicture, NOperspectivemap, NOisometricpicture. Allfurniturepage-alignedrectangularfootprints, nopodiumtrapezoids, noceilingornarrowingwalls. Modestnavytealamber, sincerecommunity/legalpubliceducationatmosphere. No logos, brands or sponsorshipclaims, no illegiblewriting. MustlooklikeparallelorthographicRPGeventmaps.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "9b0879706c74997ef9b44b0630e2f22cd7aef060d8851f33d083ec3d4e45e796"
+    },
+    {
+      "file": "sponsor/assets/06_clients_and_stories.png",
+      "description": "三種客戶諮詢；固定矩形桌與雨窗",
+      "generation_date": "2026-10-23",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. THREE CLIENT CONSULTATION ROOM PANELS side by side with narrowcreamgutters. Identical Taipei rainyconsultationofficegame-mapgeometry andsamescaleinallpanels: straightflatbackwallat top, rectangularrainwindow, straightfilingcabinet, constant-size squaretilefloor, one page-aligned RECTANGULARwoodentableinthesameposition, equal-sizechairsandlawyersprites. LEFT adultclientwithfolderanxiouslydiscussingallegedfraud,middlesingleparentclientwithsmallchilddiscussingafamilysituation,rightclientwearingsimplearmslingdiscussingcaraccident. Theseareempatheticeverydaycivilianstories, noaction, noinjurygore. Allcharactersadult/exceptrightsmallchildwhereappropriate, capabilitiesnogendercoded. TablesmustNOTbetrapezoids, nobigforegroundheadsorshrinkingbackgroundfigures. Clientswearclearvariedclothes/bodies/hair, lawyerissteadyprofessional. FormalRPGmapcutawaynotclose-upperspectivecinematic. No sidewallsorceilings, nowarmgoldensunset, outsideallgrayblueTaipeirain. Tinyenvelopes,papercups,tissueboxandplantdetails.",
+      "status": "採用為概念參照；已目視檢查；正式像素層／遊戲場景待製作",
+      "sha256": "0bf46d2375ef6715e90c7787c4a928df70eeb72e70fd968a50bb3794ca936d90"
     },
     {
       "file": "assets/04_props_and_moods.png",
-      "description": "物件、圖示與事件氣氛",
-      "prompt": "Create a polished ASSET STYLE GUIDE SHEET for a2Dpixel-art Taiwanese law firm managementgame, landscape16:9 on ivorycreambackground. Allart must have crisp intentional square pixels, visible nearest-neighbor enlargement and consistent smallsprite scale; no smoothpainting,novector,no3D,noisometric. Clean evenlyspaced groups with navythin divider lines, lots ofnegative space. Tophalf office props: straight-on wooden desk,green deskchair,teal filingcabinet,photocopier,computerwithdarkmonitor,stacksof beige casefolders,desk lamp,coffeecup,pottedplant,roundconsultationtable,wallclock,briefcase. Bottomleft a small 3x4grid of pixelicons for wallet,energybattery,casefolder,calendar,lawbook,speechbubble,dumbbell,star,four-tiergold/silver/bronzetraitbadges and savefloppydisk. Bottomright four scene-mood mini vignettes: amberoverworknight atdesk,warmlit apartment bed,quietgymcorner,emptyoffice with movingbox. Same navytealamber palette as a Taipei legaloffice game. Artreferenceforproductionkit, not final slicedgameassets. NOtext, NOlabels, NOfakeChinese, NOletters, NOnumbers, NOlogos, NOmusicicons, NOaudioelements.",
-      "status": "概念參考完成；正式遊戲素材待製作"
+      "description": "正面辦公物件與圖示；沿用舊檔名但已移除環境小稿",
+      "generation_date": "2026-10-23",
+      "initial_prompt": "Original2D PIXEL ART ASSET STYLEBOARD on flatwarmpaperivory,landscape16:9withtidygrid. ThisisONLYISOLATEDPROPSandSMALLICONS, NOroomvignettes, NOenvironmentbackgrounds, NOperspectivescene. Crispsquarepixels, flatorthographicRPGassetview, restrainednavytealwoodamberredpalette. TOPtwo-thirds threeevenrows offourisolatedofficepropsonplainbackground: rectangulardeskwithpage-alignedrectangulartop(nottrapezoid),greenofficechair,bookcabinet,filingcabinet,photocopier,flatcomputerandkeyboard,casefolderstack,smallcasedossier,desk-lamp,pottedplant,coffeecup,briefcase. Everyobjecthasstraightparallelhorizontal/verticaledgesandconsistentscale;nomirroringorrecedingwalls. BOTTOMthirdsmall4x4iconswithgenerousspacing:wallet,energybattery,casefolder,calendar,lawbook,speechbubble,dumbbell,popularitystar,goldtraitbadge,silvertraitbadge,bronzetraitbadge,savedisk,clock,breakfastbag,officekey,smallplainhouseicon. Colorsusewarmivory#F4EFE4,deepnavy#17323D,teal#287F7C,amber#D9A648,woodbrown#936549,warningred#BF5A50. Thinlayoutdividersandlotsofbreathingspace, actualpixelclustersnotvector. NOlabels,NOletters,NOnumbers,NOfakeChinese,NOlogos,NOmusicalnotes,NOaudioicons. ProductionstyleREFERENCEonly,notaslicedproductionatlas.",
+      "edit_prompt": "Edit this pixel-art prop reference board to enforce STRICT ORTHOGRAPHIC FRONT-ELEVATION geometry. Keep the clean grid, pixelartstyle, props andicons, paletteandflatpaperbackground. CRITICAL TOP-LEFT DESK: remove the current trapezoid tabletop completely and draw a flat horizontal RECTANGLE of EXACTLY equal back/front width, with parallel vertical left/rightedges, seen from direct front elevation. NO angled top edges, NO visible trapezoid, NO diagonals on rectangular furniture. Give it only a narrow rectangular topstrip above straight legs anddrawers. CRITICAL CENTER-RIGHT CASE DOCUMENTS: replace the angled teal document lying on its side with an upright front-facing rectangular cream folder with parallelvertical/horizontaledges. For ALL otherprops use straight-on orthographic frontview, flatfrontelevation, no foreshortening or depthconvergence. Keep icons,squares,chair,printer,cabinets,books,coffee,bag,plantreadable, independent onpaperbackground. Do not add rooms,scenevignettes,text,numbers,labels,logos ormusicelements. Pixelartstyleguide only, not finished slicedatlas.",
+      "edit_input_generation_id": "exec-2eb60aa9-3547-413d-a7fc-cca40473551d",
+      "status": "採用修正後正面版本；桌面及資料夾改矩形；正式圖集待製作",
+      "sha256": "9434ba6b93fbdc1da2fb91520e7c456a5568dd104879458bf160d620abb184af"
+    },
+    {
+      "file": "sponsor/assets/09_city_office_home_cover.png",
+      "description": "沿用檔名，現改為雨天正交辦公室；住家另見02",
+      "same_image_as": "assets/01_taipei_office.png",
+      "status": "共用合格主場景；未使用退回的雙層建築稿",
+      "sha256": "c01770e831c797089cfc4acc2217ef52a40164f59145d8b28713984c6fe1d4e5"
+    },
+    {
+      "file": "sponsor/assets/03_expanded_cast.png",
+      "description": "多人服裝與人物氣質參考",
+      "generation_date": "2026-10-23",
+      "prompt_available": false,
+      "provenance_note": "先前贊助提案留存之生成PNG；原始生成提示未隨來源保留，不追溯臆造。此版保存原PNG供後續查核。",
+      "status": "保留人物方向；不代表已製作全部NPC圖層",
+      "sha256": "01895106b89114e659f96a10d0a60e6e78cd56d6ddded1f0232dcaf0d5d29b9b"
+    },
+    {
+      "file": "sponsor/assets/04_protagonist_work_and_life.png",
+      "description": "主角工作與生活換裝參考",
+      "generation_date": "2026-10-23",
+      "prompt_available": false,
+      "provenance_note": "先前贊助提案留存之生成PNG；原始生成提示未隨來源保留，不追溯臆造。此版保存原PNG供後續查核。",
+      "status": "保留人物方向；不代表已製作全部NPC圖層",
+      "sha256": "d79f75dc6dfdf05aac12b863653292faf522ae3be26b94663f3ff07a9bc27124"
+    }
+  ],
+  "retired_v0_1": {
+    "source_commit": "78bcdd78e16ba26f1decdc5f832518258587764b",
+    "assets": [
+      {
+        "file": "assets/01_taipei_office.png",
+        "description": "臺北事務所黃昏場景",
+        "prompt": "Create a polished art-director concept illustration for a Taiwanese indie management game titled internally Law Firm Simulator. It must be true 2D PIXEL ART with sharply aligned pixel clusters, a restrained 32-color palette, no smooth digital painting, no 3D render, no isometric perspective. Landscape 16:9. Show a charming but weary small Taipei lawyer office as a straight-on cutaway room in slight top-down RPG perspective: warm amber desk lamps, muted teal cabinets, dusty paper stacks, beige files, old green desk chairs, compact photocopier, three small desks, one consultation table, two human characters at 32x48 sprite scale, a weary young lawyer with pale shirt and rolled-up sleeves and a navy-suited coworker, crisp readable silhouettes. Tall windows show Taipei dense midrise city blocks at blue dusk with a distant recognizable Taipei 101 silhouette. Subtle story: files and inbox overflow, budget-ledger notebook and coffee. Cozy but stressful, dry workplace humor, financial and energy management mood. Large office environment dominates, uncluttered margins, very deliberate tile-based composition, production concept art quality for an indie game pitch deck. NO text, NO letters, NO numbers, NO fake Chinese glyphs, NO UI overlay, NO logos, no legal-courtroom fighting, no scales of justice giant symbol. The work is an original game environment concept reference, not a screenshot of an existing game.",
+        "status": "已替換；勿作本版製作參照",
+        "reason": "側牆窗框收束，晴朗夕陽與臺北雨灰規格衝突"
+      },
+      {
+        "file": "assets/02_character_sheet.png",
+        "description": "人物與服裝設定",
+        "prompt": "Create a professional 2D PIXEL ART CHARACTER DESIGN SHEET for an original Taiwanese law office management game. Landscape16:9, consistent crisp nearest-neighbor pixel clusters, limited warm beige/navy/teal/amber palette, no vector art, no smooth painting, no 3D, no isometric. Light warm ivory flat background and a careful grid with generous empty margins. Eight full-body readable RPG-style pixel-character concepts, arranged in two rows of four, each character about32x48 logical pixels and enlarged sharply. Cast: young male protagonist with rolled-up pale shirt,young female protagonist with similar professional shirt and trousers,older law-firm boss in darknavy suit with graying temples,energetic female senior lawyer in mutedteal blazer,young male junior lawyer with round glasses,fit female lawyer with tied hair,ordinary client with paper envelope,bald friendly male lawyer with briefcase. Gender is cosmetic: male and female protagonists have equally professional proportions and capable demeanor. Each figure on a small muted-beige ground shadow, consistent height scaling, different silhouettes and hairstyles, no weapons. Include small additional side and rear sprite studies beside only the two protagonists, and a compact palette swatch strip. NO text,NOlabels,NOletters,NO fakeChinese,NO logos,NO UI. Focus on coherent production-reference sprite design, use intentional visible square pixels.",
+        "status": "保留但用途限制服裝氣質",
+        "reason": "原八人圖不可當NPC固定基底"
+      },
+      {
+        "file": "assets/03_city_branches.png",
+        "description": "臺北、臺中、高雄分所",
+        "prompt": "Create an art direction environment sheet for a 2D PIXEL ART Taiwanese law firm management game, landscape16:9. Three equal-width environment panels side by side with slim cream gutters, consistent straight-on cutaway/slight-top-down RPG perspective (not isometric), sharp square pixel clusters at640x360 game-canvas style, not smooth painting or3D. The panels depict three distinct law offices with the same modular wooden desk/chair/filecabinet tile kit: LEFT Taipei headquarters in blue/amber, denser tall skyline, subtle Taipei101 silhouette, six workstations and a boardroom; MIDDLE Taichung branch in warm brick/olive, broad afternoonwindows, planted terraces and distant modern civic architecture, four workstations; RIGHT Kaohsiung branch in terracotta/sea-teal, harbor cranes and waterfront behind windows, four workstations and bright tropical sky. Shared visual language, readable small human pixel sprites, balance officegrowth aspiration with mundane filework. Architecture/windowview/lighting distinguish cities, no city maps or complicated outdoors. Restrained cohesive colorpalette, no text, no letters, no numbers, no glyphs, no brands, no UI overlay. Beautiful pitch-deck concept reference.",
+        "status": "已替換；勿作本版製作參照",
+        "reason": "統一新版投影及臺北雨窗"
+      },
+      {
+        "file": "assets/04_props_and_moods.png",
+        "description": "物件、圖示與事件氣氛",
+        "prompt": "Create a polished ASSET STYLE GUIDE SHEET for a2Dpixel-art Taiwanese law firm managementgame, landscape16:9 on ivorycreambackground. Allart must have crisp intentional square pixels, visible nearest-neighbor enlargement and consistent smallsprite scale; no smoothpainting,novector,no3D,noisometric. Clean evenlyspaced groups with navythin divider lines, lots ofnegative space. Tophalf office props: straight-on wooden desk,green deskchair,teal filingcabinet,photocopier,computerwithdarkmonitor,stacksof beige casefolders,desk lamp,coffeecup,pottedplant,roundconsultationtable,wallclock,briefcase. Bottomleft a small 3x4grid of pixelicons for wallet,energybattery,casefolder,calendar,lawbook,speechbubble,dumbbell,star,four-tiergold/silver/bronzetraitbadges and savefloppydisk. Bottomright four scene-mood mini vignettes: amberoverworknight atdesk,warmlit apartment bed,quietgymcorner,emptyoffice with movingbox. Same navytealamber palette as a Taipei legaloffice game. Artreferenceforproductionkit, not final slicedgameassets. NOtext, NOlabels, NOfakeChinese, NOletters, NOnumbers, NOlogos, NOmusicicons, NOaudioelements.",
+        "status": "已替換；勿作本版製作參照",
+        "reason": "底部住家與健身小稿仍透視，改純道具圖示"
+      }
+    ]
+  },
+  "rejected_generations": [
+    {
+      "generation_id": "exec-e545c4b3-612b-4895-936d-f0ca5128e4bf",
+      "prompt": "Original 2D pixel-art GAME TILEMAP reference for a Taiwanese law firm management game. STRICT ORTHOGRAPHIC TILEMAP, NOT PERSPECTIVE. This is an asset/map-editor-like flattened RPG room viewed from a fixed overhead orthographic camera. ALL floor tiles are identical axis-aligned squares with identical size at front/back. ALL desk tops are rectangles, never trapezoids. ALL wall/window/desk edges are parallel to the page horizontal or vertical axes. No receding side walls, no ceiling, no vanishing point, no horizon in the room, no wide-angle lens, no isometric diamond grid, no foreshortening, no converging lines. Back wall is a straight flat sprite strip; left/right sides are open cutaway edges, never oblique planes. Near and far chairs/people stay exact same scale. Furniture uses flat top surfaces plus thin front-face sprites, like a coherent modular orthographic RPG map. Visible crisp square pixels, navy/teal/cream/amber palette, sharp nearest-neighbor clusters, no smooth painting or 3D. NO text, letters, numbers, logos or UI. Wide heroic keyvisual built as TWO STACKED ORTHOGRAPHIC GAME ROOMS in a simple flat buildingcutaway: top level law office, lowerlevel cozyapartment, connected visuallyby a flatentrycolumnright. Eachroomusesparallel page-alignedfloorgrid and same-scale2Dsprites, no recedingwalls orhorizonperspective. Upperoffice hasfourrectangulardesks,cabinets,filesandcoworkers; lowerhome hasflatsofa,diningtable,bedandyounglawyerwithbriefcase. OUTSIDE right narrowcolumn isflatgrayblueTaipei101skylineinRAINatnight, wetstreetsdrawnasflatstrips notrecedingavenues, warmwindowlights. ModularRPGmapaesthetic, orthodoxprojectionovercinematicdepth. Warm humanstory/workversusrest, restrainedrainynavylight, noorangeglamoursunset. Leavequietupperleftmarginfortitlebutdrawnotext.",
+      "status": "退回；未收入本版",
+      "reason": "雙層房間雖改善，外部街道仍有透視收束；改共用正交雨天辦公室主圖。"
+    },
+    {
+      "generation_id": "exec-2eb60aa9-3547-413d-a7fc-cca40473551d",
+      "status": "初稿退回後編修；初稿未收入本版",
+      "reason": "桌面為梯形、資料夾為斜向四邊形；編修成正面矩形後才採用。"
     }
   ]
 }
