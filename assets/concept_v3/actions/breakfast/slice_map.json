@@ -1,0 +1,134 @@
+{
+  "source_width": 1930,
+  "source_height": 815,
+  "columns": 4,
+  "rows": 3,
+  "margin": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "gutter": [
+    0,
+    0
+  ],
+  "cell_inset": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "source_sha256": "ce3e7073eba28eb290c8850b394763f4a38caaf322a792b964bde93b00730afc",
+  "rectangles": [
+    {
+      "index": 1,
+      "row": 0,
+      "column": 0,
+      "x": 2,
+      "y": 2,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "column": 1,
+      "x": 484,
+      "y": 2,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "column": 2,
+      "x": 967,
+      "y": 2,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "column": 3,
+      "x": 1449,
+      "y": 2,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "column": 0,
+      "x": 2,
+      "y": 273,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "column": 1,
+      "x": 484,
+      "y": 273,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "column": 2,
+      "x": 967,
+      "y": 273,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "column": 3,
+      "x": 1449,
+      "y": 273,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 9,
+      "row": 2,
+      "column": 0,
+      "x": 2,
+      "y": 545,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "column": 1,
+      "x": 484,
+      "y": 545,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "column": 2,
+      "x": 967,
+      "y": 545,
+      "width": 478,
+      "height": 267
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "column": 3,
+      "x": 1449,
+      "y": 545,
+      "width": 478,
+      "height": 267
+    }
+  ],
+  "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+}

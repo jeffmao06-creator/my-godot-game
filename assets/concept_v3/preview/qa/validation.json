@@ -1,0 +1,30 @@
+{
+  "manifest_sha256": "2f935e3a92e8f1d3aa26498891405f37395aa74757701cedf56c233b97fe5dfa",
+  "character_catalog_sha256": "f67bf4d22bc88c54e06aa1a60b02dbaa8e27ea032c7b79f94a60dc152afeec83",
+  "runtime_sha256": "1a78e7ee6ee5b0edd9c68082301ff1218617cf6c34b32d99a6668a65967f74e7",
+  "action_count": 14,
+  "character_count": 52,
+  "environment_count": 2,
+  "real_frames_per_action": 12,
+  "duration_ms": 2800,
+  "checks": {
+    "offline_embedded_manifest_matches_source": true,
+    "all_action_thumbnails_load": true,
+    "all_actions_play_real_frames_and_skip": true,
+    "frame_timing_11x200_plus_600_ms": true,
+    "actual_frame_advancement": true,
+    "busy_main_thread_preserves_all_twelve_poses": true,
+    "auto_close_after_completion": true,
+    "skip_escape_replay_and_reopen": true,
+    "focus_return_and_filter_focus": true,
+    "reduced_motion_static_preview": true,
+    "mobile_no_horizontal_overflow": true,
+    "all_52_character_pngs_load_and_filter_4_45_3": true,
+    "character_lightbox_focus_and_static_controls": true,
+    "full_character_image_fits_desktop_and_mobile_lightbox": true,
+    "both_environment_images_load_and_open": true,
+    "return_to_animation_restores_playback_controls": true,
+    "no_external_network_dependency": true,
+    "browser_script_errors": []
+  }
+}

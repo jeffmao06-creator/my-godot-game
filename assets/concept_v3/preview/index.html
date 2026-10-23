@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17323d">
+  <title>訴訟之神之路｜動作過場</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="manifest_data.js" defer></script>
+  <script src="runtime.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="masthead">
+      <a class="brand" href="index.html" aria-label="訴訟之神之路，動畫素材首頁">
+        <span class="brand-rule" aria-hidden="true"></span>
+        <span>訴訟之神之路<small>WORK, LIFE &amp; A LITTLE AMBITION</small></span>
+      </a>
+      <span class="edition">概念畫風 <span aria-hidden="true">／</span> 動作過場素材</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">THE MOMENTS BETWEEN</p>
+          <h1 id="page-title">每個選擇，<br>都有生活的樣子。</h1>
+          <p class="intro">從辦公桌前，到好好睡一覺。<br>用一段小小的過場，接住律師的一天。</p>
+          <div class="hero-selection">
+            <span class="selection-rule" aria-hidden="true"></span>
+            <div>
+              <p class="selection-label">目前選取</p>
+              <h2 id="featured-title">載入動作素材</h2>
+              <p id="featured-description" class="featured-description">正在讀取本素材包的動畫清單。</p>
+            </div>
+          </div>
+          <button class="play-primary" id="featured-play" type="button" disabled>
+            <span class="play-triangle" aria-hidden="true"></span>播放過場
+          </button>
+          <p class="hero-note">可略過的小視窗，播完自動收起。</p>
+        </div>
+        <div class="hero-art">
+          <div class="art-stage" id="featured-stage">
+            <img id="featured-poster" alt="" hidden>
+            <div class="stage-empty" id="stage-empty">正在準備今日的片刻</div>
+            <div class="art-caption"><span id="featured-category">動作素材</span><span id="featured-meta">—</span></div>
+          </div>
+          <div class="filmstrip" id="featured-filmstrip" aria-label="此動作的逐格縮圖"></div>
+        </div>
+      </section>
+
+      <nav class="resource-tabs" id="material-navigation" aria-label="素材類型">
+        <button type="button" class="resource-tab" data-view="actions" aria-pressed="true" aria-controls="action-panel">動作過場 <span id="action-tab-count">—</span></button>
+        <button type="button" class="resource-tab" data-view="characters" aria-pressed="false" aria-controls="character-panel">人物素材 <span id="character-tab-count">—</span></button>
+        <button type="button" class="resource-tab" data-view="environments" aria-pressed="false" aria-controls="environment-panel">生活場景 <span id="environment-tab-count">—</span></button>
+      </nav>
+
+      <section class="library" id="action-panel" aria-labelledby="library-title">
+        <div class="library-heading">
+          <div><p class="eyebrow">A DAY IN THE LIFE</p><h2 id="library-title">把一天，慢慢過好。</h2></div>
+          <p class="library-count" id="library-count" aria-live="polite">讀取素材中</p>
+        </div>
+        <div class="filters" id="filters" aria-label="篩選動作類型"></div>
+        <p class="load-message" id="load-message" role="status" hidden></p>
+        <div class="action-grid" id="action-grid"></div>
+      </section>
+
+      <section class="library" id="character-panel" aria-labelledby="character-title" hidden>
+        <div class="library-heading">
+          <div><p class="eyebrow">THE PEOPLE AROUND YOU</p><h2 id="character-title">每個人，都有自己的樣子。</h2></div>
+          <p class="library-count" id="character-count" aria-live="polite">讀取人物素材中</p>
+        </div>
+        <p class="panel-intro">主角、未來的同事與面試桌對面的人。點選立繪，查看完整的透明人物素材。</p>
+        <div class="filters" id="character-filters" aria-label="篩選人物類型"></div>
+        <div class="character-grid" id="character-grid"></div>
+        <div class="sheet-links" id="sheet-links"><span>整張原稿</span></div>
+        <p class="material-note">此處展示獨立人物立繪；不代表完整 NPC 分層或動作系統已完成。</p>
+      </section>
+
+      <section class="library" id="environment-panel" aria-labelledby="environment-title" hidden>
+        <div class="library-heading">
+          <div><p class="eyebrow">A PLACE TO WORK, A PLACE TO REST</p><h2 id="environment-title">生活，在兩盞燈之間。</h2></div>
+          <p class="library-count" id="environment-count">辦公室與住家</p>
+        </div>
+        <p class="panel-intro">窗外的雨，桌上的暖光，以及下班後終於能慢下來的空間。</p>
+        <div class="environment-grid" id="environment-grid"></div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>訴訟之神之路 <span aria-hidden="true">／</span> 動畫素材檢視</p>
+      <p>本頁展示美術與過場播放；不含遊戲數值結算。</p>
+    </footer>
+  </div>
+
+  <dialog class="transition-dialog" id="transition-dialog" aria-labelledby="transition-title" aria-describedby="transition-description">
+    <div class="transition-shell">
+      <header class="transition-header">
+        <div><p class="eyebrow" id="transition-category">今日片刻</p><h2 id="transition-title">動作過場</h2></div>
+        <button class="close-dialog" id="close-dialog" type="button" aria-label="略過過場並關閉">關閉 <span aria-hidden="true">×</span></button>
+      </header>
+      <div class="transition-visual" id="transition-visual" aria-busy="false">
+        <img id="transition-image" alt="">
+        <span class="transition-loading" id="transition-loading" hidden>正在準備畫面…</span>
+      </div>
+      <div class="progress-track" id="transition-progress-track" aria-hidden="true"><div id="transition-progress"></div></div>
+      <footer class="transition-footer">
+        <div><p id="transition-description"></p><p class="frame-status" id="frame-status" aria-live="off"></p></div>
+        <div class="transition-controls">
+          <button class="replay-button" id="replay-button" type="button">重播</button>
+          <button class="skip-button" id="skip-button" type="button">略過</button>
+        </div>
+      </footer>
+    </div>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,274 @@
+{
+  "version": "0.3",
+  "game_name": "訴訟之神之路",
+  "date": "2026-10-23",
+  "tool": "image_gen.imagegen",
+  "art_direction": "art_direction.json",
+  "notes": [
+    "以PDF概念圖人物／材質／光色為依據，生成平滑2D插畫；不以SVG或程式方塊人物代替交付美術。",
+    "動畫為各自生成的12個繪製姿勢幀，經固定格線切分與格式封裝；不是影片生成或24fps骨架動畫。",
+    "對照來源PNG的切幀與透明人物分離屬資產封裝，完整生成原稿與切圖座標均保留。",
+    "人物立繪是獨立圖像，尚非全部可分層換裝、綁骨或遊戲NPC生成系統。",
+    "音樂與音訊不在交付範圍。"
+  ],
+  "assets": [
+    {
+      "file": "raw/references/breakfast_style_anchor.png",
+      "source_generation": "exec-04f31533-e95d-447c-bb25-8febbaa1b850",
+      "prompt": "Use the attached PDF concept art as the visual and character identity reference. Make a genuinely polished 2D illustrated animation frame sheet, preserve the charming Taiwanese young lawyer, black tousled hair, white rolled-sleeve shirt, loosened navy tie, warm wood/teal office and rain-gray Taipei window. UPGRADE from rigid pixels to clean smooth hand-drawn storybook/anime game illustration, precise expressive face and hands, attractive warm lighting, rich cohesive shading, absolutely no blocky pixel grid, no generic SVG shapes, no flat stick figures. This must match the quality of the PDF concept art, not a diagram. EXACTLY TWELVE ANIMATION FRAMES arranged as FOUR COLUMNS by THREE ROWS in a regular edge-to-edge grid, all cells exactly same dimensions, every cell landscape16:9; overall wide64:27 aspect ratio. No padding, no borders, no gutters, no text, no numbering, no captions. Read frames left-to-right then next row. It is the SAME locked-camera breakfast shot in ALL12cells: midwaist-up young lawyer seated at office desk, rain window and desk fixed in exact same place, one paperbreakfastbag, sandwich and soy milk mug. Only character hands/head/expression and foodchange, no camera cuts, no changing face/hair/clothes, no multiplying fingers. Consecutive poses MUST SHOW REAL CONTINUOUS MOVEMENT: f1 right hand reaches paperbag; f2 opens bag; f3 takes sandwich; f4 raises sandwich toward mouth; f5 takes a bite; f6 lowers sandwich chewing with soft closed eyes; f7 sets sandwich down; f8 reaches mug; f9 raises mug; f10 sips; f11 lowers mug; f12 mug ondesk, subtle satisfied smile, handsrest. Each pose must differ anatomically, no repeated stills, no zoom/pan. Modest adult human proportions, recognizable protagonistfromreference, clear shoulders andhands, scenic fullbackground each cell. Very professional attractive cozy life-sim illustration, silent. No HUD, no readable writing, no logos.",
+      "references": [
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png",
+        "../../docs/presentation/assets/01_taipei_office.png"
+      ],
+      "transparent_background": false,
+      "status": "風格參照初稿；早餐第9格雙杯已另修，非播放版本",
+      "sha256": "7dc01546730e9628bbd3a0c5b41f9e1556873f6322d926474837f4d90b6703bd"
+    },
+    {
+      "file": "characters/protagonist_variants_sheet.png",
+      "source_generation": "exec-33361ca6-9f98-4faf-8301-1f4ba79a7e13",
+      "prompt": "Based on the attached game concept character identities, REDRAW a premium2D illustrated game character asset sheet with FOUR full-body adult characters in precise2columns×2rows, transparent background. Top-left same black tousled-haired young male lawyer wearing white rolled-sleeve shirt loose navy tie dark trousers and holdingcasefolder; top-right SAMEmale in softgray homeTshirt relaxedpants slippers holdingtealmug. Bottom-left same blackhighponytail youngfemale lawyer inwhiteprofessionalshirt/navytrousers withcasefolder; bottom-right SAMEfemaleincosycreamcardigan grayloungewear holdingmug. Preserve appealingadultfaces andwarmcaringpersonality ofPDF, but use smooth cleanhand-drawnillustration, subtlepainterlyshading, crisp tastefuloutlines, NO deliberatepixels, NOhardpixelgrid, NOvectorstickfigures, NOchibiwithgiantsquareheads. Aboutfiveheads tall, expressiveeyes, naturalhands, fullbodyshoesvisible, generousclearspacebetweencells soeachcanbecutasaseparatePNG. Allfouratmatchingbodyheightwithin300x500styleassetcells. No scenery,nobackgroundpanel,nocolorswatches,no textual captions orletters,nologos. Frontthreequarterneutralreadableidleposes, richnavytealwarmgraycreamcolors, highproductionquality matchingorbetteringPDFconceptreference.",
+      "references": [
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": true,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "991bfd48e681af1339698ea01f077262355070809b7fdbaf4e836231db6e8c21"
+    },
+    {
+      "file": "raw/sheets/write_brief.png",
+      "source_generation": "exec-8b652a5b-a5b2-4502-8826-988858aa6b4e",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONWRITINGPLEADINGS: cozyofficewooddesk,rainwindow,legalcasefiles,penandpaper. Mediumfrontthreequarterview, leadseatedwithwhiteworkshirt. 12successiveposes: 1handreachespen;2gripspen;3lowerstiptopaper;4beginline;5movespenright;6continueswritingwithsmalleyemotion;7leftfingertracesparagraph;8finishesline;9turnsonepagewithlefthand;10alignspages;11placespenbesidecompletedbrief;12relaxedsmallnod. Cameraanddesklinestotallylocked, realpen/handmovementnot scenechanges.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "c65f995435b7fa92db34aeb07b01badfc37b91d2f3ae25598bfc2f369537d680"
+    },
+    {
+      "file": "raw/sheets/slack.png",
+      "source_generation": "exec-557902cc-0a7b-4bac-809f-226f5c379a74",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONSLACKING: leansbackatlawofficedesk, samewhiteworkshirt, greenchair,rainywindow,closedfiles. 12poses:1handsleavekeyboard;2elbowslift;3armsextendsideways;4botharmsstretchup;5fullstretchheadtilt;6shouldersrelax;7armslower;8leansbackchair;9turnsheadslightlytowarddoor;10mischievoussideglance;11smallstifledsmile;12settlesbackrelaxed. Keepchairfixedfootprint, noanimationofroom.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "b9e407cd3e4fb7907d4823f8182d8c039253df744ac3189374b0fb88d2e2fb61"
+    },
+    {
+      "file": "raw/sheets/interview.png",
+      "source_generation": "exec-8ed221c7-250b-418c-acf4-c346b9f35ffa",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONJOBAPPLICANTINTERVIEW: SAMEleadlawyerseatedleftinwhiteshirt,adultfemaleapplicantwithneatshortauburnbobandtealblazerseatedright, oneresumeonrectangularconsultationtable. Grayrainwindowandbookcase. Midshotbothfacesandhands. 12poses:1leadlooksresume;2liftspage;3eyeslifttoapplicant;4leadaskswithopenhand;5applicantinhales;6applicantopenspalmanswer;7applicantgesturesmodestly;8leadnods;9leadwritesonebriefnote;10applicantrestshands;11leadreturnsresumetotable;12bothneutralpolitesmiles. Notahiringcontract,nohandshakeguaranteeingjob.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "68f0918a348cee828bfcdfb7a5faca83a1cfe64e52e439d56f1f38a64a980975"
+    },
+    {
+      "file": "raw/sheets/research.png",
+      "source_generation": "exec-ef4ee500-a942-402f-ab52-01c35fbafb9e",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONLEGALRESEARCH: SAMEleadatdeskwiththickopenlawbook,twohorizontallystackedlawbooksandnotepad, fixedbookcaberainwindow. Whiteworkshirt. 12poses:1righthandreachesspine;2opensbook;3leftpalmholdsopen;4righthandliftspage;5pagearchhalfway;6pagelands;7indexfingermovesalongline;8browsfurrowreading;9headtiltsto notepad;10picksuppen;11writesnote;12looksuptobookthoughtfully. Unreadablesubtleline-textonly, no actualletters.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "5a5afe5cd4e7cdf3b7b9caf4c27ee1096c077390cd587ee1b9b839799373f6c6"
+    },
+    {
+      "file": "raw/sheets/flatter.png",
+      "source_generation": "exec-769c5b3d-2d0b-4aeb-8601-748b08fc5a6b",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONFLATTERINGBOSS: SAMEyoungleadstandingleftwhiteshirtloosenavytie, middleagedTaiwanesebosswithsalt-and-pepperhairnavysuitseatedrightatdesk, onecoffeemugandonecasefilestack, rainwindow. 12poses:1leadholdsmug;2extendsmugtowarddesk;3placesmugbesideboss;4smileswithopenpalmcompliment;5bosslooksup;6bosssmiles;7bossreachescasefilestack;8bossliftsstack;9bossextendsstacktolead;10leadreceivesbothhands;11leadeyebrowsliftwithfrozencourteoussmile;12bossreturnstoworkleadholdsfiles. Dryworkplacehumor, no cashpayingornumbers.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "bf51cfbb629a9d28a37a23c3d436d927dfad203e8109488a1a23ae4e366c4c23"
+    },
+    {
+      "file": "raw/sheets/gym.png",
+      "source_generation": "exec-4610aae3-f7c1-442d-a76a-2591117e4684",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONGYM: SAMEblackhairedyoungmanincharcoalTshirtandnavytrainingpants, onepairdumbbellsinmodestneighborhoodgym, warmfixturesandgrayrainwindow, waist-toheadmediumshotwitharmsfullyvisibleallframes. 12successiveposesonefullcurlrep:1bothweightslow;2wristssettle;3elbowsbend15degrees;4bend40degrees;5bend65degrees;6bend90degrees;7peaknearshoulders;8holdwitheffortexpression;9lower65degrees;10lower40degrees;11lower15degrees;12bothweightsbacklowrelievedexhale. Anatomicalarmrotationandfixedtorso, no teleportedweights,no extraarms.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "fb79cf7f19b0b0a083928137dca59e756a39859787bd2eb46ab3a88d2e16cad7"
+    },
+    {
+      "file": "raw/sheets/standup.png",
+      "source_generation": "exec-95a460cd-6027-4236-83e2-a9221dd72268",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONWATCHINGSTANDUP: SAMEyoungleadcasualgrayTshirtseatedwiththreequarterfaceleftforeground, maleperformeronlowstageinrightbackgroundholdsoneplainmicrophone,warmintimateclubtealandambercurtain. Fixedtwopersoncomposition. 12poses:1leadattentive;2performerliftsfreehand;3performerleansslightlyinto joke;4leadeyebrowsraise;5leadsmilewidens;6leadlaughsheadtilts;7leadshouldersbounce;8leadraiseshands;9palmsmeetclap;10handsseparate;11palmsmeetagain;12handslowerstillamused. Noshiftsbetweenstageandaudiencecamera, no logos ortext.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "2985cedf4d7b1027d6f3ba4c7a6797544c461dfd7a7105dd5ecb7bd0028d4fdf"
+    },
+    {
+      "file": "raw/sheets/legal_video.png",
+      "source_generation": "exec-5385e1f9-6c2d-4d75-9d47-2ab3542e6c5e",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONWATCHINGLAWLECTUREVIDEOATHOME: SAMEyoungleadgrayTshirtathomewoodtable, laptoprightshowingSAMEwomanlecturerbeforeaplainboard,notepadleft,tealsofabackground, rainnightwindow,warmdesklamp. Showleadthreequarterfaceandhands. 12poses:1lookslaptopscreen;2lecturergestures;3leadinclineshead;4glancesdownnotepad;5pickspen;6writes;7continueswriting;8leftfingerholdspage;9liftshead;10returnslooktoscreen;11lecturerchangeshandgesture;12leadsmallunderstandingnod. Screencontentnoreadablewriting/nologos, exactlyone laptop,noDVDpanels.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "56e68cb9c8cf4891e0050cc05a5cc8e53f244cec2e45f188f5a4e0c23a1453f1"
+    },
+    {
+      "file": "raw/sheets/sleep.png",
+      "source_generation": "exec-310e3ab3-4b88-41bb-b5b6-fa48f98fe64f",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONSLEEP: SAMEyoungleadgrayTshirtinsmallTaipeiroom, bedframecenter,tealblanket,onenightstandlampandrainnightwindow. Fixedside-threequarterfulldbedshot. 12poses:1sitsonbededge;2reachesblanket;3liftsblanket;4turnslegsintobed;5lowersheadtopillow;6pullsblanketuptochest;7reacheslamp;8lampturnsoffwithcoolambientnightstillvisible;9armreturnsunderblanket;10eyelidsclose;11chestslightlyrisesbreathing;12chestrelaxespeacefulface. Sameworkfaceandhair,nofaceorphing; bedtimecozy, no alarmtext.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "515730c26e91c6d63333c78ecdec1420c06735790ffb6adf03dcfda3f0dca85c"
+    },
+    {
+      "file": "raw/sheets/tv_program.png",
+      "source_generation": "exec-e5cbc438-2124-4934-997f-7276d27296b6",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONTELEVISIONTALKSHOW: SAMEyoungleadwearswellfittingnavysuitwhitecollar, adultfemaleTaiwanesehostshortbrownhairstyleburgundyblazerwithcuecards, seatedtwoarmchairsandrectangularsmalltable, tealstudioflatbackdropandwarmlights. Lockedmidshotbothfaceshands. 12poses:1hostlookslead;2hostraisescards;3hostopenhandasks;4leadturnstowardhost;5leadbreathesbeforeanswer;6leadstartsspeaking;7leadraisesrighthandexplaining;8handmovesgentlearc;9hostnods;10leadlowershand;11hostsmiles;12leadpoliterelaxedsmile. No sponsors, fakeendorsements,textorlogos.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "977f1960ce9d5120524883f4c5db45623e371789f8671714aea539960069e39d"
+    },
+    {
+      "file": "raw/sheets/news_interview.png",
+      "source_generation": "exec-9a6de1fd-744d-40e5-9885-2b2cc2bffe60",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONNEWSINTERVIEW: SAMEyoungleadnavysuitstandingright, TaiwanesereporterwomanbrownponytailcreamcoatleftwithONEplainunbrandedhandheldmicrophone, officeflatwindowbackdropgrayrainandplant, mediumwaistupboth. 12poses:1reporterholdsmicnearchest;2reporterextendshand;3micreacheslead;4leadturnsheadtomicrophone;5leadbeginsanswer;6leadraisesopenhand;7handgestures;8leadfinishesanswer;9handlowers;10reporternods;11reporterwithdrawsmic;12bothneutralprofessionalsmiles. Keepmicrophoneononehandlewithonehandno duplicates.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "ea9eb1c3018b9c20b80dcf969b2d8539d90f2b47d6344b06d9a581237f488be5"
+    },
+    {
+      "file": "raw/sheets/consultation.png",
+      "source_generation": "exec-0fd1a16f-6f94-4260-bb49-6b2d57547f6b",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONCLIENTCONSULTATION: SAMEleadwhiteworkshirtleft,andmiddleagedfemaleclientshortcurlygray-blackhairmutedburgundycardiganright,rectangulartableonedocumentfolder,tissueboxfarback,rainyofficewindow. 12poses:1clientholdsfolder;2pushesfolderforward;3leadreachestofolder;4leadopensfolder;5turnspaper towardclient;6pointsatonepaperline;7leadexplainssmallopenpalm;8clientleansslightly;9clientnods;10leadstops pointing;11clientrests hands;12bothcalmprofessionalexpressions. Do NOTdepict signing, handshakeorcash asconsultationdoesnotguaranteerepresentation.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "821ae1e9569319e07c46eb253814e0ca9651c20bab428ad946f5bc475cc12aae"
+    },
+    {
+      "file": "raw/sheets/assign_case.png",
+      "source_generation": "exec-995589c2-b2c1-467f-975b-d36aa08d6994",
+      "prompt": "Create a premium 2D hand-drawn game ANIMATION FRAME SHEET, visual continuity with the attached polished concept references. The lead is the SAME adult Taiwanese young male lawyer: tousled soft blackhair, expressivewarmdarkeyes, naturalface, white rolled-sleeve shirt, loose navy tie anddarktrousers forwork, otherwise specifiedcasualwear. Beautiful clean smooth outlines, subtlypainted shading, carefullydrawn hands andanatomy, detailedwarmwood/tealinteriors andrain-grayTaipeiwindows. NOpixelgrid, no blocky sprites, no genericvector/diagram/stickfigures, no renderingdowngradefromthePDF. EXACTLY12successiveanimationframes in REGULAR FOUR COLUMNS × THREE ROWS. Allcellsexactlyequalrectangles,eachlandscape16:9, overall64:27wideboard. ZEROgutters,padding,borders orcaptions. Framesreadleft-to-rightthenrowsdown. Fixedcamera/framing,exact samepersonface/hairstyle, bodyheight,clothes, propcountandbackgroundlayoutacrossall12. No zoom/pan, no cameracuts; hands, arms, faces andpropsmoveprogressively everyframe; do notfillwithduplicatedstills. Thiswillbeactuallyslicedandplayedasanimationso maintaincontinuity. Avoid extra limbs, duplicatedhandheldprops andextra cups. No text, speechbubbles,numbers,logos,HUD,watermarks ormusicelements. Silentfullcolorillustratedsceneineachcell. ACTIONASSIGNINGCASE: SAMEleadwhiteworkshirtleftatdesk,coworkerlawyeradultwomanwithchin-lengthblackbobtealblazerright, singlethickbeigecasefolder, grayrainofficewindowbookshelf. 12poses:1leadhandonfolder;2pushesacrossdesk;3folderreachescoworker;4coworkerextendsbothhands;5coworkertakesfolder;6openscover;7leadpointstopage;8coworkerfollowspoint;9coworkerturnsonepage;10leadwithdrawshand;11coworkernods;12coworkerholdsopenfolderreadytowork. Exactonefolder,no randompropsspawning,nocash orautoprogressHUD.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png",
+        "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "229465c86234be3a47e0cf53654ec320f11ed3e4ebb5b3277a00804d3bb0a87e"
+    },
+    {
+      "file": "characters/staff_sheet_1.png",
+      "source_generation": "exec-23961b4e-7563-4a42-9ba3-293069e359d0",
+      "prompt": "Redraw a set of premium FULL-BODY 2D hand-drawn game characters at the exact highillustrationquality oftheattachedreference, samewarmnaturaloutlines/subtlepaintedshading/anime-storybookcharm, tastefuladultTaiwaneseprofessionals. Smoothcleanedges, NO forcedpixelart, NOgenericvector shapes, NO lowdetailplaceholderfaces. TRANSPARENTBACKGROUND. Exactly12independentfull-bodyadultpeople arranged SIX EQUALCOLUMNS by TWO EQUALROWS, onepersonpercelleverycell fullyoccupied, frontthreequarterstandingreadableidlepose, allhandsandshoesvisible, clearemptyspacingbetweencells, nooverlap. Tall/cropwidth cellsaround300x520ratio, overallwideboard18:10. Deliberatelyvariedbodybuilds,heights,ages,faces,hairANDgarmentstructures; neversimplyrecoloronebody. 6women6men, allcapableprofessionals, noassociationofbody/genderwithskill. Everyface distinct: round,long,square,highcheekbones,hookednose,hoodedeyes,strongchin,softjaw. Restrainednavytealburgundybrowncreampalette,alloutfitsprofessionallyplausiblelawofficewithoutrobes. NO scenery, no panels, no labels/text/letters/numbers/logos/colorpalettes. Keepall12separatefullyvisibleatluxuriousPDFconceptillustrationquality. ROW1lefttoright:1tallleanmanlongfaceblacksidepartnavytwo-buttonsuit;2shortsturdywomanroundfacechestnutcurlybobburgundypantsuit;3olderbaldmanwithsaltmustachethinroundglassesbrownthreepiecesuit;4tallwomanhighcheekboneslongblackbraidcreamblazer;5broadshoulderedmanwidejawshortsalthairtealblazerknitsweater;6petitewomanpointedchinshortblackpixiecharcoaldressjacket. ROW2:7slenderbrownskinnedmanwavyhairrectangularglassesolivevest;8middleagedcurvywomanwidesmilegraybobnavycardigan;9shortyoungmanroundfacecroppedbuzzcutcreamrolledsleevesuspenders;10athleticwomansquarejawponytailburgundyvesttrousers;11olderleanmanlonggrayponybearddarkbrownsuit;12youngwomanovalfaceasymmetricblackbobtealshortjacketpleatedskirt.",
+      "references": [
+        "characters/protagonist_variants_sheet.png"
+      ],
+      "transparent_background": true,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "8e5ebaa82d53130de46e4bd225f3d8de224a58032c566efd7941b2cbda4772d0"
+    },
+    {
+      "file": "characters/staff_sheet_2.png",
+      "source_generation": "exec-f48c0622-ad75-4db2-a8a7-cbe8cea5f62a",
+      "prompt": "Redraw a set of premium FULL-BODY 2D hand-drawn game characters at the exact highillustrationquality oftheattachedreference, samewarmnaturaloutlines/subtlepaintedshading/anime-storybookcharm, tastefuladultTaiwaneseprofessionals. Smoothcleanedges, NO forcedpixelart, NOgenericvector shapes, NO lowdetailplaceholderfaces. TRANSPARENTBACKGROUND. Exactly12independentfull-bodyadultpeople arranged SIX EQUALCOLUMNS by TWO EQUALROWS, onepersonpercelleverycell fullyoccupied, frontthreequarterstandingreadableidlepose, allhandsandshoesvisible, clearemptyspacingbetweencells, nooverlap. Tall/cropwidth cellsaround300x520ratio, overallwideboard18:10. Deliberatelyvariedbodybuilds,heights,ages,faces,hairANDgarmentstructures; neversimplyrecoloronebody. 6women6men, allcapableprofessionals, noassociationofbody/genderwithskill. Everyface distinct: round,long,square,highcheekbones,hookednose,hoodedeyes,strongchin,softjaw. Restrainednavytealburgundybrowncreampalette,alloutfitsprofessionallyplausiblelawofficewithoutrobes. NO scenery, no panels, no labels/text/letters/numbers/logos/colorpalettes. Keepall12separatefullyvisibleatluxuriousPDFconceptillustrationquality. ROW1:1middleagedwomanstoutbuildsilverpixiewarmbrownblazer;2verytallskinnymanlongfaceblackcenterpartglassescharcoalturtlenecknavysuit;3youngwomanbrownskinroundfaceblackafro-curlsbuncreamvest;4widebroadmanovalfacechestnutwavesrussetblazer;5elderlywomansharpchinwhitehairchignonburgundycardigan;6shortmanwithroundcheekscleanshavensemirimglassesdarktealsuit. ROW2:7athleticwomanhighcheekbonesblackundercutnavysuit;8oldermanwideshouldersbaldtopwhitebeardwarmgrayvest;9tallwomanloosesilverwavesoliveblazer;10youngmancompactbuildbrownswepthaircreamcollarshirtloosetie;11petitewomanlongfaceblackbobsquareglassestealwrapdressjacket;12slendermanbrownskinlongdarkcurlsbrownsuitnovest.",
+      "references": [
+        "characters/protagonist_variants_sheet.png"
+      ],
+      "transparent_background": true,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "861e195b0ded0ae824e8ec69d28691ee4984cfd1e4fdb5f6d00495b0e3e28080"
+    },
+    {
+      "file": "characters/staff_sheet_3.png",
+      "source_generation": "exec-7e5abec9-b4be-4d1c-afd5-ba0667ae7b55",
+      "prompt": "Redraw a set of premium FULL-BODY 2D hand-drawn game characters at the exact highillustrationquality oftheattachedreference, samewarmnaturaloutlines/subtlepaintedshading/anime-storybookcharm, tastefuladultTaiwaneseprofessionals. Smoothcleanedges, NO forcedpixelart, NOgenericvector shapes, NO lowdetailplaceholderfaces. TRANSPARENTBACKGROUND. Exactly12independentfull-bodyadultpeople arranged SIX EQUALCOLUMNS by TWO EQUALROWS, onepersonpercelleverycell fullyoccupied, frontthreequarterstandingreadableidlepose, allhandsandshoesvisible, clearemptyspacingbetweencells, nooverlap. Tall/cropwidth cellsaround300x520ratio, overallwideboard18:10. Deliberatelyvariedbodybuilds,heights,ages,faces,hairANDgarmentstructures; neversimplyrecoloronebody. 6women6men, allcapableprofessionals, noassociationofbody/genderwithskill. Everyface distinct: round,long,square,highcheekbones,hookednose,hoodedeyes,strongchin,softjaw. Restrainednavytealburgundybrowncreampalette,alloutfitsprofessionallyplausiblelawofficewithoutrobes. NO scenery, no panels, no labels/text/letters/numbers/logos/colorpalettes. Keepall12separatefullyvisibleatluxuriousPDFconceptillustrationquality. ROW1:1tallwomanwidetaperedjawstraightblackhairshoulderlengthburgundyturtleneckcreamjacket;2shortheavysetmanfriendlyroundfacegraybuzzcuttealcardigan;3youngwomanfrecklesroundnosechestnuthighbunnavyvest;4elderlyleangrayingmanhookednosehalf-rimglassesolivejacket;5broadshoulderedwomanbrownskindeepblacklowponytailcharcoalpantsuit;6youngmanheartfacewavygoldbrownhairstoneblazer. ROW2:7curvymiddleagedwomanangularfacelongsilverponytailtealcoat;8tallleanmanlongblackbraidedhaircreamshirtburgundyvest;9petitewomanroundfaceauburnbobthinovalglassesoatmealcardigan;10stockymanstrongchinchestnutcrewcutshortbeardnavysuit;11olderwomansquarefaceblackgrayshoulderwavesburgundyjacket;12youngmanbrownskinsoftovalfacecurlycroppedhairtealsuit.",
+      "references": [
+        "characters/protagonist_variants_sheet.png"
+      ],
+      "transparent_background": true,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "68c849def123d506fa1a71816b58c05a38ab26b5a35b69e85ecb88920c184a71"
+    },
+    {
+      "file": "characters/staff_sheet_4.png",
+      "source_generation": "exec-81d50171-e860-42af-9dd3-719351b6c814",
+      "prompt": "Redraw a set of premium FULL-BODY 2D hand-drawn game characters at the exact highillustrationquality oftheattachedreference, samewarmnaturaloutlines/subtlepaintedshading/anime-storybookcharm, tastefuladultTaiwaneseprofessionals. Smoothcleanedges, NO forcedpixelart, NOgenericvector shapes, NO lowdetailplaceholderfaces. TRANSPARENTBACKGROUND. Exactly12independentfull-bodyadultpeople arranged SIX EQUALCOLUMNS by TWO EQUALROWS, onepersonpercelleverycell fullyoccupied, frontthreequarterstandingreadableidlepose, allhandsandshoesvisible, clearemptyspacingbetweencells, nooverlap. Tall/cropwidth cellsaround300x520ratio, overallwideboard18:10. Deliberatelyvariedbodybuilds,heights,ages,faces,hairANDgarmentstructures; neversimplyrecoloronebody. 6women6men, allcapableprofessionals, noassociationofbody/genderwithskill. Everyface distinct: round,long,square,highcheekbones,hookednose,hoodedeyes,strongchin,softjaw. Restrainednavytealburgundybrowncreampalette,alloutfitsprofessionallyplausiblelawofficewithoutrobes. NO scenery, no panels, no labels/text/letters/numbers/logos/colorpalettes. Keepall12separatefullyvisibleatluxuriousPDFconceptillustrationquality. ROW1:1olderwomanbroadbuildshortsnowwhitehairrectangularbrownglassesdeepnavyblazer;2youngtallmanwidetaperedjawshaggyblackhairlightgrayblazer;3slenderwomanpointednosechestnutlowbraidmustardblousecharcoaljacket;4middleagedshortmanroundfacebaldstubbledarkbrowncardigan;5tallwomanbrownskinsharpjawblacktwistbunburgundysuit;6elderlymanthinbuilddeepseteyeslongsilvercombedbackhairtealvest. ROW2:7petitewomanheartfaceblackchinlengthbobcreamblazerandnavyskirt;8broadmanbrownskinwidejawdarkwavyhairmoustacheoliveblazer;9middleagedwomanroundcheeksshorthairwithsilverstreaknavyknitsweaterburgundytrousers;10youngleanmanslantbrowsbrownsidepartbrownsweatervest;11athleticwomanlongfaceblackhighponytailhalf-rimglassesdeeptealpantsuit;12shortyoungmanwidecheeksdarkcurlyhairnavyshirtcreamsuit.",
+      "references": [
+        "characters/protagonist_variants_sheet.png"
+      ],
+      "transparent_background": true,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "c54d6f6e05073d781ebcec42268eb579146b5b5c852775c4494c4e5af52e0409"
+    },
+    {
+      "file": "environments/office.png",
+      "source_generation": "exec-b4fdfa1c-5037-4db6-98cc-d776df0c90eb",
+      "prompt": "Redraw the attached Taipei law-officeconcept as a genuinelybeautiful highresolution2Dillustratedgame background for a Taiwanese cozywork-life management game, wide16:9. Keep carefullyauthoredwarmwood/tealcabinet/creamfile/navyoutlinepalette andgrayrainTaipei101windowmood. Upgrade ALLoutlinesandtextures tocleanhand-drawnstorybook/animeillustrationwithsubtlepaintedshading, smoothshapes, richmaterialdetails, NO rigidpixels orblockygrid. Fixedorthographiccutawayoffice, alignedparallelrectangulardesks/windows, balancedneatfloorplan, crispreadablefurniture no vanishingpoint distortion; aplaceplayerswanttoinhabit. Fourwoodworkstations, books/filecabinets,printer,plants,lamps,tealgreetingssofaandrectangularconsultationtable. Emptychairsandnocharacterssowe canplace realcharacterPNGsoverit. Largegracefulwindowshowcoolgrayraincity, amberlamps,rainstreaksvisible, softcozyindoorlight. Wholefloorplanvisible, notcameraUI, noplacedwords,numbers,logos,HUDorwatermarks. This is a polishedactualgamevisualbackgroundasset, nottechnicalwireframe.",
+      "references": [
+        "../../docs/presentation/assets/01_taipei_office.png",
+        "characters/protagonist_variants_sheet.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "65ee36906f8dd405cfd27286c0a96b02b8e1edbf06980caa96a1f90edd5f06a6"
+    },
+    {
+      "file": "environments/home.png",
+      "source_generation": "exec-a78f7765-0d19-4ca9-9ba3-afd68f566194",
+      "prompt": "Create a NEW premium2Dhand-drawngamebackgroundbasedonattachedcozyTaipeihomeconcept andsamecharacterillustrationaesthetic, smoothcleanoutlinesandsubtlepaintedshading, NO forcedpixelgridorflatvector look. Singlewide16:9fixedorthographiccutawaymodestTaipeiapartment, parallelrectangularfloorplanfurniture, no vanishingpointdistortion. Asofttealsofa,woodcoffeetablewithopenbook,comfortablebedwithnavyblanketright,smallwooddiningtableleft,kitchenetteleft,entrydoorandhungnavyblazer,andhouseplantswithlamps. Rainybluenightcitywindowattop, warmindoorlamplight, gentlework-to-reststoryatmosphere. RichcozytextureandcarefulmaterialdetailatthequalityofthePDFconceptart. NOcharacters becauseactualtransparentcharacterartwillbeplacedlater; onecompletedgamebackground,nodividedpanels. No writing,nocaptions,UI,logos,numbersorwatermarks.",
+      "references": [
+        "../../docs/presentation/sponsor/assets/02_home_after_work.png",
+        "characters/protagonist_variants_sheet.png"
+      ],
+      "transparent_background": false,
+      "status": "採用；實際美術PNG，非SVG原型",
+      "sha256": "e43eae6c9e898b92402ccaa8c442ac04e5b35b5dac9c080e7552da9301b2c086"
+    },
+    {
+      "file": "raw/sheets/breakfast.png",
+      "source_generation": "exec-290aba21-d531-48ed-a398-f6065176be74",
+      "edit_prompt": "Correct only one continuity error in this12-frame breakfast animation sheet, preserving the illustration, face identity, background, fixedcameraand4columns×3rowsgrid exactly. In frame9 (BOTTOM ROW, LEFTMOST CELL), there are currently TWO white mugs: one being held to the protagonist's mouth and another sitting on the right side ofthe desk. REMOVE ONLY the extra stationary mug from the desk in that frame. Retain the single mug in his hand near hismouth. Everyframe must have exactly ONE white mug, carried fromdesk tohandandbacknaturally. Preserve allother11frames, allposes, outfits, breakfasts, framing, and smooth2Dillustrationquality. No rearrangedgrid, no new text/borders/gutters/numbers/panels. Outputthewholecorrected12framesheet.",
+      "references": [
+        "raw/references/breakfast_style_anchor.png"
+      ],
+      "status": "採用修正版；第9格只留手持單杯，其餘姿勢保留",
+      "transparent_background": false,
+      "sha256": "ce3e7073eba28eb290c8850b394763f4a38caaf322a792b964bde93b00730afc"
+    }
+  ]
+}

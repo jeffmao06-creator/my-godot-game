@@ -23,3 +23,9 @@ mono_crash.*.json
 *.exe
 # Uncomment if your project does not version PCK files as runtime dependencies.
 # *.pck
+
+# Generated Python and image importer caches; source artwork is tracked.
+__pycache__/
+*.pyc
+*.png.import
+*.webp.import

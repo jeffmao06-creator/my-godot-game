@@ -1,0 +1,3031 @@
+{
+  "definitions": "action_definitions.json",
+  "definitions_sha256": "5c7c917223d1acd837bddee32ced8ccb8ac2f8ad25ba609807151816b5bbb8ad",
+  "automatic_validation_scope": "lossless cell extraction, unique pixels, file integrity, animation frame count and duration; artistic pose/identity continuity requires visual review",
+  "actions": [
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "e1b3d18fcf5d624240abf610c5744102badf97116a82e70e5628a39c8f29770b",
+        "623310f9cd306037b7c0d98105041f027a2c1e670b91922ac84c3674eec6bbfe",
+        "3c6fbce46608780f9e2b44e22537df836c84c0d3a1f1633be0fefb14241de11c",
+        "ebe314a086a8d50bced8d3b79c2e55c7fd8f581513342d5703a7fce2899ec06e",
+        "77054d2d061130fba8c0e4ad76a2d46c9f76c1509136e20059c444f56ff3c52e",
+        "a3419f3788a20f022b4710da16aca45a4daf7b2ca08e462a322d016edcf09af6",
+        "bfada97ad9319a53171e63cc4ef62167e591f77e9c9c8ae652ccde985ec3f3ae",
+        "79717f718aae54bb9b8205354884b2f7cf9a7d84cc0c29b3b5950b675d56868f",
+        "b906451a5fe9f9d9a9789109dd56ef786cb1b08b5e8da2d16811530a47a1d2f4",
+        "da5fdd83f3f2a62df73a7a3129953f601d7f401356de7b748219923190a3fb28",
+        "5739e13988762c3769dd127cdbda8ebf983206b199671f17616bcd2558244003",
+        "39ec3db8a612649dd020b6d46c468ffd018d62550d1660939f080515b77da8af"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.075187,
+        0.082426,
+        0.077735,
+        0.060353,
+        0.062041,
+        0.064174,
+        0.073345,
+        0.100902,
+        0.09169,
+        0.082848,
+        0.070184
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "breakfast",
+      "sheet": "raw/sheets/breakfast.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "ce3e7073eba28eb290c8850b394763f4a38caaf322a792b964bde93b00730afc",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/breakfast/frame_01.png": "a232d260cfa7c9ca7eb046bf374f3775224d1f1a439e3c9bb9d97b7d109617d1",
+        "actions/breakfast/frame_02.png": "f392dc1dcfee041bba625d89b406711290ebcc601e2c2affe879d278b0dcae50",
+        "actions/breakfast/frame_03.png": "1eeabeb6449d10c25466a0512ae55fded2779aa972a17914b62e8d8314c001f5",
+        "actions/breakfast/frame_04.png": "26f0551242ddebbdaa7f46846d831a5f0083ca030b13b81ea59223a049f2556c",
+        "actions/breakfast/frame_05.png": "6baf9dacba49f6a5897d5487f7bf9d9eb3fd88289e8c80e0da055a9e92dbad0e",
+        "actions/breakfast/frame_06.png": "fcb6fe5d5dd5f0415bca8d312ded14b9b8babb919dabf0c1574f60556e952b31",
+        "actions/breakfast/frame_07.png": "254f145aa670716c5ec9e41bf02d3c33d73b238da1a85aaf418a75f1d83aafe0",
+        "actions/breakfast/frame_08.png": "521d39b82dea6ee27029cf71505f7a3554cb478d8935b1634eef599732366f88",
+        "actions/breakfast/frame_09.png": "60a0825fd301cb1dfd52020329f61c304ec75adc44d1ededb7364660d1199402",
+        "actions/breakfast/frame_10.png": "947193825a4ffcb2efd149c44f8d3478ac1e1a92eda481b63cb73ebaa4237e46",
+        "actions/breakfast/frame_11.png": "7f10bcfd4b82dc169b8489375066632c6c20f7269c1fe58cd241cb2f89de19f3",
+        "actions/breakfast/frame_12.png": "e9d3f963152446bd8fb3a3c5d030150389cb38db4e564ec3557525987cf4cbb0",
+        "actions/breakfast/poster.webp": "db68a2b20a7dcb6c45e7bdddcf61189525516425efd038d1fea6743c8dfdf7b9",
+        "actions/breakfast/preview.webp": "1f80ed5a3171328f2c22f0dc91f3646b7f14cd9e3689f3aefdafee2ea9da2f9b",
+        "actions/breakfast/preview.mp4": "f310cfabfbf971ad73b9d3b3c99dfa40a8007a4668abad1206b97783e0d6d2a4"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "b29d067f0cc19b4442cf1ad7fb26f08895fa3ee3723f81d66f56293e1c437015",
+        "78e112c4de9acbbae26d269429f7605a30294c0970844c2a1f4b15cfb67489a2",
+        "dff653049750cb14b534551d144df1d6212d0d38f15b2e1dc8da05d1d98d4bc7",
+        "26087c7c77f15aa1de32618b46a709500ddd194c99933bcda2491fc1fbf99e8e",
+        "5876542f973da6f2f8b00298ff7b0b431340d32b28b39a29c009d72d5c44c563",
+        "e86c61de473e3758c01676d0d67b30d0e872c8d3e4b7e132a547693b7d957421",
+        "26c388663a5a3fa32e35abef51a90b6919755633cd0e49462aeeab48d24cf133",
+        "4f39a450fe54aa4df30aa710d39efd6e6db72cc299ba37f8df76585d102a6ff4",
+        "92be39c6b358728ef741b020bc323d9ceb2f5f077c71ce471fc4fa4b99c8a1d0",
+        "2374e6acceef37ee707991efcac124c64e9a96b45a97c78e674a907d5875a63f",
+        "00c86467043df501e7d4d0045405b125eb33642e34a705afc4e2d871585ed89c",
+        "2e4512493691b0dc8184aadd19cc95b2f82018c9894ae033d3bbd5d5ec83f5d2"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.091408,
+        0.077138,
+        0.057514,
+        0.076261,
+        0.060547,
+        0.063306,
+        0.06941,
+        0.105366,
+        0.093107,
+        0.077914,
+        0.075551
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "write_brief",
+      "sheet": "raw/sheets/write_brief.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "c65f995435b7fa92db34aeb07b01badfc37b91d2f3ae25598bfc2f369537d680",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/write_brief/frame_01.png": "25f268c90fce901e86138c2ccd91bbdf31c4cf04e00b3c0746569b58d572f9ac",
+        "actions/write_brief/frame_02.png": "5ecce4daffec251093d6ce7bb7a163496a938f7d265a4faf3b0cb349d351c5f4",
+        "actions/write_brief/frame_03.png": "523fddb8c0d0c57b755da91d858e5763aaf3dc9dcbacd05eca85a84bbf8ed58a",
+        "actions/write_brief/frame_04.png": "f8b870b60c48d909fe1deb0d7b3c562207960a1748658d8e28744fd39ca6d8a8",
+        "actions/write_brief/frame_05.png": "265287cf0cd4ba13dcbdb349e94a7a3ffb36de5dbb1e772d75ec6f38dfe39d23",
+        "actions/write_brief/frame_06.png": "6c1d51a5111d36f8c9418f04b7648cb0c0d6b5e13fe33dd783d507dbd8f20ca7",
+        "actions/write_brief/frame_07.png": "ded35756dd58e7709e9cadbfcbebada0ccda360c0ab95786243925e49839e4d3",
+        "actions/write_brief/frame_08.png": "1b4c955c2659739c55a2a3f88441122a0fbf794d9bce6da1a24e2d20c98db525",
+        "actions/write_brief/frame_09.png": "76365b2a017085e08e9de225ae75a86e033ae075f4e1e3bb3fc44952da82ed8c",
+        "actions/write_brief/frame_10.png": "afd6608d7140753b8bec6f037f7bb6383fadb7baffcce8db9c18d4df4261446e",
+        "actions/write_brief/frame_11.png": "ccf6218afd216b26e2539aacf8cb7f4e1690515d4a0d8148adc82e7161460035",
+        "actions/write_brief/frame_12.png": "a039aed9cb20060d0f1b8930ed9a318bb9e737705f058a76e1db4a205d3b6a3a",
+        "actions/write_brief/poster.webp": "6e5a48d48559403c142e060db91713c26ac6461c8c4b36dd5850a3438e0c3313",
+        "actions/write_brief/preview.webp": "bec111a1d279c62b116da95fdfa0b0cc53620e16c101683f39816234933f45cd",
+        "actions/write_brief/preview.mp4": "65036a024c326d47d110f77c30a328a0b0785b3448cc5d5d8f51ce99c350fd81"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "ad77c769e5ab0b9197289b6f7ff6495eb7abc683dfcb6871b5ef4d0687e25650",
+        "6cded0c7f7a86b48a3166844ba082500371475306ab3418b6e7178ac63ce26ca",
+        "dc1c5d29686f5bf08242019581df7dcecaec6599059ce86a034acfc2d3b4d4dd",
+        "195f0e02cd9e1b65d77b16044aacede6936d94a51e232b02c137890ef9c94d66",
+        "f95f3fca6bb760c809ff9d219f9106424041708d041dc6bf83ec2b4b83c56236",
+        "208bc9af921b79c16ada327726f083d97497f96543e3f4e987833bc957a63298",
+        "77a145f4e5c2f35a37af81021f30b43a02293a8ae56d31271ad4a3acac6614a4",
+        "7e4ed2ee263b299c39e0f4c002708f896c17ac94354fcb01f683123cff112844",
+        "ff56dfacfe644907d63f39e62c477ce180d30c5922a07177566134cc24bab157",
+        "a6bec19311949dceecb6d876f9893cd6a2a13dc94f6946ef10c48cbc724b3f81",
+        "c0525c585142df5cff3a0c13e66f6440626983bd5ab9e5b6289f87e192713bbb",
+        "cb50ed6ea867d2970bd491ca20771844ee3449c037e286cfbc90aa01676394b2"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.088517,
+        0.081314,
+        0.12638,
+        0.087665,
+        0.069055,
+        0.107206,
+        0.098479,
+        0.075339,
+        0.050492,
+        0.062885,
+        0.056522
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "slack",
+      "sheet": "raw/sheets/slack.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "b9e407cd3e4fb7907d4823f8182d8c039253df744ac3189374b0fb88d2e2fb61",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/slack/frame_01.png": "0025e0d3e159f87c883b3dfbc26ee784e410543532148319514f2e447d42283a",
+        "actions/slack/frame_02.png": "a7b9c406e439512b0fd4d0c39995303304c7d1cbe2d6286e19178d39bf6e03a1",
+        "actions/slack/frame_03.png": "e68dcd0ea730a0305ed1f701070c046933e4f6bff693541d83a1bd85c653abf7",
+        "actions/slack/frame_04.png": "76ef0146272e85cd91f211d4a6f782a63c996203823ea6b7d8a7daf472916585",
+        "actions/slack/frame_05.png": "ff7a03e34424c7028e35aef84b760f10ffe4e19f5ba718d44a168713f215e61b",
+        "actions/slack/frame_06.png": "2a0f2bd130fdf5b2f688fd64a7262bf07a0a37c12517b2b09a214dfff626df77",
+        "actions/slack/frame_07.png": "85d07d8c6b3bb6c25aadfc0b33baec70ee1b750963c3d41d6a36bf6db8da0ec7",
+        "actions/slack/frame_08.png": "d0421e7fed45f2cb1d8e14f2f07ad3c54f12e248aa2ce69cc56e709a782efbd8",
+        "actions/slack/frame_09.png": "c34b12719516333582765d68e69b46793d4a4cf8d472cf702f002e9f73a6178d",
+        "actions/slack/frame_10.png": "7276182070e163552f7f7331ad8e6ec06b1b2b4576d57761aac646c142dd0488",
+        "actions/slack/frame_11.png": "807cb0f25ae55e7e701aede42ae5d3cbc2005a372ca37197858c6dbe809bdaa1",
+        "actions/slack/frame_12.png": "3cd21dc6d3482ff2e680f4180e372005aafdda41e1673619973143f8a82e40b9",
+        "actions/slack/poster.webp": "e0ea2c96586cb891c0bce45ebc5c75526eb448d6f7ea68ceb7e84c7a2acba9dd",
+        "actions/slack/preview.webp": "da77f9c183abecf28cca793dd159280295e6fa4702ed97af0c838794e17b2cce",
+        "actions/slack/preview.mp4": "093b3c2f7bf2a300f0aab88489238f90b735217c5227fefbb659e70d3f6d5870"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "3b98b66fdc74d3e612332e1054c209322368f950cb0bf4609c9d896e9b277214",
+        "793992c070673a4a5c7163270dadc13932f178c7001981413579e9858c22b274",
+        "db0f3c3d7ce6eb3c08a603929e91587366cc36ec8c2915c967b8411058697324",
+        "407968492f5f8281fd1593ee043a89f895a26214a210445c6f08d326a62e66a9",
+        "fc61f912d0bf12e67f4479a6c9c10ea59fef6e9443fe265270e4b311a918bacc",
+        "4e89279ae8cd3f44f6410f1a1b87e84b5fd608f219f11969060148c02308be8f",
+        "6c918f78d3078a4ff21aa6fd0277aa72a3019216d0abd7c7f4ce30fe666168f6",
+        "9525e51b031fd1c873392abc799a55e2ea6f2cd004423819ca566278fc59a5d4",
+        "ec75690575de6b7d4a4ca0958c0b1424ba34b9d141183851fff3038b06618020",
+        "07f8cef18555f72b91252ca8b6caa2006c2510753094e9955b3195387064f3f0",
+        "37fed1d3e544e3d2f789f5d5a778913639f458d588b089ea79cf2297c6f0ad20",
+        "e85a7fc63f0e8c366a0c66f70f365e3bd1938c0e3bcfa9aa5cfd899630cf41ae"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.074113,
+        0.074387,
+        0.086457,
+        0.130263,
+        0.078276,
+        0.065612,
+        0.097174,
+        0.125398,
+        0.06084,
+        0.092879,
+        0.093195
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "interview",
+      "sheet": "raw/sheets/interview.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "68f0918a348cee828bfcdfb7a5faca83a1cfe64e52e439d56f1f38a64a980975",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/interview/frame_01.png": "dcb1f664b4729ddd3aa638f3476632c212dc4a9e9b64bb7fa9c6e91e0ee7516b",
+        "actions/interview/frame_02.png": "9b17ba46b42c7eca4fb983aed53520e4e3d15c06cba798df11fd4489cd019b9e",
+        "actions/interview/frame_03.png": "c8ddffd6187645cb86155122977078469a44159c0edaf2f27d33857b075143cb",
+        "actions/interview/frame_04.png": "1560d6280ca33ac521503d80c5acdc8e4074ae56fd3f56f91b80f562f0a36ed2",
+        "actions/interview/frame_05.png": "35b0d454cdf525b6c6d7905d9b4d32e7a09ba1f55c597904b6af389c6f88a367",
+        "actions/interview/frame_06.png": "d5549024e2b0ba760e821bd79392d51286429ffa3bb3311385d4dd6617d7c290",
+        "actions/interview/frame_07.png": "3d5117dba823ff12687f60b4350ab1465e31b208a56bd0d96f398f7448a3fef1",
+        "actions/interview/frame_08.png": "0c05a8a71d3fb62ac78a19050d086a9210bf4c518cf5dd07f4e20d48a0831f9e",
+        "actions/interview/frame_09.png": "452a36c60bb328679b28164c2cdcb0de519a860de7a52b62e7da2d986cea49ac",
+        "actions/interview/frame_10.png": "0d05120fa92d0e9ee6c88e8f723be3e39d22059ad3c6cb8be5026b5a02540f56",
+        "actions/interview/frame_11.png": "e72f16cf606963d2bfa90409dd08876aad45eb8a555935e67c6e9a42ac802b0d",
+        "actions/interview/frame_12.png": "ddb46809217e0d85de631f4c30ac5fedefcf13930678fea59e46797642018525",
+        "actions/interview/poster.webp": "e15489783bcd980971f70e1546d390ee5500b1cfbb7b02ec529b7adc26560b95",
+        "actions/interview/preview.webp": "eaccfb7d9404d71b131476f41bd4bb6745b976101c3297d822517c3385eba34c",
+        "actions/interview/preview.mp4": "bd4ef50ccce81e55fc077bcc2a34249c2be668eb6cc74c48afb1e36940955619"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "a3a7a4409a6aeefbd610e645143e2ebb78d249612fdc4ae40ae9ce7076eaeff4",
+        "0406ffe983959c23f756f5fa22062916ec0f2cb51d8ef65dd54593fdf96d297d",
+        "e4c89b70c2da00437e444716f2bda95cc694515c91cf51d7978f5fc9fe90a55e",
+        "5aa47348a00512358c119847594e56f376c543b9af4958cd0782f872e49e80a2",
+        "89a4ce82cdde53931704c32c74599b3b32dc4739fe4009fe361a3a84c414f3bf",
+        "95bda649151ddc034c8f07c1d882f17eb0e663dc28e1711a740f66689d21aa4f",
+        "e717cde89e3060f9ef4e0cf668b15b7a886e79855438e886360220af58843769",
+        "7328272a40953b5100bda65712002a3d94d7fa137acf95b21203434c89d77b34",
+        "eed175a9320af259a649e7306f230c8cd8c5fe45342cb0f1ca7e86b84b494081",
+        "8d273b52c179609899db296186ec466dbac01d1806dc5eabec9141c3112804e0",
+        "35d92a4f95f72669ab45e06112584072292df4089297dedd50221858b582604f",
+        "8f5850e88fdefc9e7cba8837a09eaa7a52e69b92c0986780e0e019475c25192d"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.11036,
+        0.093291,
+        0.061089,
+        0.092461,
+        0.085863,
+        0.052428,
+        0.066675,
+        0.107063,
+        0.080002,
+        0.100843,
+        0.091229
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "research",
+      "sheet": "raw/sheets/research.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "5a5afe5cd4e7cdf3b7b9caf4c27ee1096c077390cd587ee1b9b839799373f6c6",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/research/frame_01.png": "e4526964ca9378611fd613e5093db4e37f653a4902ffe3c273a214f51ae37cf3",
+        "actions/research/frame_02.png": "58f4665ae3263d91009d28e9bca710a9a7fd1655036be29db56c41369c5b4e1c",
+        "actions/research/frame_03.png": "d85fe6baad5be7ad7b0ad651f393829941ba21135c93112c23a5121adfc5a6ad",
+        "actions/research/frame_04.png": "60fad6f7254853b7556ec5cd1517b5941638218319980d2d4d32221544617124",
+        "actions/research/frame_05.png": "751f32928a84e5e2be5f49f2f76cd7aee4d4920c016b4b1838b2e99fe3236313",
+        "actions/research/frame_06.png": "fb06fd0b207818b7a2da64f70efff7ff62be7c7131f913c31091ab451ffe0c03",
+        "actions/research/frame_07.png": "70021ad75fdb403940be3ad60451f3fd176d73ac78070426830d238ceea39ec1",
+        "actions/research/frame_08.png": "df9ea8d94ce47ae61c9ea16328ad7f773133d9b13005c755ba7a36097ef60aee",
+        "actions/research/frame_09.png": "f9267349262604f6bdeab4444401a20725cfd3884f261d524c0e42f2578da237",
+        "actions/research/frame_10.png": "482ba9d53bd34e98c4959bac2ec23ff73be8e97ddd8ed167a173bd014fd77ae8",
+        "actions/research/frame_11.png": "cbc2985012822b26cde30a0a089f69f2d4f5223fd726790b7c3913bbb3dce6be",
+        "actions/research/frame_12.png": "fd9a0556730b3d2d98425d9a9a7fa580f4865f71f3596106a2b0ecdc2b445564",
+        "actions/research/poster.webp": "22be71a476f977ba119a6496be47134458b4e602262fe863b88fd089638712c3",
+        "actions/research/preview.webp": "9111709ab7464cd57686939afc8a9d1dedea8351bc17dd899f367000837e050f",
+        "actions/research/preview.mp4": "e3b734ccf891b8a4b36c0c5e547da808ce803920f188f59d9d95e3dc1fcbd798"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "7357fca69db987254a14292f5eeea0f56e6a0d78ac90e3c05359b841b69a5d84",
+        "26e3ec0c36581b288c548b2fb502b1fe31be8728f95dd457aa6e177a7c102267",
+        "8a95375c7521734e49922188164958a54264e24cc3e412eeda58818b83c0e735",
+        "e272d3422c3a95409f1aece18b17ac4705c4e409f4a4e2d78b8e11b444f0705c",
+        "1f32647963164e867bbdc03e18a86e92be796b07df81c5b0ac9cb17e09b4a333",
+        "615dc34bc44c5b3c0a5821e845d7e8eeddea6ace329176884c33083cb6e5ff8d",
+        "44688ba2bacbcdb54c3120b57afe5e816f15ad280bb715b899b42e4fde8f4b73",
+        "2c6d0fa81688c4b13e1292146f3da2f1373dd0edf64f9b69f67010d0f719c6d9",
+        "c666362295a3f3b5b89c17df32b57a9c092228f15e6874b2c7d24c104a765d16",
+        "3dbcd7cf1756422b7e3488194f1fc22211faa5eae19bd18e064645b18fe6b45d",
+        "53f110fde91cf7636870dff829e0dbd5a2b77fde7c1901b14ebe2ed3d3fcb0f6",
+        "67b551987facf9be5d28cf1dda0c6a7222e3d80756f19041936d35230307d30f"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.104054,
+        0.054364,
+        0.098176,
+        0.096768,
+        0.04847,
+        0.08508,
+        0.093289,
+        0.122528,
+        0.08926,
+        0.06288,
+        0.091456
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "flatter",
+      "sheet": "raw/sheets/flatter.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "bf51cfbb629a9d28a37a23c3d436d927dfad203e8109488a1a23ae4e366c4c23",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/flatter/frame_01.png": "92b58c046a565599fa8632c87fb79de7cb3b5bf0f1e4515651977d7d6ea02d45",
+        "actions/flatter/frame_02.png": "2184f1414a56e93bcdb32bca8f5cfe55f1e4a1156c8cff8f32f8cc93627df9ff",
+        "actions/flatter/frame_03.png": "9918fed836fd5f0d1a5e11edab10a7d4ec81d77e8c48270db507d91aa794cbaf",
+        "actions/flatter/frame_04.png": "3e5cacccc063e0dbb395f9b045735be65faa4e8cd265388c71c984dee2f5905b",
+        "actions/flatter/frame_05.png": "0d0de1b73f6b1f65b42765ea2a7024d03712af56085cc09cb3465bee62cc4df0",
+        "actions/flatter/frame_06.png": "d8cca958313b343ceeca9bcfa23caad0c0df94d7e0cee742c298707114b6de19",
+        "actions/flatter/frame_07.png": "d5d0a20f32bd33b738b8f98ec891704197c708247d2f8de88c356f39864a616c",
+        "actions/flatter/frame_08.png": "d1fb34480f3882a4a0f69b4a31d42b6fa47a8b9c3d15d39fe5ab7ee1df89ecae",
+        "actions/flatter/frame_09.png": "3207aed063d3a6600c36292d2fc41d4b9d062a269d59c0c060934b6cb563755b",
+        "actions/flatter/frame_10.png": "20c55b793046fec1a44060ce530a514225b7daa37cf39b5ae03200081abbfce4",
+        "actions/flatter/frame_11.png": "4ac81c1cc1ac4b4bc9c180b8997d63fc5a823da09644acf5bd79a00c8293eabe",
+        "actions/flatter/frame_12.png": "2d502a979d00b905c8dc6c4f4828f320e060d017ec6a16a106e244c2e9296446",
+        "actions/flatter/poster.webp": "d4a08f0b46b98287fadd3c2dec891fab1cedb3f6894b8cb1d74dbf936cf6c8ce",
+        "actions/flatter/preview.webp": "1207500d465e3433107aea2172db0809b516986b511442f4781bac353a0f36d9",
+        "actions/flatter/preview.mp4": "b08947821384899d2574bcd6c1e3fdfd44dec36658582705bc966ae2f1f08f53"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "99544a0859863ee76383bd40a229a72b6ab011d6c93d0e3f672b2ad51dba3fdc",
+        "cfefcbdf1291063388eb070d6b334ebf1de4576687ecda5e968a82ac32fe995f",
+        "095e4270b7420d1998f6b9bd82e389ed9bdf1cd6bd6be8849545d52360616961",
+        "211a638163bc2d9dc1c603c43a3afc06bb3b91d59901b8c3a31bf690178db858",
+        "19fd9f3d2ecad14d2f32381004bff6961bcfaec616a52bc4b61a8458f14f5407",
+        "6d7628359495fb5f5d62f2fc1780766f0edc29ce8f66b22d9b9887da0d40d1e8",
+        "977dab246a58d0164950431c6031b4ce4e73fa8fdf29db821f44dfb2f25e8f7b",
+        "1094e2503cba88c51fcb13871b8722900f45397bceef968e36a1fd1d361fa2ed",
+        "6358c9af175c750312dd723078596608f2ea29b9c121f781bcb677ecd240a353",
+        "54864e8a9842900d50b6bd45f87b6f2697fe862d845267716781380cb7681fb7",
+        "06e18b57b7996267d45811d64788503a761d2259028757dd5f7b48c224d0d43b",
+        "d561273d28f96a86f674be26ab8d64cc7403183a290dcee0b888bbb85f7cde0e"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.032586,
+        0.040562,
+        0.047974,
+        0.043524,
+        0.037579,
+        0.046303,
+        0.031313,
+        0.060097,
+        0.036831,
+        0.042023,
+        0.038653
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "gym",
+      "sheet": "raw/sheets/gym.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "fb79cf7f19b0b0a083928137dca59e756a39859787bd2eb46ab3a88d2e16cad7",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/gym/frame_01.png": "cb5a81dc7930b7b42bee4d8fd2722e6d75243094c6e5f0b5e8bba6306c7b1cbf",
+        "actions/gym/frame_02.png": "ea95b1d85ae3b1a528fad0f8e2256a29e0256a570c89a20e1e227d9b7d49b43e",
+        "actions/gym/frame_03.png": "04cdce5f6be1fba407158e923cc3a0331e09f9c027c5d7114f6b5e7847a66503",
+        "actions/gym/frame_04.png": "4003c91848c4cdd9940c37207a9a55d2f864b33cbcf0ee83f07f65d3ddd075cb",
+        "actions/gym/frame_05.png": "5168cbe69bd9e5e9cff5d6593680828eb94cc3e06e070cecd49c74c6dccde736",
+        "actions/gym/frame_06.png": "c2f445c8b4da3fb67dd3dbd21716da276ad3e2a3a68cac6b99eedfa38e59d903",
+        "actions/gym/frame_07.png": "aee4351900e1a7566ba7de771584b8fff54aa6bf8820b33eecdf4fd98ab34741",
+        "actions/gym/frame_08.png": "71645aeed53871e1b51ff426467859c7a4f691e2236e21734b382b05ba0d2bb0",
+        "actions/gym/frame_09.png": "3594a5e0826561a0ce1d486d3b8c92a358f51cb0ee04a2b6756cce9f6086c372",
+        "actions/gym/frame_10.png": "c8e9cc5b3c85977f35213c3c6ab46a2338a2bf05f919d4ba878c31a2ce99356c",
+        "actions/gym/frame_11.png": "46172ce2cfdbcd5bcb532e74a7dc280cc25431e574f87906628544c82ffde919",
+        "actions/gym/frame_12.png": "874c64b8bc10db79d1ebc6449a84779f7c9bb3af4f0f882b783b10a35e7b573c",
+        "actions/gym/poster.webp": "f102a0943c4f927c166e468ad37ebecab3dc79e6a5d39ff8328bbfa010e90d54",
+        "actions/gym/preview.webp": "c20a4a4a115c2de2d14d90e2a0d0d864c6913ab7e99718863b0ce74eed68e353",
+        "actions/gym/preview.mp4": "63199af3c2c65871986747cfb34ada7ea129088c494977560c22a3c6fff64e76"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "ffc7e23a2bf254e93269aaa9b135c3d6729ea65f189d0a7b656d54d663d4c84d",
+        "1f63de1c88e0477d639997a4d218344085163050ebd221411d124ea3427feef4",
+        "802a907432bcb642c1ee3c583d1a33f16c3ca92a0e54f00dc74e68dc478b455b",
+        "680b1b7f2937238e8550d96a7999446537c5e46d73e6112049abeb3d75b8ae93",
+        "7232d1114da58e3bcf295006c702d9b4409a289dbf5630d4131692d40f2efbea",
+        "d5a3e39fb4649d9d1033837e9742718682a0e887680fb51c8f36f44399546fba",
+        "c3a8409b8a357c86245ad64158d110def9ac5060b404fb33f921eaf7cc4d7463",
+        "20f8f3c77a0465370d14b680e333e72fe8b79e2b512fa522b5d14f9a295e1da6",
+        "3bf8ef763cf7232356720c86cdbb2578be70346d2ee511570dcf8962c23bbe6e",
+        "13b6cc32ca305104fa9876c1bb810f6d555c748070e9cae465b4e62782043379",
+        "03a2a912b54e7dc661d99f14b18dccf136895f6d5f9cf5102c2adf01171cf58d",
+        "12d02e0e983d71d7c0fe04561d827aa64c7bc66fd65f3601ed002778ce2e2917"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.029063,
+        0.029371,
+        0.029692,
+        0.030441,
+        0.037771,
+        0.040359,
+        0.065776,
+        0.068769,
+        0.052279,
+        0.052277,
+        0.063332
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "standup",
+      "sheet": "raw/sheets/standup.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "2985cedf4d7b1027d6f3ba4c7a6797544c461dfd7a7105dd5ecb7bd0028d4fdf",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/standup/frame_01.png": "e37a56837d80d0bd4919a363b5b0ed1e530180c2297a657cf63593364884ea5c",
+        "actions/standup/frame_02.png": "47c37c1ebf5815c161a5bbf110742667d165f948948600a90f2a475b7c3d666e",
+        "actions/standup/frame_03.png": "a971318172fa1f57796f9fe564e0e7a324d6fda05ec972715dd7c939d6632507",
+        "actions/standup/frame_04.png": "375a9f6ee7be27d068dfea17354c0eb552973d77fcfbe93cc671675affde64f6",
+        "actions/standup/frame_05.png": "b5e8c9a1ad04f4dff4541396b4246b2f1bb0725f6d092cdb72bcffe8f71b11e9",
+        "actions/standup/frame_06.png": "359989e214888cfb3a34e48240f934753ca36fa4191f0eefa2ca4522e8307b54",
+        "actions/standup/frame_07.png": "cfc61a9ca807787399be043060bea8c5b1aa409d722c46ba0d0f4a9bc1943f84",
+        "actions/standup/frame_08.png": "9d4e80f484b79092e282de478452fb8fbf69259913d2d044f9fb1cdf857421f0",
+        "actions/standup/frame_09.png": "394df1a7e82da9f3f5bd04288b3121090c618d0b4222197c4fccf278690736bf",
+        "actions/standup/frame_10.png": "4401293ac157ad56842dee4b23a59a8d159888a15acd632d4dee2d2759e54831",
+        "actions/standup/frame_11.png": "26563f51266f289fb24ca0ae3cc470bccd980db99b929fd8d6c617e1178f2938",
+        "actions/standup/frame_12.png": "2f314b020d7d87333653450e2488569e3ff0bb800c1569f251ab800b6b7ebc74",
+        "actions/standup/poster.webp": "1025f60b622d2f2cad228f7e37f6c73f59a2f5de18b7715b18741f006372196b",
+        "actions/standup/preview.webp": "4bd4d0e1939d0494a491ca8defe2a1f07ba30885a964bfa9fca0d8b312ddb526",
+        "actions/standup/preview.mp4": "bfb62c50bd91e4b932b5eb1814954c70afbc25a70f898b14fb1bd36cea82c39e"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "f12cc39a7b4ac9f3a22aede2d0e2d627f6bc4b7935de210d221f633f1fb5da4d",
+        "896376bde2b7808488b5d07150c3cddb33c1f5102ff8e50737b04881782a719f",
+        "c59c6e99d4f76de24f7a6e6727b9bb94add09e18c12f20b602e18b762f535b96",
+        "07eee2c0d0d53f48e821056979453cf4c5a62eb6eba1d1cd196e77ca09a5e926",
+        "bce88a37a52a6ff8304d6f8e9bcfc4e748573c2fe26f0984e10b298ffe39bdc2",
+        "a42c6d37a26cabfeae9e86b3cc3d5f1834cca4dd271144f210c1aef8d13ad51b",
+        "a317a9348735061333a72e89c06a5bf0f315ab5036ffc4a91319ae127f0d81e2",
+        "07d0ea5e1db998ae68b442dde2b1d246004198f05ebf36dfacc743621f1254fa",
+        "de8eeae2c8d1e2ceef7848f101e9ed14da490b2ea452c34a84203188aac33396",
+        "0e9cd4a1a1b8014763239238615df60066dec027cd0c9fa92e698277f5d1153e",
+        "6929edf8e535f9bac4273d40b31e86d3357a12497d7d16d1bb7641b7b6c2804f",
+        "d2f1ad5bb5e9e623188698bc136a549c63e08f81795d3e0d83694bc4e336370b"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.039095,
+        0.050376,
+        0.054757,
+        0.064877,
+        0.053345,
+        0.028552,
+        0.033795,
+        0.063297,
+        0.033029,
+        0.027504,
+        0.027212
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "legal_video",
+      "sheet": "raw/sheets/legal_video.png",
+      "slice_map": {
+        "source_width": 1931,
+        "source_height": 814,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "56e68cb9c8cf4891e0050cc05a5cc8e53f244cec2e45f188f5a4e0c23a1453f1",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1450,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1450,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 544,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 544,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 544,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1450,
+            "y": 544,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/legal_video/frame_01.png": "2e763ce9feb0f068e3c3899a33985ccf29c6b80b7229ddeacafa92d12a9e4ce4",
+        "actions/legal_video/frame_02.png": "ce2ed23f6c7d7901c414ea855c4bccde07393b098e8de2063b86fefd08abb2c5",
+        "actions/legal_video/frame_03.png": "8776c1002ba8d8b502415b2086706a6585c2de440cd49b534eabb058f1611d41",
+        "actions/legal_video/frame_04.png": "4d2ebe9205e93a3ab9e670931d189e7cb295a854e7c084f21b1e80462fef2698",
+        "actions/legal_video/frame_05.png": "1022835b7df0c88f157dbe4128e17c63beaf08c2fcf1ae91d22ad2780ca72e5e",
+        "actions/legal_video/frame_06.png": "1f7ccbea2a3ac1df41e3196bfb7fd0200b19a84e10d9b3d28c3672f97bd52091",
+        "actions/legal_video/frame_07.png": "46e8fcb756b827d0df30a63fd3f7de2f05cc9f3103a705a8d787a83359a32e5f",
+        "actions/legal_video/frame_08.png": "d08e212daf15dd520294921a4977813eabc3ed1d91c4493ae32bfe19c7cb997d",
+        "actions/legal_video/frame_09.png": "a641d3a9271a9754377f286503f0112e108933bf4802d08fe1e28a3a46d2c62b",
+        "actions/legal_video/frame_10.png": "2f5219e12146415621598aaf34e0935378256c750958fe2dc7e38d557cebc86a",
+        "actions/legal_video/frame_11.png": "d26fd904b951063cafdafab32b540db529dc15d3de11f2ea2afb07b5e2020608",
+        "actions/legal_video/frame_12.png": "66aa500416c137596488edf2dae86639cd1447fd501be417a409ec4beebc1861",
+        "actions/legal_video/poster.webp": "0194b3941cde0a2a95f33004a1724125be350c628797ba7c75977a6481027508",
+        "actions/legal_video/preview.webp": "18dc903c716f370b20517a535257c0c7bf922741598b5f1679ae553196f6dc54",
+        "actions/legal_video/preview.mp4": "d8f94bba2d0dc2a6e7e154dafe7115d47857052295a06b9636de766c1dfc5056"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "fd56c91dbd2b8ca1a4816c93803bef2795b8f2589dccd7cb51eb1fc472c0f0ec",
+        "d3e1bfae8acd013ed1a4b7be8667926d2ee8f0d80f93c3de1fedb4443a99751b",
+        "7c406c1a1fcef1bc7bee31c281b5cbd621d5635827f654a113c9c91b2132ab27",
+        "2d498f30565fd58917a3642fb4ba4cd705eb007d7666e57e1a8e06af62a9a89c",
+        "5c77eddcc0958d3da2734de7fa4e4f274f148917a825ea8c03f2296fcc57a36d",
+        "736b665ad4b2581b7ec9ff7acc42587abbdd928dd856c921f91898cb446298a8",
+        "e331441b25a20a5ce5071d38d20a254a9f02302afd2d6ca8b2201a6ce207b93e",
+        "9e604f4f0466f77d06f0d4904c26dc0d57ab7a7f0efe3ddf1d751ec333f308e0",
+        "49e204623aad238a5e3a7ee16d195bab920494e5b31a2290fb4ea4088ecf37ce",
+        "61f4d768d58d2912a77a3a3ac82578b37467370920fc8ad191e863b78a9f5b08",
+        "8ae2627b20cdbe64179dcd6bf77aa70b54f07466efe9870e57af4fb8d8863ac2",
+        "6fa1dace84ed42f5820a666ebc06d92df7bce1c1efec5d1e3dbb98b771035f77"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.090315,
+        0.069372,
+        0.08192,
+        0.099391,
+        0.07324,
+        0.057027,
+        0.128869,
+        0.079567,
+        0.021118,
+        0.023046,
+        0.038238
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "sleep",
+      "sheet": "raw/sheets/sleep.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "515730c26e91c6d63333c78ecdec1420c06735790ffb6adf03dcfda3f0dca85c",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/sleep/frame_01.png": "b9da793c95a55c41e8bf4dcf1e79af08218b18ba0e17df4cfa8605ea06e68d41",
+        "actions/sleep/frame_02.png": "f9656b74b63f2e1090f5cda78983eaa96ba50db6f6345390ccbd3c06a6450317",
+        "actions/sleep/frame_03.png": "a3dfe0be1a26d2a5223366f87f8935225eb8a29baf28dc9fdcb83e7c5c7828ae",
+        "actions/sleep/frame_04.png": "e045620676ae72b7dda9d5cb57c34a8f3ae7630fa79661d53bd68d8117b58287",
+        "actions/sleep/frame_05.png": "7ca515fed9a825bd7ae9882c2c20c4b126c0f9596ff5cb6df2f2eedace5869ea",
+        "actions/sleep/frame_06.png": "9196a538e473db2f1f7f4e5cd4a1046859ab486bfab0c1201cf860c9470b716c",
+        "actions/sleep/frame_07.png": "020b31ad3b8da531626f309784db1fd385ade7756f2434bce2836591118963f1",
+        "actions/sleep/frame_08.png": "afc868a58886613defb95e0534f168b64dbecb4d0118f4960fd1319b566d8309",
+        "actions/sleep/frame_09.png": "1e466ca9713e5c66d57c2f34dd38b39b4171ee59440f8ed96170c316ac59a160",
+        "actions/sleep/frame_10.png": "de38fc8d44b6533710b651813002fce384cf8e49d1d4349ef5ab40f50dfba03c",
+        "actions/sleep/frame_11.png": "e0f51fa9615db286123a8d082d411bc06921969292e0e0e2ae2a1f3143140779",
+        "actions/sleep/frame_12.png": "7e521f76c436df9731c23526fe64e29f0add6fb942f817bb530502cc64078e3a",
+        "actions/sleep/poster.webp": "7d12e9445ae3762c1054c38b8350d644f485b8026ec5423c2fc9a93396035441",
+        "actions/sleep/preview.webp": "1a410ef739d5fc867656d66d464bfcdd7994d6df2fdf41de5fcb61f7c003bff4",
+        "actions/sleep/preview.mp4": "8543402f433dcfd14f6f9291a8b600a75120ecc357bd8d935ec12157b6bac681"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "090ca7964b4f9981f797294620a8b522f3d66fac9bceb90bca9ee507987dd768",
+        "a18a33a51b99cf46ca52fc24359a1df04c2c1006ecb25ed04b7764138d18ff76",
+        "d6e85eeed1dbd0e1dbf8ddc0e7c9e8b4d15142dc1252c60676949f9975647305",
+        "c8179b25d6115c29d3f6cb766a24cbf79d21e273e418b87cf32202e315f59d2b",
+        "d7f32532d50bf346643901195dc84a0c6e71732ad4bb48ef3512586e3d9406ee",
+        "7dc945028c0eae212cb4bc91cffd316c4997c56089ee18eec2ef940d8e2bf25d",
+        "c8c9bf9081af342074e32213a4f34780c9449f5ba535144905ce97cbfd0fc365",
+        "dd8afa4e749321d4e50556d99301fc2c839965efd859674c2d94f2228c708daa",
+        "b7107e2c468c9a2d17f100a3dfcc2bca375a4f9271a08ff15792b3cb3dcf123e",
+        "299e40f0988dfbd12fa65095429a1794b0c3ff539c887951e1b02fe6d914d2f4",
+        "313e612963688866fae9ce77020aca75c2f8b1303723ad44f9e7abe393b83f1d",
+        "94caea515c3ab6b41c9493ff6935b6dc0440068415d48b9636f436a944d867bd"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.08779,
+        0.080613,
+        0.074373,
+        0.090126,
+        0.054592,
+        0.0478,
+        0.054659,
+        0.067508,
+        0.052333,
+        0.039438,
+        0.045212
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "tv_program",
+      "sheet": "raw/sheets/tv_program.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "977f1960ce9d5120524883f4c5db45623e371789f8671714aea539960069e39d",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/tv_program/frame_01.png": "d97e3310f7f0e6ad71a308c902d7aba1702b76054a06dae86ddd6a2f6420450d",
+        "actions/tv_program/frame_02.png": "e0e32e0bb9074677dd1ddc677b389fb4a4c715de39222e3c57fbd412f7a28b39",
+        "actions/tv_program/frame_03.png": "9f01e079b544a311b021ecfe7f156a54b8760c0f6aab059c925d5ba8a044474d",
+        "actions/tv_program/frame_04.png": "ec918240a2788b5152829e3b5e72911a226592e9726c1768e83ba38c41747287",
+        "actions/tv_program/frame_05.png": "09bf2337c538c5bd46ebe70f0ca428d6675997f6713fdb926425cdd182cb4206",
+        "actions/tv_program/frame_06.png": "8d8f620b2e5c4d7b314ec9441ed53814a0be511ddac3e875d21c4f7c92260672",
+        "actions/tv_program/frame_07.png": "f3632a946c5d501dd582f992e7f99ad34162cc33df657e3a1abc090e78e6f91a",
+        "actions/tv_program/frame_08.png": "1faf5a1d5ab16ca33499ca2b15e1e5b25e3a9f64851923aac4bc97ba65c3c52b",
+        "actions/tv_program/frame_09.png": "b6dec16c4b590b7f0e897e82f2b72e346ff649a9aaf7298c1a05798c3b2fd839",
+        "actions/tv_program/frame_10.png": "0626b25b6493d108b36d6b63fcf34dae06e13126c484d511b0cae808f127a35d",
+        "actions/tv_program/frame_11.png": "b859f5ecfec4686151950eddd86d09ddcdc323313f2cfba5e2e7c7be524bcc88",
+        "actions/tv_program/frame_12.png": "086f6e6a64cd6df4148d9a41b35d280158a73566eef7d8577b970c3087888478",
+        "actions/tv_program/poster.webp": "3fa365f79ba67ede3383345256f7f68d64c2b3c8fa12a5e1d7c8efbe90d6ec3c",
+        "actions/tv_program/preview.webp": "3a552618a5fc98098a149608f9cfc1315b63108876f65cf78283c16491fff486",
+        "actions/tv_program/preview.mp4": "2b654500d28eb922e61720b035d21bda36eb5807e365717bf444932d632e6231"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "51a01c988e166599e523031a58fed839b45eb4e85335f82adc976e339d35baa4",
+        "b97b6cb6737eb2bb58343f55ea5c842064e590b861ead3c6aa80ee484f3940d4",
+        "a2d727a22275537ab2c538adc2d3147ff3dfe83bd6c2557c26abf0c2d0f08eb8",
+        "988214ee4b7da34ba97635ecd582b9bc302c59c4f6d322b2b856fa992dae90b5",
+        "03a29fffe569a54bc1600a56b42830c8ce1fc9b45e6c047635afa5478144b27a",
+        "bfacf1c494c2664cd2bccd05515874e5590cd129a27ee468df6e26505ea7be80",
+        "e8ad58d5d6a662e2e8bd443c572026974cc1d37c78927f5ed77bf1ec2240453d",
+        "9350dd4b3ce528f7e93f77e8dde456a731c249c3142b75d9c3eae8d8620a44f7",
+        "236e9918ea1b1379d9a5c0348d880844f9a2d06966d0b80c40682bb6680d0448",
+        "5e8a6555df2b10450fce18562b7c5166bf0bcba991ba0b095fdd78a8c97acea5",
+        "437b5ac47878c57dad1ac21b0c8451bb5b671d6755ca05169f3deeada6adbe79",
+        "d535b13bf69dfea660a6b07e463e18666b311ea9bc1a3b7cdaa627a933b174fd"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.112271,
+        0.092623,
+        0.091405,
+        0.118834,
+        0.072513,
+        0.102945,
+        0.099979,
+        0.096928,
+        0.117204,
+        0.069593,
+        0.07753
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "news_interview",
+      "sheet": "raw/sheets/news_interview.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "ea9eb1c3018b9c20b80dcf969b2d8539d90f2b47d6344b06d9a581237f488be5",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/news_interview/frame_01.png": "0a3fbe18207cca832237a1a6ed2869ee99666d2c2a71a5e2487608b0b0dc7c4f",
+        "actions/news_interview/frame_02.png": "6a550dddd71ba4979f5a38478eff28a25498ef38b63391b047a63874d54756e6",
+        "actions/news_interview/frame_03.png": "ae7bffe6502322952e6bee6612dd00c221c7206187e4a52a8d5ec97a42a4c476",
+        "actions/news_interview/frame_04.png": "e373d9a086f60e0c1b6e7b5a8c62efa9691db56dc560c4e33f62c4931cbc506c",
+        "actions/news_interview/frame_05.png": "00a83d26ccbb2042a11800ee75bada96a4b95b27472d30a1424aae184ab1a290",
+        "actions/news_interview/frame_06.png": "eaf6f57c440e276c0af2acb1e539b5aad2601ee35a90f32b878a462c9bd730ba",
+        "actions/news_interview/frame_07.png": "4f0dd0b76677d09ea146f3e7331c588860f7554813c46163d3040518e946c56c",
+        "actions/news_interview/frame_08.png": "4cab958e612e49028f661dc199a429eb6e75dd2dbb5255124575e729defcb061",
+        "actions/news_interview/frame_09.png": "aca6160acc2075c471ed1e2c14a94b878a523688642641e8d07dfdf949f72dc1",
+        "actions/news_interview/frame_10.png": "40270d1dfbc455600f1dbc70a399d84fa5b84d39ba135c6044bd981301f9e53d",
+        "actions/news_interview/frame_11.png": "05f216536a64b235dbf33d1bddaeb9b996ed6c568b50932df619ab4473f69572",
+        "actions/news_interview/frame_12.png": "b7aedd357c53988f701dc55e62fd86850242f20b25db71ea14ba94baaf2e598d",
+        "actions/news_interview/poster.webp": "618a9c1640c59123e979aed3ad8a28e95093dbf22269aa469dbcf819b1332459",
+        "actions/news_interview/preview.webp": "1016108372725a70c4a0b5942720e5ff84de9e4e6ce4412c911f179199074f84",
+        "actions/news_interview/preview.mp4": "e82862c030a878b6c8d3850db593db4a565954e272654aa4f3b029f629e7c4ad"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "10086feb10b14c7b307ac89bd66a29f16982e5f9bdf03f403d3bd9d0cc99e8c1",
+        "db19c72b16362b5bb0afb84ee63386ac0ae584b3e89080909b4c160cf4eb6996",
+        "61ba892df9d58ef633950795b2cba459360a34ed2c575eae3f590e04b85454bb",
+        "b6b70c09044e1ac940debc2723f14455e021f24dc77857110f675dbb75477e20",
+        "ff8678ed87d1d87cce2e1be008941e2c24632a545788d7db4ad042725b187d94",
+        "3997ad838eeacdf56c78d66559901bff0e2ea291c86cbdf35a107cc87146f4dd",
+        "1062e9ba728214915381f518bdd11eea474f12401ae673736038efe424e564fd",
+        "b28fb4614beeb459ac8e8cfc4b6a8db3cd7d308b1ce5c4430202e9dfd0e8bd1c",
+        "dd314ed0e8ceed89440f3c4a9e23fd5546b2d618c065325c5118b8308ebecbd4",
+        "26cd7910dbd98e2511f39fb72e001523012cdade5636c7149874d50bbd2dd7aa",
+        "f6f565f89ecb2978bac80b80d08841b1bdd1253e6200b5d3a2559ab9f21e4476",
+        "6f7ca46a25cd2c6f6df357fd5e555c2e86ed4605ecfe02385af94fef23bd07f6"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.081402,
+        0.077361,
+        0.100311,
+        0.135207,
+        0.062723,
+        0.123777,
+        0.079635,
+        0.10549,
+        0.051364,
+        0.035978,
+        0.043972
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "consultation",
+      "sheet": "raw/sheets/consultation.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "821ae1e9569319e07c46eb253814e0ca9651c20bab428ad946f5bc475cc12aae",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/consultation/frame_01.png": "0903ff5596426661a4918daeb9f7ebc5215ee5edeb45e5e253a63910004c93df",
+        "actions/consultation/frame_02.png": "fc6e52fde995a974d7dc86d534214ded880d517637516e696da0268d4ceec642",
+        "actions/consultation/frame_03.png": "5be9f13543d9f4e3a5c63efcce149f12c3c78dea17a2e5111e71836f2781a144",
+        "actions/consultation/frame_04.png": "36a4d369c69dc9c7a5a02df87342ec0a7e59c38c3af210028c49157775bbdce3",
+        "actions/consultation/frame_05.png": "43f72aacc1f2965071ace02f8b189d96bb2c789a06142aac2c53d1755e0db395",
+        "actions/consultation/frame_06.png": "19aa853cf567ad12cd4cad9cd38080c38893e10179b4e88df3c7e82e253a1be1",
+        "actions/consultation/frame_07.png": "cafb80149ecd1fc3e4af5b941c18e929ea3d81544087b5e320b7b74265065872",
+        "actions/consultation/frame_08.png": "e854a4beb9936110cfdaef956ced6637760921996ae7c5343feb983c880fd887",
+        "actions/consultation/frame_09.png": "41a046cd371b2d2682e3ccc06a1c77417ab98367ec5f15016fc5ea5334d40bdd",
+        "actions/consultation/frame_10.png": "5c8551956ec7ae91275f358c75ebe75e188264ccd1ae2d2d1517c1532a680384",
+        "actions/consultation/frame_11.png": "d9076520dd17ef8e3043e23aaf141b501d69450f57b8a970d4b5cb30cf00b3ab",
+        "actions/consultation/frame_12.png": "217f8658a0c82cecf54c3ac2c73ecef27ec9b15f2fe5e49069b1bdf596ee2bc7",
+        "actions/consultation/poster.webp": "29f573846b67284d1c2e5a0d833516ac1f64426db307c65367ec05946207e5b0",
+        "actions/consultation/preview.webp": "5bad70da8120110b38229bdff982abd4e717d4b297c14e72e82c26f8260638e5",
+        "actions/consultation/preview.mp4": "e845e9431efbee6863bf8cbb3081f451e28d7d53a274b9add5d54db79b3d79e2"
+      }
+    },
+    {
+      "dimensions": [
+        478,
+        267
+      ],
+      "unique_pixel_frames": 12,
+      "pixel_sha256": [
+        "7872306994f478dca95f186e7e955ebe89b7160bf586db26d351a886ba2f22a3",
+        "c6508d7293b667204a79471d3eeff7c15aef1d973e1d99bb3d4da5b89aba3598",
+        "dce5fbe47111147aa58bc9b6104a5f8b77f2c35d70edff4e0f506605e403ae86",
+        "e0298389d8d47a07e4ab27697c136d4aa6d2bd09f8a7841c17438790715b9cd7",
+        "8c947c7b4f845189bc17f9ccc10a049e3039de778b8cd4282db04921f3d488f5",
+        "aa50805467eb9481ca3ba650bdd127b54e4141eb47c0298b0c3c91e9ee2a7379",
+        "07d3380eaabdf0e25197308030aedb361008ce0c71a70587c2a863b9ce5c5f70",
+        "1782aeef02da5ecbecc89a3be05a4743d563b806dbce70af9e3574e7b13783e0",
+        "2e1758346a657c36c9438f6106ca89df0c90e9500267f41d0bb698fdd2b2898a",
+        "0a29a7fa34b70d6b3d9d94f4f99d066e16a91936794e760e0751a1aacb3d8677",
+        "2d71fa88daf1d68aa80d8bd4178a4d707bc928fad42a376d193beae9809df5b4",
+        "95ac26ca1ec4142ad83896306d8ce828b31a9de8dea0dd9601d95e5c0317dc48"
+      ],
+      "adjacent_mean_absolute_rgb_difference": [
+        0.11247,
+        0.067638,
+        0.122111,
+        0.082998,
+        0.075461,
+        0.143347,
+        0.067545,
+        0.141181,
+        0.061242,
+        0.071802,
+        0.070618
+      ],
+      "rgb_pixels_equal_source_rectangles": true,
+      "automated_check": "nonduplicate frame content only; does not establish pose continuity",
+      "manual_review": "required: identity, poses, hands, prop positions and fixed-camera continuity",
+      "animated_webp": {
+        "encoded_frames": 12,
+        "frame_durations_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          600
+        ],
+        "duration_ms": 2800
+      },
+      "mp4": {
+        "codec": "h264",
+        "width": 478,
+        "height": 268,
+        "duration_ms": 2800,
+        "audio_streams": 0,
+        "note": "25fps encoded playback holds 12 authored poses; repeated video frames are not extra drawn poses"
+      },
+      "id": "assign_case",
+      "sheet": "raw/sheets/assign_case.png",
+      "slice_map": {
+        "source_width": 1930,
+        "source_height": 815,
+        "columns": 4,
+        "rows": 3,
+        "margin": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gutter": [
+          0,
+          0
+        ],
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "source_sha256": "229465c86234be3a47e0cf53654ec320f11ed3e4ebb5b3277a00804d3bb0a87e",
+        "rectangles": [
+          {
+            "index": 1,
+            "row": 0,
+            "column": 0,
+            "x": 2,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 2,
+            "row": 0,
+            "column": 1,
+            "x": 484,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 3,
+            "row": 0,
+            "column": 2,
+            "x": 967,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 4,
+            "row": 0,
+            "column": 3,
+            "x": 1449,
+            "y": 2,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 5,
+            "row": 1,
+            "column": 0,
+            "x": 2,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 6,
+            "row": 1,
+            "column": 1,
+            "x": 484,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 7,
+            "row": 1,
+            "column": 2,
+            "x": 967,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 8,
+            "row": 1,
+            "column": 3,
+            "x": 1449,
+            "y": 273,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 9,
+            "row": 2,
+            "column": 0,
+            "x": 2,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 10,
+            "row": 2,
+            "column": 1,
+            "x": 484,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 11,
+            "row": 2,
+            "column": 2,
+            "x": 967,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          },
+          {
+            "index": 12,
+            "row": 2,
+            "column": 3,
+            "x": 1449,
+            "y": 545,
+            "width": 478,
+            "height": 267
+          }
+        ],
+        "processing": "ImageMagick lossless region extraction; no redraw, resize or interpolation"
+      },
+      "files": {
+        "actions/assign_case/frame_01.png": "a0014c0ce0e7b4ee1963f8725072d9f0240fdfaf8bd84ddc4bd34c561faf7ae4",
+        "actions/assign_case/frame_02.png": "f9b4b4e2252ab5706bca40135c83ca119109d24a05e363d207df37ec2d043ba9",
+        "actions/assign_case/frame_03.png": "b2481a6128605fdce818b74304d3973a29e51ea11195d49ee55d533860389d1a",
+        "actions/assign_case/frame_04.png": "04f75a84ae68c646467e76c0b3d604e2acf8f7ea7fe345f2ebe626c64b947e40",
+        "actions/assign_case/frame_05.png": "458bc2b69782452bed4de6317f13ebfddfb8bc952b6f58522ca45d38e52021ad",
+        "actions/assign_case/frame_06.png": "6122f415083f319dd179c6df7daa4f99ff41cbb40ef2886a86075449276a62f6",
+        "actions/assign_case/frame_07.png": "784e5630538a4f4d76f6052849e12e83f52b61dadea805a2a341931a6c87ebbf",
+        "actions/assign_case/frame_08.png": "4b240177be59ed720e7ccc37083d7fcdf77c712d695f0f7220b1ad3af96c0b3d",
+        "actions/assign_case/frame_09.png": "5e21f988e1e703ca48a8b82e8cc2742fe8e32709a699149d358d32f949d354d7",
+        "actions/assign_case/frame_10.png": "5ce604fe5fe3b8946e976189d595835c0ac9ed8d5b8c07d1cd5b8f24259b860c",
+        "actions/assign_case/frame_11.png": "c8ec2ad868f2003ba3b7e14704042cce69b0a454cf5bf94b58b35231e1ceb402",
+        "actions/assign_case/frame_12.png": "77e551585a0965954a74531a09159178a376348ea0434093f4a456530c45306b",
+        "actions/assign_case/poster.webp": "5c39a60b73a9d404ce9b073268611366b41129be50ddc55c38d97903d96a8a2c",
+        "actions/assign_case/preview.webp": "de0b85501c9bc5879882cf3456630eb40172b960bc3596602ec8b99846b5c44e",
+        "actions/assign_case/preview.mp4": "f68273ed6486bb533402a7fdad662cc9fbc5144018cebd6ba707023414efe81c"
+      }
+    }
+  ]
+}

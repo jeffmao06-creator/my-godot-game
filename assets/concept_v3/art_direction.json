@@ -1,0 +1,51 @@
+{
+  "version": "0.3",
+  "game_name": "訴訟之神之路",
+  "art_direction": "PDF概念圖延伸的精緻2D插畫：平滑手繪輪廓、細緻材質、自然陰影、鮮明人物表情。",
+  "pixel_art_required": false,
+  "sampling": "linear",
+  "palette": [
+    {
+      "name": "暖紙色",
+      "hex": "#F4EFE4"
+    },
+    {
+      "name": "深藍",
+      "hex": "#17323D"
+    },
+    {
+      "name": "玉綠",
+      "hex": "#287F7C"
+    },
+    {
+      "name": "琥珀",
+      "hex": "#D9A648"
+    },
+    {
+      "name": "木棕",
+      "hex": "#936549"
+    },
+    {
+      "name": "警示紅",
+      "hex": "#BF5A50"
+    }
+  ],
+  "references": [
+    "../../docs/presentation/sponsor/assets/04_protagonist_work_and_life.png",
+    "../../docs/presentation/sponsor/assets/03_expanded_cast.png",
+    "../../docs/presentation/assets/01_taipei_office.png"
+  ],
+  "world_camera": "主地圖固定比例正交構圖；無強制32×32地圖格與32×48角色尺寸。",
+  "cutscene_camera": "各動作固定插畫近景；12個不同實繪姿勢幀，背景與人物身份保持連續。",
+  "action_animation": {
+    "frames": 12,
+    "frame_duration_ms": 200,
+    "last_frame_duration_ms": 600,
+    "total_duration_ms": 2800,
+    "transition": "小窗淡入、播放、可略過、完成後關閉",
+    "skip": "只結束表現，不重複執行遊戲結算",
+    "audio": "不含音樂與其他音訊"
+  },
+  "character_delivery": "獨立透明立繪；目前不宣稱已完成全部動作方向、骨架、臉髮透明模組或完整NPC生成器。",
+  "main_project_status": "可運行的素材與過場展示；經營、案件、20存檔等主遊戲系統仍屬GDD開發需求。"
+}

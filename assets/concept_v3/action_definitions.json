@@ -1,0 +1,321 @@
+{
+  "version": "0.3",
+  "game_name": "訴訟之神之路",
+  "scope": "概念插畫美術與動作小視窗展示",
+  "art_direction": "以PDF概念圖人物、服裝、材質、光色為依據的精緻2D插畫；平滑輪廓與自然陰影，不強迫像素網格。",
+  "excluded_actions": [
+    "job_hop"
+  ],
+  "frame_format": "12個實繪姿勢幀；4欄×3列；以逐幀播放呈現動作",
+  "audio": "不含音樂或其他音訊",
+  "actions": [
+    {
+      "id": "breakfast",
+      "title": "吃早餐",
+      "category": "日常行動",
+      "description": "拆開早餐袋，拿起三明治，再喝一口豆漿。",
+      "availability": "09:00；額外動作，不推進時段",
+      "sheet": "raw/sheets/breakfast.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "write_brief",
+      "title": "寫書狀",
+      "category": "日常行動",
+      "description": "落筆、連續書寫、抽頁與整理卷宗。",
+      "availability": "09:00／13:00／16:00",
+      "sheet": "raw/sheets/write_brief.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "slack",
+      "title": "摸魚",
+      "category": "日常行動",
+      "description": "伸懶腰、靠椅休息，再偷偷看一眼門口。",
+      "availability": "09:00／16:00",
+      "sheet": "raw/sheets/slack.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "interview",
+      "title": "面試新員工",
+      "category": "日常行動",
+      "description": "翻閱履歷，詢問候選人，再點頭記下重點。",
+      "availability": "開業律師；09:00／13:00／16:00",
+      "sheet": "raw/sheets/interview.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "research",
+      "title": "查找資料",
+      "category": "日常行動",
+      "description": "翻閱法書、沿行閱讀，再做下筆記。",
+      "availability": "13:00／16:00",
+      "sheet": "raw/sheets/research.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "flatter",
+      "title": "拍老闆馬屁",
+      "category": "日常行動",
+      "description": "遞上咖啡稱讚老闆，卻接到一疊新的卷宗。",
+      "availability": "受僱律師；13:00",
+      "sheet": "raw/sheets/flatter.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "gym",
+      "title": "健身",
+      "category": "下班行動",
+      "description": "握住啞鈴完成一個完整抬起與放下。",
+      "availability": "19:00",
+      "sheet": "raw/sheets/gym.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "standup",
+      "title": "看脫口秀",
+      "category": "下班行動",
+      "description": "看著表演者，笑出聲並鼓掌。",
+      "availability": "19:00",
+      "sheet": "raw/sheets/standup.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "legal_video",
+      "title": "看法律講座影片",
+      "category": "下班行動",
+      "description": "看著講師說明，低頭筆記，再抬頭觀看。",
+      "availability": "19:00",
+      "sheet": "raw/sheets/legal_video.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "sleep",
+      "title": "我只想睡覺",
+      "category": "下班行動",
+      "description": "掀被躺下、關燈，安穩地呼吸。",
+      "availability": "19:00",
+      "sheet": "raw/sheets/sleep.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "tv_program",
+      "title": "上電視節目",
+      "category": "隨機事件",
+      "description": "主持人提問，主角轉頭回答並做手勢。",
+      "availability": "接受媒體邀請時",
+      "sheet": "raw/sheets/tv_program.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "news_interview",
+      "title": "接受新聞採訪",
+      "category": "隨機事件",
+      "description": "記者遞出麥克風，主角回應後收回麥克風。",
+      "availability": "接受新聞邀請時",
+      "sheet": "raw/sheets/news_interview.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "consultation",
+      "title": "客戶諮詢",
+      "category": "隨機事件",
+      "description": "接過資料、攤開卷宗並解釋，客戶點頭。",
+      "availability": "合署／開業；不預設一定簽約",
+      "sheet": "raw/sheets/consultation.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "assign_case",
+      "title": "分派案件",
+      "category": "職員管理",
+      "description": "推過案件卷宗，同事接過後翻開確認。",
+      "availability": "開業；管理操作不推進時段",
+      "sheet": "raw/sheets/assign_case.png",
+      "columns": 4,
+      "rows": 3,
+      "frame_duration_ms": 200,
+      "last_frame_duration_ms": 600,
+      "sheet_layout": {
+        "columns": 4,
+        "rows": 3,
+        "cell_inset": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    }
+  ]
+}
