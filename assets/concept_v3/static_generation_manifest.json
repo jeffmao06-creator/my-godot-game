@@ -1,0 +1,434 @@
+{
+  "version": "0.4",
+  "status": "ready",
+  "presentation": "single_static_image",
+  "image_count": 28,
+  "tool": "image_gen.imagegen",
+  "visual_review": {
+    "status": "reviewed",
+    "images": 28,
+    "note": "逐張確認單一場景、男女主角與動作辨識；女性主角為黑髮馬尾律師，配角未作為女性版本替代。"
+  },
+  "assets": [
+    {
+      "id": "breakfast",
+      "variant": "female",
+      "file": "action_stills/female/breakfast.png",
+      "source_path": "/workspace/generated_images/exec-fa4bd784-3f83-4b3a-a915-49b1b517434c.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The lead sits at the warm wood office desk, taking a bite of a sandwich held naturally with BOTH hands. One paper breakfast bag and exactly ONE cream mug on the desk. Rain-gray Taipei window, bookcase, warm desk lamp. A quiet adult morning moment. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/breakfast/frame_05.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "696ec03c3b80bccea588d5bacc73d2bd3350ebc22a91c0acf9401e68f4c37dec",
+      "source_sha256": "696ec03c3b80bccea588d5bacc73d2bd3350ebc22a91c0acf9401e68f4c37dec",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "breakfast",
+      "variant": "male",
+      "file": "action_stills/male/breakfast.png",
+      "source_path": "/workspace/generated_images/exec-ff15bbb7-a69d-44e9-b12d-3f94296c8ed4.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The lead sits at the warm wood office desk, taking a bite of a sandwich held naturally with BOTH hands. One paper breakfast bag and exactly ONE cream mug on the desk. Rain-gray Taipei window, bookcase, warm desk lamp. A quiet adult morning moment. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/breakfast/frame_05.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "5ec89acaad7a329740c6220fd45211859f43d44925238f0f82a86af4f7d577e8",
+      "source_sha256": "5ec89acaad7a329740c6220fd45211859f43d44925238f0f82a86af4f7d577e8",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "write_brief",
+      "variant": "female",
+      "file": "action_stills/female/write_brief.png",
+      "source_path": "/workspace/generated_images/exec-69f0389a-d245-408a-bdeb-ba3abb6fda85.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The lead leans forward writing a legal brief with ONE pen on a stack of cream paper, freehand holding the page. Neat bound case files and exactly one mug. Thoughtful focused expression, readable hands, gray rainy office window and warm lamp. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/write_brief/frame_05.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "2b311e924e4f0a67c04328a8409f52275d2417a361547b45ef091e94b5294a2d",
+      "source_sha256": "2b311e924e4f0a67c04328a8409f52275d2417a361547b45ef091e94b5294a2d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "write_brief",
+      "variant": "male",
+      "file": "action_stills/male/write_brief.png",
+      "source_path": "/workspace/generated_images/exec-bf6600f8-1731-4d52-99fc-d1b0e9a4e8ff.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The lead leans forward writing a legal brief with ONE pen on a stack of cream paper, freehand holding the page. Neat bound case files and exactly one mug. Thoughtful focused expression, readable hands, gray rainy office window and warm lamp. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/write_brief/frame_05.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "0bc8886a1476a90fe650439b0b5c7aea972f99fb9a39c7a2328199077232adab",
+      "source_sha256": "0bc8886a1476a90fe650439b0b5c7aea972f99fb9a39c7a2328199077232adab",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "slack",
+      "variant": "female",
+      "file": "action_stills/female/slack.png",
+      "source_path": "/workspace/generated_images/exec-2b90819f-db56-4037-b367-8a9185cc2d31.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The lead relaxes in the green office chair, both hands comfortably behind the head, elbows fully within the frame, eyes softly closed and a relieved smile. Laptop closed on wooddesk, one mug and files. A funny little break at work, no extra arms or hands. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/slack/frame_06.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "b383c5f61c2e7bac6f6ff181d5df9ecd86720e546f63e731bb6a16cece6a2b98",
+      "source_sha256": "b383c5f61c2e7bac6f6ff181d5df9ecd86720e546f63e731bb6a16cece6a2b98",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "slack",
+      "variant": "male",
+      "file": "action_stills/male/slack.png",
+      "source_path": "/workspace/generated_images/exec-42906036-a6de-4659-87dc-b75f59529fbc.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The lead relaxes in the green office chair, both hands comfortably behind the head, elbows fully within the frame, eyes softly closed and a relieved smile. Laptop closed on wooddesk, one mug and files. A funny little break at work, no extra arms or hands. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/slack/frame_06.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "3699c8d1713c96ded12074e71aa390ff918d5ee111ab63475b6cfb6c54335d8d",
+      "source_sha256": "3699c8d1713c96ded12074e71aa390ff918d5ee111ab63475b6cfb6c54335d8d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "interview",
+      "variant": "female",
+      "file": "action_stills/female/interview.png",
+      "source_path": "/workspace/generated_images/exec-26840fa2-4a62-446b-9cf2-80a4a314ec98.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: Two people at a consultation table. The LEAD LAWYER is on the LEFT, in white work shirt, one resume in hand, attentively listening. The supporting APPLICANT on the RIGHT is an adult woman with short auburn bob and muted teal blazer, making a modest open-hand answering gesture. Keep the applicant distinct and unchanged. Rainy window and bookshelves, a believable professional interview. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/interview/frame_06.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "1c053bb36a9591456f9748feeb7d20074e3a492fc84b49c1dbd37a31fc7a2beb",
+      "source_sha256": "1c053bb36a9591456f9748feeb7d20074e3a492fc84b49c1dbd37a31fc7a2beb",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "interview",
+      "variant": "male",
+      "file": "action_stills/male/interview.png",
+      "source_path": "/workspace/generated_images/exec-219e2d09-12c3-4b9a-a8c9-ee28c92bb0d2.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: Two people at a consultation table. The LEAD LAWYER is on the LEFT, in white work shirt, one resume in hand, attentively listening. The supporting APPLICANT on the RIGHT is an adult woman with short auburn bob and muted teal blazer, making a modest open-hand answering gesture. Keep the applicant distinct and unchanged. Rainy window and bookshelves, a believable professional interview. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/interview/frame_06.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "35781ec270099ab939e5a24c8e72cf59373b03c30b884ec74729a06b073cb1d2",
+      "source_sha256": "35781ec270099ab939e5a24c8e72cf59373b03c30b884ec74729a06b073cb1d2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "research",
+      "variant": "female",
+      "file": "action_stills/female/research.png",
+      "source_path": "/workspace/generated_images/exec-40790128-a9ae-46f1-ba55-993c33520149.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The lead is actively turning one page of a thick open lawbook at the office desk, other hand holds the book steady. Two stacked navy lawbooks and one notebook. Focused expression, fine hand anatomy, warm desk lamp and blue-gray rain window. No readable legal text. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/research/frame_05.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "7c645542b24fa9d7d677085915ebfd5ca1cffd8a05e23477abf349134b686b7a",
+      "source_sha256": "7c645542b24fa9d7d677085915ebfd5ca1cffd8a05e23477abf349134b686b7a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "research",
+      "variant": "male",
+      "file": "action_stills/male/research.png",
+      "source_path": "/workspace/generated_images/exec-19653f44-d377-4bad-9bff-7874f319be91.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The lead is actively turning one page of a thick open lawbook at the office desk, other hand holds the book steady. Two stacked navy lawbooks and one notebook. Focused expression, fine hand anatomy, warm desk lamp and blue-gray rain window. No readable legal text. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/research/frame_05.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "c31c17802c917b4a506591f85945eee13d123c4d7f4a562996d939fe34a3d5dd",
+      "source_sha256": "c31c17802c917b4a506591f85945eee13d123c4d7f4a562996d939fe34a3d5dd",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "flatter",
+      "variant": "female",
+      "file": "action_stills/female/flatter.png",
+      "source_path": "/workspace/generated_images/exec-53a6b4f9-10a3-4a1a-9fd4-e996b2d9b38b.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The young LEAD is standing on the LEFT, politely leaning toward the older BOSS seated RIGHT behind his desk, smiling a little too eagerly while offering ONE coffee mug. The older male boss has salt-and-pepper hair and a navy suit, is pleased, and has an ominously large stack of fresh casefiles at his elbow. Warm office humor, no cash transfer, both characters' hands believable and not merged. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/flatter/frame_11.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "6db231d1bc533e027841e6b32bd5a060a54a6943966b85e3e83b688dbb0d036d",
+      "source_sha256": "6db231d1bc533e027841e6b32bd5a060a54a6943966b85e3e83b688dbb0d036d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "flatter",
+      "variant": "male",
+      "file": "action_stills/male/flatter.png",
+      "source_path": "/workspace/generated_images/exec-4419641b-eed8-42a2-b9e7-743adce24ea3.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The young LEAD is standing on the LEFT, politely leaning toward the older BOSS seated RIGHT behind his desk, smiling a little too eagerly while offering ONE coffee mug. The older male boss has salt-and-pepper hair and a navy suit, is pleased, and has an ominously large stack of fresh casefiles at his elbow. Warm office humor, no cash transfer, both characters' hands believable and not merged. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/flatter/frame_11.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "8f729fbf7ca71cf3a1ff6e63120d6870534f2ed2713b37f1e90760a8e0d06057",
+      "source_sha256": "8f729fbf7ca71cf3a1ff6e63120d6870534f2ed2713b37f1e90760a8e0d06057",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "gym",
+      "variant": "female",
+      "file": "action_stills/female/gym.png",
+      "source_path": "/workspace/generated_images/exec-d91a7c41-0c5c-4263-b554-4273d2699eb2.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The lead is in a modest neighborhood gym wearing a plain charcoal athletic crewneck T-shirt and navy trainingpants, holding exactly TWO dumbbells near shoulder height mid-curl, elbows and weights all fully visible. A determined but human expression. Stable posture and natural arms/wrists. Rainy window, warm gym lights, benches, dumbbellrack in the background, modest practical activewear. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/gym/frame_07.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-HOME.png"
+      ],
+      "sha256": "a9a8654881fef82e919e1ab7ef5f735a945f88a068c76116ebcc85191fdf90d8",
+      "source_sha256": "a9a8654881fef82e919e1ab7ef5f735a945f88a068c76116ebcc85191fdf90d8",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "gym",
+      "variant": "male",
+      "file": "action_stills/male/gym.png",
+      "source_path": "/workspace/generated_images/exec-f19652ef-4f53-43b2-9f45-57bc8981adc8.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The lead is in a modest neighborhood gym wearing a plain charcoal athletic crewneck T-shirt and navy trainingpants, holding exactly TWO dumbbells near shoulder height mid-curl, elbows and weights all fully visible. A determined but human expression. Stable posture and natural arms/wrists. Rainy window, warm gym lights, benches, dumbbellrack in the background, modest practical activewear. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/gym/frame_07.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "9ae32305f351223e4ce5fe29905183c71e8ce5dbab72962b3fbfb0b7d6a280df",
+      "source_sha256": "9ae32305f351223e4ce5fe29905183c71e8ce5dbab72962b3fbfb0b7d6a280df",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "standup",
+      "variant": "female",
+      "file": "action_stills/female/standup.png",
+      "source_path": "/workspace/generated_images/exec-e2f35542-c959-4266-9d4b-b49541289da2.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The lead in casualwear sits in the LEFT foreground at a small club table, laughing warmly and clapping both hands. A supporting male comedian on the RIGHT background stage holds a plain microphone in front of amber curtains. Fixed audience-and-stage composition, one drink on the table, genuine evening relaxation. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/standup/frame_09.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-HOME.png"
+      ],
+      "sha256": "bccc1e76057fbba322e79e0ce32834b327f9db806a1d2582e75ed962575bae14",
+      "source_sha256": "bccc1e76057fbba322e79e0ce32834b327f9db806a1d2582e75ed962575bae14",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "standup",
+      "variant": "male",
+      "file": "action_stills/male/standup.png",
+      "source_path": "/workspace/generated_images/exec-f91a3fa6-5ab7-45c1-bf9d-a50738b5ec79.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The lead in casualwear sits in the LEFT foreground at a small club table, laughing warmly and clapping both hands. A supporting male comedian on the RIGHT background stage holds a plain microphone in front of amber curtains. Fixed audience-and-stage composition, one drink on the table, genuine evening relaxation. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/standup/frame_09.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "84050b11d760f1c134d7862d49c49f22f391381c4afb9c6048804b96debef4c4",
+      "source_sha256": "84050b11d760f1c134d7862d49c49f22f391381c4afb9c6048804b96debef4c4",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "legal_video",
+      "variant": "female",
+      "file": "action_stills/female/legal_video.png",
+      "source_path": "/workspace/generated_images/exec-064280b5-1a42-48de-a168-924009ec4b31.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The lead in comfortable homewear sits LEFT at a wood table, watching a laptop on the RIGHT and writing a note. Laptop screen shows a separate female lecturer gesturing beside a plain board. Teal sofa, home books, a warm reading lamp and rainy blue evening window. Keep laptop lecturer unchanged and distinct from the lead. One laptop, one notepad, one mug. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/legal_video/frame_06.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-HOME.png"
+      ],
+      "sha256": "987e8e561faa71bf5df0be7db8323ef72a114b700145522458daf927275b0df4",
+      "source_sha256": "987e8e561faa71bf5df0be7db8323ef72a114b700145522458daf927275b0df4",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "legal_video",
+      "variant": "male",
+      "file": "action_stills/male/legal_video.png",
+      "source_path": "/workspace/generated_images/exec-c07a0b76-c6ef-43e4-aa1a-69477a7419de.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The lead in comfortable homewear sits LEFT at a wood table, watching a laptop on the RIGHT and writing a note. Laptop screen shows a separate female lecturer gesturing beside a plain board. Teal sofa, home books, a warm reading lamp and rainy blue evening window. Keep laptop lecturer unchanged and distinct from the lead. One laptop, one notepad, one mug. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/legal_video/frame_06.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "bae5b11e7055dd76b37ac321944323338fda15d848ec0be2583d13e0c06b5c8e",
+      "source_sha256": "bae5b11e7055dd76b37ac321944323338fda15d848ec0be2583d13e0c06b5c8e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "sleep",
+      "variant": "female",
+      "file": "action_stills/female/sleep.png",
+      "source_path": "/workspace/generated_images/exec-8b17f76e-5e9f-43a8-983d-c816b4ef5c3c.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: The lead in modest cotton sleepwear is comfortably asleep under a teal blanket, head on a cream pillow, peaceful eyes closed. Only head and relaxed upper shoulder are visible above the blanket, no bare body. A dim bedside lamp and blue rain-night Taipei window. Cozy safe rest after work; keep hair recognizable and plausible on pillow, natural proportions. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/sleep/frame_11.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-HOME.png"
+      ],
+      "sha256": "5234f5654b7c60492577f8df75886b0edd58d314d9e9626382bb7fc7a8647ee3",
+      "source_sha256": "5234f5654b7c60492577f8df75886b0edd58d314d9e9626382bb7fc7a8647ee3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "sleep",
+      "variant": "male",
+      "file": "action_stills/male/sleep.png",
+      "source_path": "/workspace/generated_images/exec-b32a7277-cd01-4aa2-9dce-0df970ca34b5.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: The lead in modest cotton sleepwear is comfortably asleep under a teal blanket, head on a cream pillow, peaceful eyes closed. Only head and relaxed upper shoulder are visible above the blanket, no bare body. A dim bedside lamp and blue rain-night Taipei window. Cozy safe rest after work; keep hair recognizable and plausible on pillow, natural proportions. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/sleep/frame_11.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "b9968db221c0e33bf138002287baeb60f679acce6bacfca599fe38bc3bd112dc",
+      "source_sha256": "b9968db221c0e33bf138002287baeb60f679acce6bacfca599fe38bc3bd112dc",
+      "width": 1672,
+      "height": 940
+    },
+    {
+      "id": "tv_program",
+      "variant": "female",
+      "file": "action_stills/female/tv_program.png",
+      "source_path": "/workspace/generated_images/exec-f6db1835-1484-431b-aaf9-9ac9c3ef07c5.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: TV talkshow scene: LEAD GUEST seated on the RIGHT in a navy formal suit and white shirt, answering with one calm open-hand gesture. A separate adult female HOST with short chestnut bob, burgundy suit and cuecards sits LEFT. Preserve the host's identity. Neutral elegant teal/amber studio interior with rainy city backdrop, two chairs, small table and flowers, no sponsors or logos. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/tv_program/frame_08.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "e44dab4c7cc95bd99966a597ac2b549218645f5f0d928582528d7a21bc6569db",
+      "source_sha256": "e44dab4c7cc95bd99966a597ac2b549218645f5f0d928582528d7a21bc6569db",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tv_program",
+      "variant": "male",
+      "file": "action_stills/male/tv_program.png",
+      "source_path": "/workspace/generated_images/exec-fb0159dc-eb09-4b1b-8a91-4018b0448603.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: TV talkshow scene: LEAD GUEST seated on the RIGHT in a navy formal suit and white shirt, answering with one calm open-hand gesture. A separate adult female HOST with short chestnut bob, burgundy suit and cuecards sits LEFT. Preserve the host's identity. Neutral elegant teal/amber studio interior with rainy city backdrop, two chairs, small table and flowers, no sponsors or logos. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/tv_program/frame_08.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "0e38d76b5897f08c99473d68f86c46060b7efbc89faa2a710c136c0150a10112",
+      "source_sha256": "0e38d76b5897f08c99473d68f86c46060b7efbc89faa2a710c136c0150a10112",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "news_interview",
+      "variant": "female",
+      "file": "action_stills/female/news_interview.png",
+      "source_path": "/workspace/generated_images/exec-ce55c233-8874-4a59-b8a9-d12f8450f7b0.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: LEAD LAWYER standing on the RIGHT in navy formal suit and white shirt, speaking calmly with an open hand. The supporting female REPORTER on LEFT has brown ponytail, creamcoat and exactly ONE plain unbranded microphone extended toward the lead. Preserve reporter identity. Rainy office lobby window, pottedplant, professional conversation. No logos or readable banners. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/news_interview/frame_07.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "fb231433b3d1146f4851120f877bfc6fdcbdd277cf0d318c84cd7df66a3647f3",
+      "source_sha256": "fb231433b3d1146f4851120f877bfc6fdcbdd277cf0d318c84cd7df66a3647f3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "news_interview",
+      "variant": "male",
+      "file": "action_stills/male/news_interview.png",
+      "source_path": "/workspace/generated_images/exec-63ca344b-d2d0-4abb-887d-c0989cace6a2.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: LEAD LAWYER standing on the RIGHT in navy formal suit and white shirt, speaking calmly with an open hand. The supporting female REPORTER on LEFT has brown ponytail, creamcoat and exactly ONE plain unbranded microphone extended toward the lead. Preserve reporter identity. Rainy office lobby window, pottedplant, professional conversation. No logos or readable banners. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/news_interview/frame_07.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "b7e3b5e8e7e4a84ded3343a40d0bbc8dc357fca79c46018a37065632499bbf0c",
+      "source_sha256": "b7e3b5e8e7e4a84ded3343a40d0bbc8dc357fca79c46018a37065632499bbf0c",
+      "width": 1672,
+      "height": 940
+    },
+    {
+      "id": "consultation",
+      "variant": "female",
+      "file": "action_stills/female/consultation.png",
+      "source_path": "/workspace/generated_images/exec-d3b7f5f7-d6b8-490c-919a-4d0157f81207.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: LEAD LAWYER on LEFT in a white work shirt points out a passage in an open casefolder on the table, explaining kindly. Supporting middle-aged FEMALE CLIENT on RIGHT has short curly gray-black hair and a burgundy cardigan, listening thoughtfully. Preserve client identity. Rainy office window, warm lamps, tissuebox. No contract signing, cash or handshake guaranteeing a case. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/consultation/frame_06.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "06f211202444dc7b81ac87000e615a7f323f516d4f3788453686cba5f3657294",
+      "source_sha256": "06f211202444dc7b81ac87000e615a7f323f516d4f3788453686cba5f3657294",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "consultation",
+      "variant": "male",
+      "file": "action_stills/male/consultation.png",
+      "source_path": "/workspace/generated_images/exec-9e46505b-9f27-4114-bdfd-ddf1a9d66b2f.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: LEAD LAWYER on LEFT in a white work shirt points out a passage in an open casefolder on the table, explaining kindly. Supporting middle-aged FEMALE CLIENT on RIGHT has short curly gray-black hair and a burgundy cardigan, listening thoughtfully. Preserve client identity. Rainy office window, warm lamps, tissuebox. No contract signing, cash or handshake guaranteeing a case. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/consultation/frame_06.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "cf38e83c2b89218437ece960cf747f38afef8e2f1fecf1bd33df978b28e96452",
+      "source_sha256": "cf38e83c2b89218437ece960cf747f38afef8e2f1fecf1bd33df978b28e96452",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "assign_case",
+      "variant": "female",
+      "file": "action_stills/female/assign_case.png",
+      "source_path": "/workspace/generated_images/exec-31120907-106d-4b71-9c47-101e8bbb6107.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE WOMAN from the second reference: expressive dark eyes, warm oval face, long black hair in a HIGH PONYTAIL, natural adult build. Redraw her face, silhouette and clothing as this woman; do NOT leave a man's face/body wearing a wig. Atwork she wears a professional white button-down blouse, navy trousers, no male necktie; at formalmedia appearances a navy pantsuit andwhiteblouse; athome a cream cardigan/white cotton top with gray loungepants, for sleep plain soft cottontee; forgym a modest charcoal athleticTshirt/navytrainingpants. No sexualized framing. Change ONLY the lead person, never replace or clone supporting people. SCENE: LEAD LAWYER on LEFT in a white work shirt is sliding ONE thick beige casefolder toward a coworker on RIGHT. Supporting coworker is a separate adult woman with a chin-length black bob and a teal blazer, reaching to accept the folder. Clear handoff, exactly one shared folder, two pairs of natural hands not merged. Bookshelves and rainy office window, teamwork atmosphere. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/assign_case/frame_03.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-F-WORK.png"
+      ],
+      "sha256": "3e13e09049431e749ffd5f88e49b12eca6219d6ddf82e6c61351db3b8416a702",
+      "source_sha256": "3e13e09049431e749ffd5f88e49b12eca6219d6ddf82e6c61351db3b8416a702",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "assign_case",
+      "variant": "male",
+      "file": "action_stills/male/assign_case.png",
+      "source_path": "/workspace/generated_images/exec-c4d2fb11-450b-4eab-9162-cfec68131791.png",
+      "prompt": "Redraw the attached action reference as ONE FULL-SIZE STANDALONE ILLUSTRATION for the game 訴訟之神之路. This is a SINGLE STILL IMAGE expressing ONE ACTION. Not an animation, not a spritesheet, not a collage, not a storyboard: absolutely ONE uninterrupted scene with one composition, no splitpanels or repeated versions of the lead. Wide landscape16:9. Regenerate at native large resolution with rich detail, sharp clean hand-drawn contours and subtle painted shading; do NOT simply enlarge/interpolate the small reference. Preserve the beautiful smooth2D anime/storybook illustration quality of our PDF concepts: warm wood, cream paper, mutedteal andnavy, expressive naturalfaces, well-drawnhands, cozy Taiwanese everydaylife. NO forcedpixelart, no blocky squares, no genericvector or SVGlook, no 3Dphoto. The MAIN LEAD is the SAME ADULT TAIWANESE MAN from the character reference: tousled black hair, expressive dark eyes and a friendly younglawyer face. White rolled-sleeve shirt andloosenavytie foroffice, navysuitwhiteshirt forformalmedia, grayTshirtanddarkloungepants forhome, charcoalTshirt/navytrainingpants forgym. Keep adult natural proportions. SCENE: LEAD LAWYER on LEFT in a white work shirt is sliding ONE thick beige casefolder toward a coworker on RIGHT. Supporting coworker is a separate adult woman with a chin-length black bob and a teal blazer, reaching to accept the folder. Clear handoff, exactly one shared folder, two pairs of natural hands not merged. Bookshelves and rainy office window, teamwork atmosphere. Art-direction continuity with the provided references, one convincing decisive moment that reads without words. Faces and hands need professionalattention. No text, letters, numbers, captions, panelborders, UI, timestamps, watermark, logos or music symbols.",
+      "references": [
+        "/workspace/my-godot-game/assets/concept_v3/actions/assign_case/frame_03.png",
+        "/workspace/my-godot-game/assets/concept_v3/characters/individual/PRO-M-WORK.png"
+      ],
+      "sha256": "083c248b47ad3883c5dbedac086bfac724d6603e5fd1f6d310f4915e0859b8fb",
+      "source_sha256": "083c248b47ad3883c5dbedac086bfac724d6603e5fd1f6d310f4915e0859b8fb",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

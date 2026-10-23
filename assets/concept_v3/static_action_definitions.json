@@ -1,0 +1,205 @@
+{
+  "version": "0.4",
+  "game_name": "訴訟之神之路",
+  "scope": "單張動作插畫與男女主角版本",
+  "presentation": "single_static_image",
+  "art_direction": "延續PDF概念圖的精緻2D插畫，平滑輪廓與自然材質；每個動作一張完整場景，無逐格或自動播放。",
+  "excluded_actions": [
+    "job_hop"
+  ],
+  "variants": [
+    {
+      "id": "male",
+      "title": "男性主角"
+    },
+    {
+      "id": "female",
+      "title": "女性主角"
+    }
+  ],
+  "audio": "不含音樂與其他音訊",
+  "actions": [
+    {
+      "id": "breakfast",
+      "title": "吃早餐",
+      "category": "日常行動",
+      "description": "在辦公桌前吃早餐，暫時享受安靜的一刻。",
+      "availability": "09:00；額外動作，不推進時段",
+      "images": {
+        "male": "action_stills/male/breakfast.png",
+        "female": "action_stills/female/breakfast.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/breakfast/frame_05.png"
+    },
+    {
+      "id": "write_brief",
+      "title": "寫書狀",
+      "category": "日常行動",
+      "description": "俯身書寫書狀，桌邊放著待處理的卷宗。",
+      "availability": "09:00／13:00／16:00",
+      "images": {
+        "male": "action_stills/male/write_brief.png",
+        "female": "action_stills/female/write_brief.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/write_brief/frame_05.png"
+    },
+    {
+      "id": "slack",
+      "title": "摸魚",
+      "category": "日常行動",
+      "description": "靠在椅背上伸懶腰，讓腦袋休息一下。",
+      "availability": "09:00／16:00",
+      "images": {
+        "male": "action_stills/male/slack.png",
+        "female": "action_stills/female/slack.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/slack/frame_06.png"
+    },
+    {
+      "id": "interview",
+      "title": "面試新員工",
+      "category": "日常行動",
+      "description": "查看履歷，專心聆聽候選人介紹自己。",
+      "availability": "開業律師；09:00／13:00／16:00",
+      "images": {
+        "male": "action_stills/male/interview.png",
+        "female": "action_stills/female/interview.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/interview/frame_06.png"
+    },
+    {
+      "id": "research",
+      "title": "查找資料",
+      "category": "日常行動",
+      "description": "翻閱法律書籍，尋找案件需要的資料。",
+      "availability": "13:00／16:00",
+      "images": {
+        "male": "action_stills/male/research.png",
+        "female": "action_stills/female/research.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/research/frame_05.png"
+    },
+    {
+      "id": "flatter",
+      "title": "拍老闆馬屁",
+      "category": "日常行動",
+      "description": "笑著遞上咖啡，老闆身邊還有一疊新卷宗。",
+      "availability": "受僱律師；13:00",
+      "images": {
+        "male": "action_stills/male/flatter.png",
+        "female": "action_stills/female/flatter.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/flatter/frame_11.png"
+    },
+    {
+      "id": "gym",
+      "title": "健身",
+      "category": "下班行動",
+      "description": "握住啞鈴鍛鍊身體，釋放工作壓力。",
+      "availability": "19:00",
+      "images": {
+        "male": "action_stills/male/gym.png",
+        "female": "action_stills/female/gym.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/gym/frame_07.png"
+    },
+    {
+      "id": "standup",
+      "title": "看脫口秀",
+      "category": "下班行動",
+      "description": "坐在觀眾席笑著鼓掌，享受下班時光。",
+      "availability": "19:00",
+      "images": {
+        "male": "action_stills/male/standup.png",
+        "female": "action_stills/female/standup.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/standup/frame_09.png"
+    },
+    {
+      "id": "legal_video",
+      "title": "看法律講座影片",
+      "category": "下班行動",
+      "description": "在家觀看法律講座，邊聽邊做筆記。",
+      "availability": "19:00",
+      "images": {
+        "male": "action_stills/male/legal_video.png",
+        "female": "action_stills/female/legal_video.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/legal_video/frame_06.png"
+    },
+    {
+      "id": "sleep",
+      "title": "我只想睡覺",
+      "category": "下班行動",
+      "description": "躺在溫暖的被窩裡，安心睡去。",
+      "availability": "19:00",
+      "images": {
+        "male": "action_stills/male/sleep.png",
+        "female": "action_stills/female/sleep.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/sleep/frame_11.png"
+    },
+    {
+      "id": "tv_program",
+      "title": "上電視節目",
+      "category": "隨機事件",
+      "description": "在節目上回應主持人的提問。",
+      "availability": "接受媒體邀請時",
+      "images": {
+        "male": "action_stills/male/tv_program.png",
+        "female": "action_stills/female/tv_program.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/tv_program/frame_08.png"
+    },
+    {
+      "id": "news_interview",
+      "title": "接受新聞採訪",
+      "category": "隨機事件",
+      "description": "面對記者的麥克風，清楚說明自己的觀點。",
+      "availability": "接受新聞邀請時",
+      "images": {
+        "male": "action_stills/male/news_interview.png",
+        "female": "action_stills/female/news_interview.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/news_interview/frame_07.png"
+    },
+    {
+      "id": "consultation",
+      "title": "客戶諮詢",
+      "category": "隨機事件",
+      "description": "向客戶解釋卷宗與法律問題。",
+      "availability": "合署／開業；不預設一定簽約",
+      "images": {
+        "male": "action_stills/male/consultation.png",
+        "female": "action_stills/female/consultation.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/consultation/frame_06.png"
+    },
+    {
+      "id": "assign_case",
+      "title": "分派案件",
+      "category": "職員管理",
+      "description": "把案件卷宗交給同事，準備分工處理。",
+      "availability": "開業；管理操作不推進時段",
+      "images": {
+        "male": "action_stills/male/assign_case.png",
+        "female": "action_stills/female/assign_case.png"
+      },
+      "default_variant": "male",
+      "reference_frame": "actions/assign_case/frame_03.png"
+    }
+  ]
+}

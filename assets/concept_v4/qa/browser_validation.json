@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "archive": "releases/New_Art_Pack_v0.4.zip",
+  "images_loaded": 31,
+  "desktop_and_mobile_layout": true,
+  "native_image_links": true,
+  "no_scripts_animation_audio": true,
+  "file_protocol_test": "not_run: managed Chromium blocks file:// navigation",
+  "errors": []
+}

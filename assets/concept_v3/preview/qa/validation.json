@@ -1,30 +1,202 @@
 {
-  "manifest_sha256": "2f935e3a92e8f1d3aa26498891405f37395aa74757701cedf56c233b97fe5dfa",
-  "character_catalog_sha256": "f67bf4d22bc88c54e06aa1a60b02dbaa8e27ea032c7b79f94a60dc152afeec83",
-  "runtime_sha256": "1a78e7ee6ee5b0edd9c68082301ff1218617cf6c34b32d99a6668a65967f74e7",
+  "presentation": "single_static_action_illustration",
   "action_count": 14,
+  "action_images": 28,
   "character_count": 52,
   "environment_count": 2,
-  "real_frames_per_action": 12,
-  "duration_ms": 2800,
+  "source_sha256": {
+    "manifest": "5fdd2be53a33a4a61dbcebcbb1423db1b6434b580ebbbbbe97ed67e62eb03581",
+    "character_catalog": "f67bf4d22bc88c54e06aa1a60b02dbaa8e27ea032c7b79f94a60dc152afeec83",
+    "runtime": "0834d6335a671d289fc8980cebe51853e63385b8a550add6f5f47f8b3867b5a8",
+    "style": "80019256da185ee5cf238dd2c2855ec9728553b6c581684ba9495e1d31295c52",
+    "index": "f5f392005c197ed55428fff6d390cf17380debf1266ce480c4c5d1f0f5afd444",
+    "embedded_data": "c8dbae4cdf029b27acf53a20b6e27769eaaffe6526578d013203f0fb2aa226b5"
+  },
   "checks": {
-    "offline_embedded_manifest_matches_source": true,
-    "all_action_thumbnails_load": true,
-    "all_actions_play_real_frames_and_skip": true,
-    "frame_timing_11x200_plus_600_ms": true,
-    "actual_frame_advancement": true,
-    "busy_main_thread_preserves_all_twelve_poses": true,
-    "auto_close_after_completion": true,
-    "skip_escape_replay_and_reopen": true,
-    "focus_return_and_filter_focus": true,
-    "reduced_motion_static_preview": true,
-    "mobile_no_horizontal_overflow": true,
-    "all_52_character_pngs_load_and_filter_4_45_3": true,
-    "character_lightbox_focus_and_static_controls": true,
-    "full_character_image_fits_desktop_and_mobile_lightbox": true,
-    "both_environment_images_load_and_open": true,
-    "return_to_animation_restores_playback_controls": true,
+    "offline_embedded_manifest_and_catalog_match_source": true,
+    "double_click_file_protocol_loads_female_action": "not_run: browser administrator policy blocks file:// navigation in this environment",
+    "male_and_female_all_14_actions_load_full_size_png": true,
+    "all_28_open_images_stay_unchanged_over_one_second": true,
+    "manual_continue_close_and_escape": true,
+    "no_automatic_close_or_reopen": true,
+    "gender_switch_preserves_action_identity": true,
+    "no_video_frame_sequence_or_css_animation": true,
+    "no_legacy_animation_files_requested": true,
+    "focus_returns_and_filters_keep_keyboard_focus": true,
+    "52_characters_filter_4_45_3_and_fit_lightbox": true,
+    "all_environments_load": true,
+    "mobile_female_action_and_character_fit": true,
     "no_external_network_dependency": true,
     "browser_script_errors": []
-  }
+  },
+  "observed_static_images": [
+    {
+      "id": "breakfast",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/breakfast.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "write_brief",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/write_brief.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "slack",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/slack.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "interview",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/interview.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "research",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/research.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "flatter",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/flatter.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "gym",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/gym.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "standup",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/standup.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "legal_video",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/legal_video.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "sleep",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/sleep.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "tv_program",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/tv_program.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "news_interview",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/news_interview.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "consultation",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/consultation.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "assign_case",
+      "gender": "male",
+      "image": "/assets/concept_v3/action_stills/male/assign_case.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "breakfast",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/breakfast.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "write_brief",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/write_brief.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "slack",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/slack.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "interview",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/interview.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "research",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/research.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "flatter",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/flatter.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "gym",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/gym.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "standup",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/standup.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "legal_video",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/legal_video.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "sleep",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/sleep.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "tv_program",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/tv_program.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "news_interview",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/news_interview.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "consultation",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/consultation.png",
+      "held_unchanged_ms": 1150
+    },
+    {
+      "id": "assign_case",
+      "gender": "female",
+      "image": "/assets/concept_v3/action_stills/female/assign_case.png",
+      "held_unchanged_ms": 1150
+    }
+  ]
 }

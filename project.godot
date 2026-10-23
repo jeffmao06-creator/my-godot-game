@@ -1,12 +1,12 @@
 ; Open this file with Godot 4.3+ and press F6/F5.
-; This is the action-cutscene art showcase, not the complete simulation game.
+; This is the static action-illustration showcase, not the complete simulation game.
 config_version=5
 
 [application]
-config/name="訴訟之神之路｜動作過場展示"
+config/name="訴訟之神之路｜動作插畫展示"
 run/main_scene="res://godot_demo/main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/description="以概念插畫呈現十四個日常動作與事件的小視窗過場。"
+config/description="每個動作以一張插畫呈現，提供男性與女性主角版本。"
 
 [display]
 window/size/viewport_width=1600

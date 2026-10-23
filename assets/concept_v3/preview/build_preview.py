@@ -13,7 +13,7 @@ def main():
     args = parser.parse_args()
     manifest = json.loads(args.manifest.read_text(encoding='utf-8-sig'))
     if not manifest.get('actions'):
-        raise SystemExit('No actual action animations in manifest; preview not generated.')
+        raise SystemExit('No static action artwork in manifest; preview not generated.')
     output = HERE / 'manifest_data.js'
     source = '// Generated from ../manifest.json; do not edit by hand.\nwindow.CONCEPT_MANIFEST = '
     source += json.dumps(manifest, ensure_ascii=False, indent=2) + ';\n'

@@ -1,0 +1,233 @@
+{
+  "version": "0.4",
+  "status": "pass",
+  "pngs": 31,
+  "female_actions": 14,
+  "male_actions": 14,
+  "home_scenes": 1,
+  "result_windows": 2,
+  "all_single_frame": true,
+  "original_png_bytes_preserved": true,
+  "older_art_included": false,
+  "visual_review": "All 31 delivered images inspected; female protagonist is the black-haired ponytail lawyer. Result labels 勝訴／敗訴／繼續 checked visually.",
+  "issues": [],
+  "assets": [
+    {
+      "file": "actions/female/breakfast.png",
+      "sha256": "696ec03c3b80bccea588d5bacc73d2bd3350ebc22a91c0acf9401e68f4c37dec",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1929972
+    },
+    {
+      "file": "actions/female/write_brief.png",
+      "sha256": "2b311e924e4f0a67c04328a8409f52275d2417a361547b45ef091e94b5294a2d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2038045
+    },
+    {
+      "file": "actions/female/slack.png",
+      "sha256": "b383c5f61c2e7bac6f6ff181d5df9ecd86720e546f63e731bb6a16cece6a2b98",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1935047
+    },
+    {
+      "file": "actions/female/interview.png",
+      "sha256": "1c053bb36a9591456f9748feeb7d20074e3a492fc84b49c1dbd37a31fc7a2beb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2194198
+    },
+    {
+      "file": "actions/female/research.png",
+      "sha256": "7c645542b24fa9d7d677085915ebfd5ca1cffd8a05e23477abf349134b686b7a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2023272
+    },
+    {
+      "file": "actions/female/flatter.png",
+      "sha256": "6db231d1bc533e027841e6b32bd5a060a54a6943966b85e3e83b688dbb0d036d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2132092
+    },
+    {
+      "file": "actions/female/gym.png",
+      "sha256": "a9a8654881fef82e919e1ab7ef5f735a945f88a068c76116ebcc85191fdf90d8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2059319
+    },
+    {
+      "file": "actions/female/standup.png",
+      "sha256": "bccc1e76057fbba322e79e0ce32834b327f9db806a1d2582e75ed962575bae14",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2029597
+    },
+    {
+      "file": "actions/female/legal_video.png",
+      "sha256": "987e8e561faa71bf5df0be7db8323ef72a114b700145522458daf927275b0df4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2192521
+    },
+    {
+      "file": "actions/female/sleep.png",
+      "sha256": "5234f5654b7c60492577f8df75886b0edd58d314d9e9626382bb7fc7a8647ee3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1882661
+    },
+    {
+      "file": "actions/female/tv_program.png",
+      "sha256": "e44dab4c7cc95bd99966a597ac2b549218645f5f0d928582528d7a21bc6569db",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2191459
+    },
+    {
+      "file": "actions/female/news_interview.png",
+      "sha256": "fb231433b3d1146f4851120f877bfc6fdcbdd277cf0d318c84cd7df66a3647f3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2140393
+    },
+    {
+      "file": "actions/female/consultation.png",
+      "sha256": "06f211202444dc7b81ac87000e615a7f323f516d4f3788453686cba5f3657294",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2214571
+    },
+    {
+      "file": "actions/female/assign_case.png",
+      "sha256": "3e13e09049431e749ffd5f88e49b12eca6219d6ddf82e6c61351db3b8416a702",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2146999
+    },
+    {
+      "file": "actions/male/breakfast.png",
+      "sha256": "5ec89acaad7a329740c6220fd45211859f43d44925238f0f82a86af4f7d577e8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2024021
+    },
+    {
+      "file": "actions/male/write_brief.png",
+      "sha256": "0bc8886a1476a90fe650439b0b5c7aea972f99fb9a39c7a2328199077232adab",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2093570
+    },
+    {
+      "file": "actions/male/slack.png",
+      "sha256": "3699c8d1713c96ded12074e71aa390ff918d5ee111ab63475b6cfb6c54335d8d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2040125
+    },
+    {
+      "file": "actions/male/interview.png",
+      "sha256": "35781ec270099ab939e5a24c8e72cf59373b03c30b884ec74729a06b073cb1d2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2168275
+    },
+    {
+      "file": "actions/male/research.png",
+      "sha256": "c31c17802c917b4a506591f85945eee13d123c4d7f4a562996d939fe34a3d5dd",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2162150
+    },
+    {
+      "file": "actions/male/flatter.png",
+      "sha256": "8f729fbf7ca71cf3a1ff6e63120d6870534f2ed2713b37f1e90760a8e0d06057",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2161309
+    },
+    {
+      "file": "actions/male/gym.png",
+      "sha256": "9ae32305f351223e4ce5fe29905183c71e8ce5dbab72962b3fbfb0b7d6a280df",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2222738
+    },
+    {
+      "file": "actions/male/standup.png",
+      "sha256": "84050b11d760f1c134d7862d49c49f22f391381c4afb9c6048804b96debef4c4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1934611
+    },
+    {
+      "file": "actions/male/legal_video.png",
+      "sha256": "bae5b11e7055dd76b37ac321944323338fda15d848ec0be2583d13e0c06b5c8e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2224317
+    },
+    {
+      "file": "actions/male/sleep.png",
+      "sha256": "b9968db221c0e33bf138002287baeb60f679acce6bacfca599fe38bc3bd112dc",
+      "width": 1672,
+      "height": 940,
+      "bytes": 1921422
+    },
+    {
+      "file": "actions/male/tv_program.png",
+      "sha256": "0e38d76b5897f08c99473d68f86c46060b7efbc89faa2a710c136c0150a10112",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2269237
+    },
+    {
+      "file": "actions/male/news_interview.png",
+      "sha256": "b7e3b5e8e7e4a84ded3343a40d0bbc8dc357fca79c46018a37065632499bbf0c",
+      "width": 1672,
+      "height": 940,
+      "bytes": 2120886
+    },
+    {
+      "file": "actions/male/consultation.png",
+      "sha256": "cf38e83c2b89218437ece960cf747f38afef8e2f1fecf1bd33df978b28e96452",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2177509
+    },
+    {
+      "file": "actions/male/assign_case.png",
+      "sha256": "083c248b47ad3883c5dbedac086bfac724d6603e5fd1f6d310f4915e0859b8fb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2119208
+    },
+    {
+      "file": "scenes/home_after_work.png",
+      "sha256": "88dd65fb9f033c2365fdd98568f5cee2a20c9778badb0f35932ab2be8cb59a0f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2156201
+    },
+    {
+      "file": "results/win.png",
+      "sha256": "06ef23f229fb5227afbb42e060b68a0bbc70204c12345bd655ee7987b3bbcdc2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1977633
+    },
+    {
+      "file": "results/loss.png",
+      "sha256": "b0b909cc5bf0576570364e970e5cfc3baafa0b40171a88413de927e5c589ac1a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2004215
+    }
+  ]
+}
